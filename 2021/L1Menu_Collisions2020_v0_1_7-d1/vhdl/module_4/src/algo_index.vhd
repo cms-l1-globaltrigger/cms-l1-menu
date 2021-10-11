@@ -7,10 +7,10 @@
 -- L1Menu_Collisions2020_v0_1_7
 
 -- Unique ID of L1 Trigger Menu:
--- 6da226c7-dd13-48c1-8cbe-b17dbcb2282e
+-- c65735ce-e383-4cc0-889d-00c6742c327e
 
 -- Unique ID of firmware implementation:
--- c39a9880-8378-4e3c-a0df-3172aa4bf624
+-- 7e71dec7-38c3-4898-a7c0-2eb8590a74a7
 
 -- Scale set:
 -- scales_2021_03_02
