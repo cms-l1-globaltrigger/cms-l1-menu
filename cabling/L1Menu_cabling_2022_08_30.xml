@@ -201,7 +201,7 @@
     <ext_signal>
       <name>TOTEM_1</name>
       <system>TOTEM</system>
-      <cable>0</cable>
+      <cable>1</cable>
       <channel>40</channel>
       <description>TOTEM_1</description>
       <label>TOT TRIGGER TO CMS</label>
@@ -209,21 +209,21 @@
     <ext_signal>
       <name>TOTEM_2</name>
       <system>TOTEM</system>
-      <cable>0</cable>
+      <cable>1</cable>
       <channel>41</channel>
       <description>TOTEM_2</description>
     </ext_signal>
     <ext_signal>
       <name>TOTEM_3</name>
       <system>TOTEM</system>
-      <cable>0</cable>
+      <cable>1</cable>
       <channel>42</channel>
       <description>TOTEM_3</description>
     </ext_signal>
     <ext_signal>
       <name>TOTEM_4</name>
       <system>TOTEM</system>
-      <cable>0</cable>
+      <cable>1</cable>
       <channel>43</channel>
       <description>TOTEM_4</description>
     </ext_signal>
