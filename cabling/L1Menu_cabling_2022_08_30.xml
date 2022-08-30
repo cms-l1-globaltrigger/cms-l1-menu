@@ -190,6 +190,7 @@
       <cable>1</cable>
       <channel>36</channel>
       <description>ZDC1nM</description>
+      <label>ZDC signals</label>
     </ext_signal>
     <ext_signal>
       <name>ZDC1nP</name>
