@@ -162,6 +162,7 @@
       <cable>1</cable>
       <channel>32</channel>
       <description>HCAL laser mon 1</description>
+      <label>HCAL Laser Mon</label>
     </ext_signal>
     <ext_signal>
       <name>HCAL_LaserMon_2</name>
