@@ -256,5 +256,34 @@
       <channel>55</channel>
       <description>ZDC3nP</description>
     </ext_signal>
+    <ext_signal>
+      <name>CASTOR_1</name>
+      <system>CASTOR</system>
+      <cable>1</cable>
+      <channel>56</channel>
+      <description>CASTOR_1</description>
+      <label>CASTOR options</label>
+    </ext_signal>
+    <ext_signal>
+      <name>CASTOR_2</name>
+      <system>CASTOR</system>
+      <cable>1</cable>
+      <channel>57</channel>
+      <description>CASTOR_2</description>
+    </ext_signal>
+    <ext_signal>
+      <name>CASTOR_3</name>
+      <system>CASTOR</system>
+      <cable>1</cable>
+      <channel>58</channel>
+      <description>CASTOR_3</description>
+    </ext_signal>
+    <ext_signal>
+      <name>CASTOR_4</name>
+      <system>CASTOR</system>
+      <cable>1</cable>
+      <channel>59</channel>
+      <description>CASTOR_4</description>
+    </ext_signal>
   </ext_signal_set>
 </tmxsd:menu>
