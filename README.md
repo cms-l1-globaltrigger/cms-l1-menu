@@ -23,7 +23,7 @@ See [scales](scales) for reference scales.
 
 ### scales_2021_03_02
 
-- changed UPT scale (moved bin 0 to end of scale)
+- Changed UPT scale (moved bin 0 to end of scale)
 
 ### scales_2020_10_04
 
@@ -79,6 +79,14 @@ See [scales](scales) for reference scales.
 ## Cabling
 
 See [cabling](cabling) for reference cablings.
+
+### cabling_2022_10_05
+
+- Added encoded ZDC bits (for ZDC thresholds). Removed CASTOR.
+
+### cabling_2022_08_30
+
+- Added ZDC bits.
 
 ## Contributing
 
