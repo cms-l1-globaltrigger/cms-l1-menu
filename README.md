@@ -22,10 +22,6 @@ Firmware implementations and test vectors of Run2/LS2 menus for the L1 Global Tr
 See [scales](scales) for reference scales.
 
 
-### scales_2022_10_05
-
-- Added `encoded ZDC bits`
-
 ### scales_2020_10_04
 
 - Updated `MU-UPT`
