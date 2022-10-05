@@ -21,6 +21,9 @@ Firmware implementations and test vectors of Run2/LS2 menus for the L1 Global Tr
 
 See [scales](scales) for reference scales.
 
+### scales_2021_03_02
+
+- changed UPT scale (moved bin 0 to end of scale)
 
 ### scales_2020_10_04
 
