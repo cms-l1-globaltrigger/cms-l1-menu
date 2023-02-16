@@ -5,6 +5,7 @@ Firmware implementations and test vectors of Run2/LS2 menus for the L1 Global Tr
 
 ## LS2
 
+* [2023](2023)
 * [2022](2022)
 * [2021](2021)
 * [2020](2020)
@@ -20,6 +21,10 @@ Firmware implementations and test vectors of Run2/LS2 menus for the L1 Global Tr
 ## Scales
 
 See [scales](scales) for reference scales.
+
+### scales_2023_02_16
+
+- Added `MU-INDEX`
 
 ### scales_2021_03_02
 
