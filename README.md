@@ -85,6 +85,10 @@ See [scales](scales) for reference scales.
 
 See [cabling](cabling) for reference cablings.
 
+### cabling_2023_03_21
+
+- Added ADT "signals".
+
 ### cabling_2022_10_05
 
 - Added encoded ZDC bits (for ZDC thresholds). Removed CASTOR.
