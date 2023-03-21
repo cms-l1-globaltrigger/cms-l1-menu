@@ -5,7 +5,7 @@
   <uuid_menu>00000000-0000-0000-0000-000000000000</uuid_menu>
   <uuid_firmware>00000000-0000-0000-0000-000000000000</uuid_firmware>
   <global_tag/>
-  <grammar_version>0.10</grammar_version>
+  <grammar_version>0.11</grammar_version>
   <n_modules>0</n_modules>
   <is_valid>true</is_valid>
   <is_obsolete>false</is_obsolete>
