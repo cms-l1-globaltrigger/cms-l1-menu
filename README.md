@@ -92,7 +92,7 @@ See [cabling](cabling) for reference cablings.
 
 ### cabling_2023_03_21
 
-- Added ADT "signals".
+- Added ADT signals.
 
 ### cabling_2022_10_05
 
