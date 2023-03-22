@@ -1,13 +1,16 @@
 L1 Menu implementations
 =======================
 
-Firmware implementations and test vectors of Run2/LS2 menus for the L1 Global Trigger.
+Firmware implementations and test vectors of Run2/LS2/Run3 menus for the L1 Global Trigger.
 
-## LS2
+## Run3
 
 * [2023](2023)
 * [2022](2022)
 * [2021](2021)
+
+## LS2
+
 * [2020](2020)
 * [2019](2019)
 
@@ -25,6 +28,8 @@ See [scales](scales) for reference scales.
 ### scales_2023_02_16
 
 - Added `MU-INDEX`
+- Added `ZDCP-COUNT`
+- Added `ZDCM-COUNT`
 
 ### scales_2021_03_02
 
