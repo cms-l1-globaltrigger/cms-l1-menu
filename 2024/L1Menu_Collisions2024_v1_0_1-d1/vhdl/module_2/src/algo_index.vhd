@@ -10,16 +10,16 @@
 -- a6f83e12-00c6-418a-a84a-a712f0d8fd40
 
 -- Unique ID of firmware implementation:
--- ca8b5667-3009-4abb-93cc-5e674037c783
+-- 24be009b-3cb4-4f89-b4bb-24ff57aa777a
 
 -- Scale set:
 -- scales_2023_02_16
 
--- VHDL producer repo 
--- version: 2.17.2
+-- VHDL producer version
+-- v2.17.1
 
--- tmEventSetup
--- version: 0.12.0
+-- tmEventSetup version
+-- v0.12.0
 
 -- HB 2016-09-16: constants for algo_mapping_rop.
 type global_index_array is array (0 to NR_ALGOS-1) of integer;
@@ -44,8 +44,8 @@ constant global_index: global_index_array := (
         494, -- module_index: 17, name: L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142
         329, -- module_index: 18, name: L1_SingleJet10erHE
         110, -- module_index: 19, name: L1_Mu20_EG10er2p5
-        160, -- module_index: 20, name: L1_SingleEG10er2p5
-         30, -- module_index: 21, name: L1_SingleMu20
+         30, -- module_index: 20, name: L1_SingleMu20
+        160, -- module_index: 21, name: L1_SingleEG10er2p5
          85, -- module_index: 22, name: L1_TripleMu0_SQ
          92, -- module_index: 23, name: L1_TripleMu_5_3_3
         186, -- module_index: 24, name: L1_SingleIsoEG26er2p1

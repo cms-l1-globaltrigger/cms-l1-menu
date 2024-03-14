@@ -10,16 +10,16 @@
 -- a6f83e12-00c6-418a-a84a-a712f0d8fd40
 
 -- Unique ID of firmware implementation:
--- ca8b5667-3009-4abb-93cc-5e674037c783
+-- 24be009b-3cb4-4f89-b4bb-24ff57aa777a
 
 -- Scale set:
 -- scales_2023_02_16
 
--- VHDL producer repo 
--- version: 2.17.2
+-- VHDL producer version
+-- v2.17.1
 
--- tmEventSetup
--- version: 0.12.0
+-- tmEventSetup version
+-- v0.12.0
 
 -- HB 2016-09-16: constants for algo_mapping_rop.
 type global_index_array is array (0 to NR_ALGOS-1) of integer;
@@ -33,8 +33,8 @@ constant global_index: global_index_array := (
         383, -- module_index: 6, name: L1_TripleJet_95_75_65_DoubleJet_75_65_er2p5
         389, -- module_index: 7, name: L1_QuadJet60er2p5
          97, -- module_index: 8, name: L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17
-         98, -- module_index: 9, name: L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17
-         91, -- module_index: 10, name: L1_TripleMu_5_3p5_2p5
+         91, -- module_index: 9, name: L1_TripleMu_5_3p5_2p5
+         98, -- module_index: 10, name: L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17
          66, -- module_index: 11, name: L1_DoubleMu0er1p5_SQ_dR_Max1p4
          89, -- module_index: 12, name: L1_TripleMu_3SQ_2p5SQ_0_Mass_Max12
          96, -- module_index: 13, name: L1_TripleMu_4SQ_2p5SQ_0_OS_Mass_Max12
@@ -57,12 +57,12 @@ constant global_index: global_index_array := (
         266, -- module_index: 30, name: L1_DoubleTau70er2p1
         320, -- module_index: 31, name: L1_SingleJet35_FWD2p5
         286, -- module_index: 32, name: L1_Mu22er2p1_IsoTau30er2p1
-        287, -- module_index: 33, name: L1_Mu22er2p1_IsoTau32er2p1
-        288, -- module_index: 34, name: L1_Mu22er2p1_IsoTau34er2p1
-        262, -- module_index: 35, name: L1_SingleTau70er2p1
-        290, -- module_index: 36, name: L1_Mu22er2p1_IsoTau40er2p1
-        261, -- module_index: 37, name: L1_SingleIsoTau32er2p1
-        291, -- module_index: 38, name: L1_Mu22er2p1_Tau70er2p1
+        290, -- module_index: 33, name: L1_Mu22er2p1_IsoTau40er2p1
+        262, -- module_index: 34, name: L1_SingleTau70er2p1
+        261, -- module_index: 35, name: L1_SingleIsoTau32er2p1
+        291, -- module_index: 36, name: L1_Mu22er2p1_Tau70er2p1
+        287, -- module_index: 37, name: L1_Mu22er2p1_IsoTau32er2p1
+        288, -- module_index: 38, name: L1_Mu22er2p1_IsoTau34er2p1
          18, -- module_index: 39, name: L1_SingleMu0_Upt10_EMTF
          83, -- module_index: 40, name: L1_TripleMu0_OQ
          88, -- module_index: 41, name: L1_TripleMu_3SQ_2p5SQ_0
@@ -75,27 +75,27 @@ constant global_index: global_index_array := (
         164, -- module_index: 48, name: L1_SingleEG28er2p5
         172, -- module_index: 49, name: L1_SingleEG45er2p5
         451, -- module_index: 50, name: L1_SingleJet20er2p5_NotBptxOR
-        447, -- module_index: 51, name: L1_SingleMuOpen_er1p4_NotBptxOR_3BX
-        463, -- module_index: 52, name: L1_NotBptxOR
-        453, -- module_index: 53, name: L1_SingleJet43er2p5_NotBptxOR_3BX
-        464, -- module_index: 54, name: L1_BptxOR
-        454, -- module_index: 55, name: L1_SingleJet46er2p5_NotBptxOR_3BX
-        458, -- module_index: 56, name: L1_AlwaysTrue
-        471, -- module_index: 57, name: L1_IsolatedBunch
-        474, -- module_index: 58, name: L1_SecondBunchInTrain
-        462, -- module_index: 59, name: L1_MinimumBiasHF0
-          4, -- module_index: 60, name: L1_SingleMuOpen
-        476, -- module_index: 61, name: L1_LastBunchInTrain
-        475, -- module_index: 62, name: L1_SecondLastBunchInTrain
-        461, -- module_index: 63, name: L1_MinimumBiasHF0_AND_BptxAND
-        459, -- module_index: 64, name: L1_ZeroBias
-        477, -- module_index: 65, name: L1_FirstBunchAfterTrain
-        460, -- module_index: 66, name: L1_ZeroBias_copy
-        452, -- module_index: 67, name: L1_SingleJet20er2p5_NotBptxOR_3BX
-        472, -- module_index: 68, name: L1_FirstBunchBeforeTrain
-        446, -- module_index: 69, name: L1_SingleMuOpen_NotBptxOR
-        473, -- module_index: 70, name: L1_FirstBunchInTrain
-        448, -- module_index: 71, name: L1_SingleMuOpen_er1p1_NotBptxOR_3BX
+        476, -- module_index: 51, name: L1_LastBunchInTrain
+        475, -- module_index: 52, name: L1_SecondLastBunchInTrain
+        459, -- module_index: 53, name: L1_ZeroBias
+        461, -- module_index: 54, name: L1_MinimumBiasHF0_AND_BptxAND
+        477, -- module_index: 55, name: L1_FirstBunchAfterTrain
+        460, -- module_index: 56, name: L1_ZeroBias_copy
+        452, -- module_index: 57, name: L1_SingleJet20er2p5_NotBptxOR_3BX
+        472, -- module_index: 58, name: L1_FirstBunchBeforeTrain
+        446, -- module_index: 59, name: L1_SingleMuOpen_NotBptxOR
+        473, -- module_index: 60, name: L1_FirstBunchInTrain
+          4, -- module_index: 61, name: L1_SingleMuOpen
+        448, -- module_index: 62, name: L1_SingleMuOpen_er1p1_NotBptxOR_3BX
+        447, -- module_index: 63, name: L1_SingleMuOpen_er1p4_NotBptxOR_3BX
+        463, -- module_index: 64, name: L1_NotBptxOR
+        453, -- module_index: 65, name: L1_SingleJet43er2p5_NotBptxOR_3BX
+        464, -- module_index: 66, name: L1_BptxOR
+        454, -- module_index: 67, name: L1_SingleJet46er2p5_NotBptxOR_3BX
+        458, -- module_index: 68, name: L1_AlwaysTrue
+        471, -- module_index: 69, name: L1_IsolatedBunch
+        474, -- module_index: 70, name: L1_SecondBunchInTrain
+        462, -- module_index: 71, name: L1_MinimumBiasHF0
     others => 0
 );
 

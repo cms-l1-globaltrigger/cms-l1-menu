@@ -10,16 +10,16 @@
 -- a6f83e12-00c6-418a-a84a-a712f0d8fd40
 
 -- Unique ID of firmware implementation:
--- ca8b5667-3009-4abb-93cc-5e674037c783
+-- 24be009b-3cb4-4f89-b4bb-24ff57aa777a
 
 -- Scale set:
 -- scales_2023_02_16
 
--- VHDL producer repo 
--- version: 2.17.2
+-- VHDL producer version
+-- v2.17.1
 
--- tmEventSetup
--- version: 0.12.0
+-- tmEventSetup version
+-- v0.12.0
 
 -- HB 2016-09-16: constants for algo_mapping_rop.
 type global_index_array is array (0 to NR_ALGOS-1) of integer;
@@ -47,13 +47,13 @@ constant global_index: global_index_array := (
         322, -- module_index: 20, name: L1_SingleJet90_FWD2p5
         101, -- module_index: 21, name: L1_QuadMu0_OQ
         111, -- module_index: 22, name: L1_Mu5_LooseIsoEG20er2p5
-        107, -- module_index: 23, name: L1_Mu5_EG23er2p5
-        113, -- module_index: 24, name: L1_Mu7_LooseIsoEG23er2p5
-        108, -- module_index: 25, name: L1_Mu7_EG20er2p5
-         20, -- module_index: 26, name: L1_SingleMu5
-        109, -- module_index: 27, name: L1_Mu7_EG23er2p5
-         22, -- module_index: 28, name: L1_SingleMu7
-        112, -- module_index: 29, name: L1_Mu7_LooseIsoEG20er2p5
+         20, -- module_index: 23, name: L1_SingleMu5
+        108, -- module_index: 24, name: L1_Mu7_EG20er2p5
+         22, -- module_index: 25, name: L1_SingleMu7
+        109, -- module_index: 26, name: L1_Mu7_EG23er2p5
+        112, -- module_index: 27, name: L1_Mu7_LooseIsoEG20er2p5
+        107, -- module_index: 28, name: L1_Mu5_EG23er2p5
+        113, -- module_index: 29, name: L1_Mu7_LooseIsoEG23er2p5
          94, -- module_index: 30, name: L1_TripleMu_5_5_3
         191, -- module_index: 31, name: L1_SingleIsoEG28er1p5
         192, -- module_index: 32, name: L1_SingleIsoEG30er2p5

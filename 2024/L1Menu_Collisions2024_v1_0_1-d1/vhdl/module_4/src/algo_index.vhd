@@ -10,16 +10,16 @@
 -- a6f83e12-00c6-418a-a84a-a712f0d8fd40
 
 -- Unique ID of firmware implementation:
--- ca8b5667-3009-4abb-93cc-5e674037c783
+-- 24be009b-3cb4-4f89-b4bb-24ff57aa777a
 
 -- Scale set:
 -- scales_2023_02_16
 
--- VHDL producer repo 
--- version: 2.17.2
+-- VHDL producer version
+-- v2.17.1
 
--- tmEventSetup
--- version: 0.12.0
+-- tmEventSetup version
+-- v0.12.0
 
 -- HB 2016-09-16: constants for algo_mapping_rop.
 type global_index_array is array (0 to NR_ALGOS-1) of integer;
@@ -48,9 +48,9 @@ constant global_index: global_index_array := (
         269, -- module_index: 21, name: L1_DoubleIsoTau32er2p1
         230, -- module_index: 22, name: L1_DoubleLooseIsoEG22er2p1
         281, -- module_index: 23, name: L1_Mu18er2p1_Tau26er2p1_Jet55
-        279, -- module_index: 24, name: L1_Mu18er2p1_Tau24er2p1
-        280, -- module_index: 25, name: L1_Mu18er2p1_Tau26er2p1
-        282, -- module_index: 26, name: L1_Mu18er2p1_Tau26er2p1_Jet70
+        282, -- module_index: 24, name: L1_Mu18er2p1_Tau26er2p1_Jet70
+        279, -- module_index: 25, name: L1_Mu18er2p1_Tau24er2p1
+        280, -- module_index: 26, name: L1_Mu18er2p1_Tau26er2p1
         343, -- module_index: 27, name: L1_DoubleJet150er2p5
          53, -- module_index: 28, name: L1_DoubleMu0_Upt7_SQ_er2p0
         323, -- module_index: 29, name: L1_SingleJet120_FWD2p5
