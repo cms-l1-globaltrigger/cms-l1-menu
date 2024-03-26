@@ -5,6 +5,7 @@ Firmware implementations and test vectors of Run2/LS2/Run3 menus for the L1 Glob
 
 ## Run3
 
+* [2024](2024)
 * [2023](2023)
 * [2022](2022)
 * [2021](2021)
@@ -24,6 +25,11 @@ Firmware implementations and test vectors of Run2/LS2/Run3 menus for the L1 Glob
 ## Scales
 
 See [scales](scales) for reference scales.
+
+### scales_2024_02_14
+
+- Added `CICADA-CSCORE`
+- Added `PRECISION-CICADA-CScore` (fraction size for CICADA)
 
 ### scales_2023_02_16
 
