@@ -26,7 +26,7 @@ Firmware implementations and test vectors of Run2/LS2/Run3 menus for the L1 Glob
 
 See [scales](scales) for reference scales.
 
-### scales_2023_02_16
+### scales_2024_02_14
 
 - Added `CICADA-CSCORE`
 - Added `PRECISION-CICADA-CScore` (fraction size for CICADA)
