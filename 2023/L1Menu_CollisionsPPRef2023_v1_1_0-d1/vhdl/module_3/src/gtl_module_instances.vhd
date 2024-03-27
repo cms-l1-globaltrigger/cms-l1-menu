@@ -4,6 +4,7 @@
 -- Module ID: 3
 
 -- Name of L1 Trigger Menu:
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 -- L1Menu_CollisionsPPRef2023_v1_1_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -11,6 +12,15 @@
 
 -- Unique ID of firmware implementation:
 -- 2195644d-2dba-4f58-8a7b-ac585bf1963f
+========
+-- L1Menu_CollisionsPPRef2023_v1_1_2
+
+-- Unique ID of L1 Trigger Menu:
+-- 9115412f-4b54-4767-816f-aa3acffc192f
+
+-- Unique ID of firmware implementation:
+-- 9f4c9f62-f373-413c-a4f3-84ece2d69630
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -24,7 +34,10 @@
 -- ========================================================
 -- Instantiations of conditions
 --
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 cond_single_jet_i106_i: entity work.comb_conditions
+========
+cond_single_jet_i103_i: entity work.comb_conditions
     generic map(
 -- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
         slice_1_high_obj1 => 11,
@@ -37,6 +50,64 @@ cond_single_jet_i106_i: entity work.comb_conditions
     )
     port map(
         lhc_clk,
+        obj1_calo => bx_data.jet(2),
+        condition_o => single_jet_i103
+    );
+
+cond_single_jet_i108_i: entity work.comb_conditions
+    generic map(
+-- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
+        slice_1_high_obj1 => 11,
+-- object cuts
+        pt_thresholds_obj1 => (X"0064", X"0000", X"0000", X"0000"),
+-- number of objects and type
+        nr_obj1 => NR_JET_OBJECTS,
+        type_obj1 => JET_TYPE,
+        nr_templates => 1
+    )
+    port map(
+        lhc_clk,
+        obj1_calo => bx_data.jet(2),
+        condition_o => single_jet_i108
+    );
+
+cond_single_jet_i118_i: entity work.comb_conditions
+    generic map(
+-- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
+        slice_1_high_obj1 => 11,
+-- object cuts
+        pt_thresholds_obj1 => (X"0168", X"0000", X"0000", X"0000"),
+-- number of objects and type
+        nr_obj1 => NR_JET_OBJECTS,
+        type_obj1 => JET_TYPE,
+        nr_templates => 1
+    )
+    port map(
+        lhc_clk,
+        obj1_calo => bx_data.jet(2),
+        condition_o => single_jet_i118
+    );
+
+cond_single_mu_i175_i: entity work.comb_conditions
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
+    generic map(
+-- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
+        slice_1_high_obj1 => 11,
+-- object cuts
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
+        pt_thresholds_obj1 => (X"0040", X"0000", X"0000", X"0000"),
+========
+        pt_thresholds_obj1 => (X"0029", X"0000", X"0000", X"0000"),
+        qual_luts_obj1 => (X"F000", X"FFFF", X"FFFF", X"FFFF"),
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
+-- number of objects and type
+        nr_obj1 => NR_JET_OBJECTS,
+        type_obj1 => JET_TYPE,
+        nr_templates => 1
+    )
+    port map(
+        lhc_clk,
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
         obj1_calo => bx_data.jet(2),
         condition_o => single_jet_i106
     );
@@ -93,6 +164,13 @@ cond_single_mu_i178_i: entity work.comb_conditions
     );
 
 cond_single_mu_i50_i: entity work.comb_conditions
+========
+        obj1_muon => bx_data. mu(2),
+        condition_o => single_mu_i175
+    );
+
+cond_single_mu_i47_i: entity work.comb_conditions
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
     generic map(
 -- no slice requirements
 -- object cuts
@@ -106,10 +184,14 @@ cond_single_mu_i50_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_muon => bx_data. mu(2),
-        condition_o => single_mu_i50
+        condition_o => single_mu_i47
     );
 
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 cond_single_mu_i53_i: entity work.comb_conditions
+========
+cond_single_mu_i50_i: entity work.comb_conditions
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
     generic map(
 -- no slice requirements
 -- object cuts
@@ -123,10 +205,14 @@ cond_single_mu_i53_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_muon => bx_data. mu(2),
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
         condition_o => single_mu_i53
+========
+        condition_o => single_mu_i50
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
     );
 
-cond_single_htt_i146_i: entity work.esums_conditions
+cond_single_htt_i143_i: entity work.esums_conditions
     generic map(
         et_threshold => X"0230",
         obj_type => HTT_TYPE
@@ -134,10 +220,14 @@ cond_single_htt_i146_i: entity work.esums_conditions
     port map(
         lhc_clk,
         bx_data.htt(2),
-        condition_o => single_htt_i146
+        condition_o => single_htt_i143
     );
 
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 cond_calo_calo_correlation_i68_i: entity work.correlation_conditions
+========
+cond_calo_calo_correlation_i65_i: entity work.correlation_conditions
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
     generic map(
 -- obj cuts
         pt_threshold_obj1 => X"0024",
@@ -167,7 +257,11 @@ cond_calo_calo_correlation_i68_i: entity work.correlation_conditions
         deta => eg_jet_bx_0_bx_0_deta,
         dphi => eg_jet_bx_0_bx_0_dphi,
         dr => eg_jet_bx_0_bx_0_dr,
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
         condition_o => calo_calo_correlation_i68
+========
+        condition_o => calo_calo_correlation_i65
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
     );
 
 -- External condition assignment
@@ -175,7 +269,7 @@ single_ext_i1 <= bx_data.ext_cond(2)(8); -- EXT_BPTX_AND_Ref1_VME
 -- External condition assignment
 single_ext_i11 <= bx_data.ext_cond(2)(18); -- EXT_BPTX_RefAND_VME
 -- External condition assignment
-single_ext_i141 <= bx_data.ext_cond(2)(35); -- EXT_HCAL_LaserMon_4
+single_ext_i138 <= bx_data.ext_cond(2)(35); -- EXT_HCAL_LaserMon_4
 -- External condition assignment
 single_ext_i27 <= bx_data.ext_cond(2)(10); -- EXT_BPTX_B2NotB1_VME
 -- External condition assignment
@@ -201,6 +295,7 @@ l1_unpaired_bunch_bptx_minus <= single_ext_i27;
 algo(12) <= l1_unpaired_bunch_bptx_minus;
 
 -- 41 L1_HCAL_LaserMon_Veto : EXT_HCAL_LaserMon_4
+<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 l1_hcal_laser_mon_veto <= single_ext_i141;
 algo(11) <= l1_hcal_laser_mon_veto;
 
@@ -234,6 +329,41 @@ algo(3) <= l1_single_jet50;
 
 -- 284 L1_SingleJet180 : JET180
 l1_single_jet180 <= single_jet_i121;
+========
+l1_hcal_laser_mon_veto <= single_ext_i138;
+algo(11) <= l1_hcal_laser_mon_veto;
+
+-- 46 L1_HTT280er : HTT280
+l1_htt280er <= single_htt_i143;
+algo(7) <= l1_htt280er;
+
+-- 78 L1_SingleMu20 : MU20[MU-QLTY_SNGL]
+l1_single_mu20 <= single_mu_i175;
+algo(5) <= l1_single_mu20;
+
+-- 164 L1_SingleMu0 : MU0[MU-QLTY_SNGL]
+l1_single_mu0 <= single_mu_i47;
+algo(4) <= l1_single_mu0;
+
+-- 167 L1_SingleMu7 : MU7[MU-QLTY_SNGL]
+l1_single_mu7 <= single_mu_i50;
+algo(6) <= l1_single_mu7;
+
+-- 193 L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3 : dist{EG18[EG-ETA_2p13],JET16[JET-ETA_2p7]}[DR_MIN_0p3]
+l1_single_eg18er2p1_jet16er2p7_d_r_min0p3 <= calo_calo_correlation_i65;
+algo(0) <= l1_single_eg18er2p1_jet16er2p7_d_r_min0p3;
+
+-- 269 L1_SingleJet32 : JET32
+l1_single_jet32 <= single_jet_i103;
+algo(2) <= l1_single_jet32;
+
+-- 274 L1_SingleJet50 : JET50
+l1_single_jet50 <= single_jet_i108;
+algo(3) <= l1_single_jet50;
+
+-- 284 L1_SingleJet180 : JET180
+l1_single_jet180 <= single_jet_i118;
+>>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_instances.vhd
 algo(1) <= l1_single_jet180;
 
 -- ========================================================
