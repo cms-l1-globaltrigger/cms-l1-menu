@@ -51,7 +51,6 @@
 -- Signal definition for muon charge correlations.
 
 -- Signal definition for conditions names
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_1/src/gtl_module_signals.vhd
     signal single_ext_i1 : std_logic;
     signal single_ext_i12 : std_logic;
     signal single_ext_i14 : std_logic;
@@ -77,31 +76,5 @@
     signal l1_single_jet44 : std_logic;
     signal l1_single_jet90 : std_logic;
     signal l1_single_jet200 : std_logic;
-========
-    signal single_ext_i25 : std_logic;
-    signal single_ext_i7 : std_logic;
-    signal muon_shower0_i31 : std_logic;
-    signal single_htt_i136 : std_logic;
-    signal single_htt_i142 : std_logic;
-    signal calo_calo_correlation_i65 : std_logic;
-    signal single_jet_i103 : std_logic;
-    signal single_jet_i108 : std_logic;
-    signal single_jet_i114 : std_logic;
-    signal single_mu_i169 : std_logic;
-    signal single_mu_i52 : std_logic;
-
--- Signal definition for algorithms names
-    signal l1_bptx_beam_gas_ref2_vme : std_logic;
-    signal l1_first_collision_in_orbit : std_logic;
-    signal l1_htt200er : std_logic;
-    signal l1_htt450er : std_logic;
-    signal l1_single_mu18 : std_logic;
-    signal l1_single_mu_shower_nominal : std_logic;
-    signal l1_single_mu5 : std_logic;
-    signal l1_loose_iso_eg15er2p1_jet12er2p7_d_r_min0p3 : std_logic;
-    signal l1_single_jet20 : std_logic;
-    signal l1_single_jet40 : std_logic;
-    signal l1_single_jet80 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_signals.vhd
 
 -- ========================================================
