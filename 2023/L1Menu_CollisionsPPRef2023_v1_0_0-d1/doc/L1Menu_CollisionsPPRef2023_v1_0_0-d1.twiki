@@ -1,23 +1,13 @@
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-%SET{ "REPORTER_URL" value="%ATTACHURL%/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC.html" }%
-
----+!! !L1Menu_CollisionsPPRef2023_v0_0_7_noZDC
-========
 %SET{ "REPORTER_URL" value="%ATTACHURL%/L1Menu_CollisionsPPRef2023_v1_0_0.html" }%
 
 ---+!! !L1Menu_CollisionsPPRef2023_v1_0_0
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 
 %TOC%
 
 ---++ Introduction
 
 | *Trigger Menu Name* | *Grammar Version* | *Compatible releases* | *First run with collision key* |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-| !L1Menu_CollisionsPPRef2023_v0_0_7_noZDC | 0.11 | >= X_Y_Z |  |
-========
 | !L1Menu_CollisionsPPRef2023_v1_0_0 | 0.11 | >= X_Y_Z |  |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 
 ---++ Changes with respect to !L1Menu_xxxx
    * Added the following algorithms
@@ -39,25 +29,15 @@ A complete description of the algorithm and technical trigger implementation is 
 
 ---+++ L1 menu identification
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|Menu Name: | !L1Menu_CollisionsPPRef2023_v0_0_7_noZDC |
-|Menu UUID: | 088c04b4-ebf4-4f6c-a41f-acbea31c5655 |
-|Firmware UUID: | a97b8a76-4a81-4207-a9af-b1a70a5d990a  |
-========
 |Menu Name: | !L1Menu_CollisionsPPRef2023_v1_0_0 |
 |Menu UUID: | 0a0bd95c-682d-439a-8b31-7558af7c300a |
 |Firmware UUID: | 31d15031-4c11-4aa2-87ce-120d3926268c  |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |Associated L1 scale DB key: | scales_2023_02_16 |
 
 
 ---+++ Summary
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-   * Number of algorithm triggers: 196 defined.
-========
    * Number of algorithm triggers: 197 defined.
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 
 Number of algorithm triggers per trigger group:
 
@@ -67,11 +47,7 @@ Number of algorithm triggers per trigger group:
       | !Jet algorithm triggers: | 38 |
       | !Energy Sums algorithm triggers: | 10 |
       | !Cross algorithm triggers: | 19 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-      | !Correlation algorithm triggers: | 4 |
-========
       | !Correlation algorithm triggers: | 5 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
       | !External algorithm triggers: | 25 |
       | !Signal algorithm triggers: | 2 |
 
@@ -312,20 +288,6 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_AlwaysTrue ][L1_AlwaysTrue]]   |L1_AlwaysTrue |0 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_ZeroBias ][L1_ZeroBias]]   |L1_ZeroBias |1 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_ZeroBias_copy ][L1_ZeroBias_copy]]   |L1_ZeroBias_copy |2 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref1_VME ][L1_BPTX_AND_Ref1_VME]]   |L1_BPTX_AND_Ref1_VME |3 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref3_VME ][L1_BPTX_AND_Ref3_VME]]   |L1_BPTX_AND_Ref3_VME |4 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref4_VME ][L1_BPTX_AND_Ref4_VME]]   |L1_BPTX_AND_Ref4_VME |5 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B1_VME ][L1_BPTX_BeamGas_B1_VME]]   |L1_BPTX_BeamGas_B1_VME |6 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B2_VME ][L1_BPTX_BeamGas_B2_VME]]   |L1_BPTX_BeamGas_B2_VME |7 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref1_VME ][L1_BPTX_BeamGas_Ref1_VME]]   |L1_BPTX_BeamGas_Ref1_VME |8 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref2_VME ][L1_BPTX_BeamGas_Ref2_VME]]   |L1_BPTX_BeamGas_Ref2_VME |9 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_NotOR_VME ][L1_BPTX_NotOR_VME]]   |L1_BPTX_NotOR_VME |10 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref3_VME ][L1_BPTX_OR_Ref3_VME]]   |L1_BPTX_OR_Ref3_VME |11 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref4_VME ][L1_BPTX_OR_Ref4_VME]]   |L1_BPTX_OR_Ref4_VME |12 |2 |
-|[[%GET{"REPORTER_URL"}%#L1_BPTX_RefAND_VME ][L1_BPTX_RefAND_VME]]   |L1_BPTX_RefAND_VME |13 |3 |
-|[[%GET{"REPORTER_URL"}%#L1_BptxMinus ][L1_BptxMinus]]   |L1_BptxMinus |14 |0 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref1_VME ][L1_BPTX_AND_Ref1_VME]]   |L1_BPTX_AND_Ref1_VME |3 |1 |
 |[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref3_VME ][L1_BPTX_AND_Ref3_VME]]   |L1_BPTX_AND_Ref3_VME |4 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref4_VME ][L1_BPTX_AND_Ref4_VME]]   |L1_BPTX_AND_Ref4_VME |5 |5 |
@@ -338,7 +300,6 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref4_VME ][L1_BPTX_OR_Ref4_VME]]   |L1_BPTX_OR_Ref4_VME |12 |2 |
 |[[%GET{"REPORTER_URL"}%#L1_BPTX_RefAND_VME ][L1_BPTX_RefAND_VME]]   |L1_BPTX_RefAND_VME |13 |3 |
 |[[%GET{"REPORTER_URL"}%#L1_BptxMinus ][L1_BptxMinus]]   |L1_BptxMinus |14 |1 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_BptxOR ][L1_BptxOR]]   |L1_BptxOR |15 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_BptxPlus ][L1_BptxPlus]]   |L1_BptxPlus |16 |1 |
 |[[%GET{"REPORTER_URL"}%#L1_BptxXOR ][L1_BptxXOR]]   |L1_BptxXOR |17 |1 |
@@ -348,19 +309,6 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_SecondLastBunchInTrain ][L1_SecondLastBunchInTrain]]   |L1_SecondLastBunchInTrain |21 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_FirstBunchAfterTrain ][L1_FirstBunchAfterTrain]]   |L1_FirstBunchAfterTrain |22 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_FirstBunchInTrain ][L1_FirstBunchInTrain]]   |L1_FirstBunchInTrain |23 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInTrain ][L1_FirstCollisionInTrain]]   |L1_FirstCollisionInTrain |24 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_LastCollisionInTrain ][L1_LastCollisionInTrain]]   |L1_LastCollisionInTrain |25 |3 |
-|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit ][L1_FirstCollisionInOrbit]]   |L1_FirstCollisionInOrbit |26 |1 |
-|[[%GET{"REPORTER_URL"}%#L1_IsolatedBunch ][L1_IsolatedBunch]]   |L1_IsolatedBunch |27 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_FirstBunchBeforeTrain ][L1_FirstBunchBeforeTrain]]   |L1_FirstBunchBeforeTrain |28 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxPlus ][L1_UnpairedBunchBptxPlus]]   |L1_UnpairedBunchBptxPlus |29 |2 |
-|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxMinus ][L1_UnpairedBunchBptxMinus]]   |L1_UnpairedBunchBptxMinus |30 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_10_er2p5 ][L1_DoubleEG_22_10_er2p5]]   |L1_DoubleEG_22_10_er2p5 |31 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12_er2p5 ][L1_DoubleEG_25_12_er2p5]]   |L1_DoubleEG_25_12_er2p5 |32 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14_er2p5 ][L1_DoubleEG_25_14_er2p5]]   |L1_DoubleEG_25_14_er2p5 |33 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p5 ][L1_DoubleJet100er2p5]]   |L1_DoubleJet100er2p5 |34 |5 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInTrain ][L1_FirstCollisionInTrain]]   |L1_FirstCollisionInTrain |24 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_LastCollisionInTrain ][L1_LastCollisionInTrain]]   |L1_LastCollisionInTrain |25 |3 |
 |[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit ][L1_FirstCollisionInOrbit]]   |L1_FirstCollisionInOrbit |26 |0 |
@@ -372,25 +320,11 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12_er2p5 ][L1_DoubleEG_25_12_er2p5]]   |L1_DoubleEG_25_12_er2p5 |32 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14_er2p5 ][L1_DoubleEG_25_14_er2p5]]   |L1_DoubleEG_25_14_er2p5 |33 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p5 ][L1_DoubleJet100er2p5]]   |L1_DoubleJet100er2p5 |34 |4 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_DoubleJet120er2p5 ][L1_DoubleJet120er2p5]]   |L1_DoubleJet120er2p5 |35 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er2p5 ][L1_DoubleJet40er2p5]]   |L1_DoubleJet40er2p5 |36 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleMu_12_5 ][L1_DoubleMu_12_5]]   |L1_DoubleMu_12_5 |37 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7 ][L1_DoubleMu_15_7]]   |L1_DoubleMu_15_7 |38 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_ETT2000 ][L1_ETT2000]]   |L1_ETT2000 |39 |5 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Trig ][L1_HCAL_LaserMon_Trig]]   |L1_HCAL_LaserMon_Trig |40 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Veto ][L1_HCAL_LaserMon_Veto]]   |L1_HCAL_LaserMon_Veto |41 |2 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT120er ][L1_HTT120er]]   |L1_HTT120er |42 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT160er ][L1_HTT160er]]   |L1_HTT160er |43 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT200er ][L1_HTT200er]]   |L1_HTT200er |44 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT255er ][L1_HTT255er]]   |L1_HTT255er |45 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT280er ][L1_HTT280er]]   |L1_HTT280er |46 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT320er ][L1_HTT320er]]   |L1_HTT320er |47 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT360er ][L1_HTT360er]]   |L1_HTT360er |48 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT400er ][L1_HTT400er]]   |L1_HTT400er |49 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_HTT450er ][L1_HTT450er]]   |L1_HTT450er |50 |5 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Trig ][L1_HCAL_LaserMon_Trig]]   |L1_HCAL_LaserMon_Trig |40 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Veto ][L1_HCAL_LaserMon_Veto]]   |L1_HCAL_LaserMon_Veto |41 |2 |
 |[[%GET{"REPORTER_URL"}%#L1_HTT120er ][L1_HTT120er]]   |L1_HTT120er |42 |2 |
@@ -402,7 +336,6 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_HTT360er ][L1_HTT360er]]   |L1_HTT360er |48 |2 |
 |[[%GET{"REPORTER_URL"}%#L1_HTT400er ][L1_HTT400er]]   |L1_HTT400er |49 |3 |
 |[[%GET{"REPORTER_URL"}%#L1_HTT450er ][L1_HTT450er]]   |L1_HTT450er |50 |0 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_QuadJet60er2p5 ][L1_QuadJet60er2p5]]   |L1_QuadJet60er2p5 |51 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleEG10er2p5 ][L1_SingleEG10er2p5]]   |L1_SingleEG10er2p5 |52 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p5 ][L1_SingleEG15er2p5]]   |L1_SingleEG15er2p5 |53 |4 |
@@ -429,13 +362,8 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet12erHE ][L1_SingleJet12erHE]]   |L1_SingleJet12erHE |74 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet140er2p5 ][L1_SingleJet140er2p5]]   |L1_SingleJet140er2p5 |75 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet160er2p5 ][L1_SingleJet160er2p5]]   |L1_SingleJet160er2p5 |76 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu18 ][L1_SingleMu18]]   |L1_SingleMu18 |77 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu20 ][L1_SingleMu20]]   |L1_SingleMu20 |78 |5 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu18 ][L1_SingleMu18]]   |L1_SingleMu18 |77 |0 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu20 ][L1_SingleMu20]]   |L1_SingleMu20 |78 |1 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu25 ][L1_SingleMu25]]   |L1_SingleMu25 |79 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_er1p4_NotBptxOR_3BX ][L1_SingleMuOpen_er1p4_NotBptxOR_3BX]]   |L1_SingleMuOpen_er1p4_NotBptxOR_3BX |80 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_er1p1_NotBptxOR_3BX ][L1_SingleMuOpen_er1p1_NotBptxOR_3BX]]   |L1_SingleMuOpen_er1p1_NotBptxOR_3BX |81 |4 |
@@ -443,13 +371,8 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet8erHE ][L1_SingleJet8erHE]]   |L1_SingleJet8erHE |83 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3_3 ][L1_TripleMu_5_3_3]]   |L1_TripleMu_5_3_3 |84 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_5_3 ][L1_TripleMu_5_5_3]]   |L1_TripleMu_5_5_3 |85 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   |L1_SingleMu16 |86 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu30 ][L1_SingleMu30]]   |L1_SingleMu30 |87 |5 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   |L1_SingleMu16 |86 |3 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu30 ][L1_SingleMu30]]   |L1_SingleMu30 |87 |3 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_10_10 ][L1_DoubleEG_10_10]]   |L1_DoubleEG_10_10 |97 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_10_5 ][L1_DoubleEG_10_5]]   |L1_DoubleEG_10_5 |98 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_5 ][L1_DoubleEG_15_5]]   |L1_DoubleEG_15_5 |99 |4 |
@@ -464,13 +387,8 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12 ][L1_DoubleEG_25_12]]   |L1_DoubleEG_25_12 |108 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_13 ][L1_DoubleEG_25_13]]   |L1_DoubleEG_25_13 |109 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14 ][L1_DoubleEG_25_14]]   |L1_DoubleEG_25_14 |110 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Tight ][L1_SingleMuShower_Tight]]   |L1_SingleMuShower_Tight |128 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Nominal ][L1_SingleMuShower_Nominal]]   |L1_SingleMuShower_Nominal |129 |1 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Tight ][L1_SingleMuShower_Tight]]   |L1_SingleMuShower_Tight |128 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Nominal ][L1_SingleMuShower_Nominal]]   |L1_SingleMuShower_Nominal |129 |0 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_AND_BptxAND ][L1_MinimumBiasHF0_AND_BptxAND]]   |L1_MinimumBiasHF0_AND_BptxAND |136 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_OR_BptxAND ][L1_MinimumBiasHF0_OR_BptxAND]]   |L1_MinimumBiasHF0_OR_BptxAND |137 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er2p7 ][L1_DoubleJet40er2p7]]   |L1_DoubleJet40er2p7 |151 |4 |
@@ -486,17 +404,10 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_OMTF ][L1_SingleMuCosmics_OMTF]]   |L1_SingleMuCosmics_OMTF |162 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_EMTF ][L1_SingleMuCosmics_EMTF]]   |L1_SingleMuCosmics_EMTF |163 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu0 ][L1_SingleMu0]]   |L1_SingleMu0 |164 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   |L1_SingleMu3 |165 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   |L1_SingleMu5 |166 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   |L1_SingleMu7 |167 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleMu12 ][L1_SingleMu12]]   |L1_SingleMu12 |168 |4 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   |L1_SingleMu3 |165 |2 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   |L1_SingleMu5 |166 |0 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   |L1_SingleMu7 |167 |1 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu12 ][L1_SingleMu12]]   |L1_SingleMu12 |168 |2 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu22 ][L1_SingleMu22]]   |L1_SingleMu22 |169 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMu10_LowQ ][L1_SingleMu10_LowQ]]   |L1_SingleMu10_LowQ |170 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen ][L1_SingleMuOpen]]   |L1_SingleMuOpen |171 |4 |
@@ -546,21 +457,6 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG40 ][L1_SingleIsoEG40]]   |L1_SingleIsoEG40 |245 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet8_BptxAND ][L1_SingleJet8_BptxAND]]   |L1_SingleJet8_BptxAND |264 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet16 ][L1_SingleJet16]]   |L1_SingleJet16 |265 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet20 ][L1_SingleJet20]]   |L1_SingleJet20 |266 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet24 ][L1_SingleJet24]]   |L1_SingleJet24 |267 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet28 ][L1_SingleJet28]]   |L1_SingleJet28 |268 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet32 ][L1_SingleJet32]]   |L1_SingleJet32 |269 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet35 ][L1_SingleJet35]]   |L1_SingleJet35 |270 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet40 ][L1_SingleJet40]]   |L1_SingleJet40 |271 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet44 ][L1_SingleJet44]]   |L1_SingleJet44 |272 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet48 ][L1_SingleJet48]]   |L1_SingleJet48 |273 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet50 ][L1_SingleJet50]]   |L1_SingleJet50 |274 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet56 ][L1_SingleJet56]]   |L1_SingleJet56 |275 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet60 ][L1_SingleJet60]]   |L1_SingleJet60 |276 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet80 ][L1_SingleJet80]]   |L1_SingleJet80 |277 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet90 ][L1_SingleJet90]]   |L1_SingleJet90 |278 |5 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet20 ][L1_SingleJet20]]   |L1_SingleJet20 |266 |0 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet24 ][L1_SingleJet24]]   |L1_SingleJet24 |267 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet28 ][L1_SingleJet28]]   |L1_SingleJet28 |268 |5 |
@@ -574,29 +470,18 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet60 ][L1_SingleJet60]]   |L1_SingleJet60 |276 |3 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet80 ][L1_SingleJet80]]   |L1_SingleJet80 |277 |0 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet90 ][L1_SingleJet90]]   |L1_SingleJet90 |278 |1 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet120 ][L1_SingleJet120]]   |L1_SingleJet120 |279 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet140 ][L1_SingleJet140]]   |L1_SingleJet140 |280 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet150 ][L1_SingleJet150]]   |L1_SingleJet150 |281 |5 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet160 ][L1_SingleJet160]]   |L1_SingleJet160 |282 |5 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet170 ][L1_SingleJet170]]   |L1_SingleJet170 |283 |4 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet180 ][L1_SingleJet180]]   |L1_SingleJet180 |284 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet200 ][L1_SingleJet200]]   |L1_SingleJet200 |285 |5 |
-|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_FWD2p5 ][L1_SingleJet35_FWD2p5]]   |L1_SingleJet35_FWD2p5 |320 |5 |
-========
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet170 ][L1_SingleJet170]]   |L1_SingleJet170 |283 |2 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet180 ][L1_SingleJet180]]   |L1_SingleJet180 |284 |3 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet200 ][L1_SingleJet200]]   |L1_SingleJet200 |285 |1 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet35_FWD2p5 ][L1_SingleJet35_FWD2p5]]   |L1_SingleJet35_FWD2p5 |320 |4 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet60_FWD2p5 ][L1_SingleJet60_FWD2p5]]   |L1_SingleJet60_FWD2p5 |321 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet90_FWD2p5 ][L1_SingleJet90_FWD2p5]]   |L1_SingleJet90_FWD2p5 |322 |4 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleJet120_FWD2p5 ][L1_SingleJet120_FWD2p5]]   |L1_SingleJet120_FWD2p5 |323 |4 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/doc/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1.twiki
-========
 |[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142]]   |L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 |494 |5 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_0_0-d1.twiki
 
 
 <p style="page-break-before: always">&nbsp;</p>

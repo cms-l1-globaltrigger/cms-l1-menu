@@ -4,15 +4,6 @@
 -- Module ID: 3
 
 -- Name of L1 Trigger Menu:
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_3/src/gtl_module_instances.vhd
--- L1Menu_CollisionsPPRef2023_v0_0_7_noZDC
-
--- Unique ID of L1 Trigger Menu:
--- 088c04b4-ebf4-4f6c-a41f-acbea31c5655
-
--- Unique ID of firmware implementation:
--- a97b8a76-4a81-4207-a9af-b1a70a5d990a
-========
 -- L1Menu_CollisionsPPRef2023_v1_0_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -20,7 +11,6 @@
 
 -- Unique ID of firmware implementation:
 -- 31d15031-4c11-4aa2-87ce-120d3926268c
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -34,8 +24,6 @@
 -- ========================================================
 -- Instantiations of conditions
 --
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_3/src/gtl_module_instances.vhd
-========
 cond_single_jet_i107_i: entity work.comb_conditions
     generic map(
 -- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
@@ -143,7 +131,6 @@ cond_single_htt_i141_i: entity work.esums_conditions
         condition_o => single_htt_i141
     );
 
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 cond_calo_calo_correlation_i68_i: entity work.correlation_conditions
     generic map(
 -- obj cuts
@@ -181,24 +168,12 @@ cond_calo_calo_correlation_i68_i: entity work.correlation_conditions
 single_ext_i11 <= bx_data.ext_cond(2)(18); -- EXT_BPTX_RefAND_VME
 -- External condition assignment
 single_ext_i24 <= bx_data.ext_cond(2)(22); -- EXT_BPTX_LastCollisionInTrain_VME
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_3/src/gtl_module_instances.vhd
-========
 -- External condition assignment
 single_ext_i5 <= bx_data.ext_cond(2)(3); -- EXT_BPTX_BeamGas_B2_VME
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 
 -- ========================================================
 -- Instantiations of algorithms
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_3/src/gtl_module_instances.vhd
--- 13 L1_BPTX_RefAND_VME : EXT_BPTX_RefAND_VME
-l1_bptx_ref_and_vme <= single_ext_i11;
-algo(1) <= l1_bptx_ref_and_vme;
-
--- 25 L1_LastCollisionInTrain : EXT_BPTX_LastCollisionInTrain_VME
-l1_last_collision_in_train <= single_ext_i24;
-algo(2) <= l1_last_collision_in_train;
-========
 -- 7 L1_BPTX_BeamGas_B2_VME : EXT_BPTX_BeamGas_B2_VME
 l1_bptx_beam_gas_b2_vme <= single_ext_i5;
 algo(8) <= l1_bptx_beam_gas_b2_vme;
@@ -226,14 +201,11 @@ algo(4) <= l1_single_mu16;
 -- 87 L1_SingleMu30 : MU30[MU-QLTY_SNGL]
 l1_single_mu30 <= single_mu_i187;
 algo(5) <= l1_single_mu30;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 
 -- 193 L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3 : dist{EG18[EG-ETA_2p13],JET16[JET-ETA_2p7]}[DR_MIN_0p3]
 l1_single_eg18er2p1_jet16er2p7_d_r_min0p3 <= calo_calo_correlation_i68;
 algo(0) <= l1_single_eg18er2p1_jet16er2p7_d_r_min0p3;
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_3/src/gtl_module_instances.vhd
-========
 -- 270 L1_SingleJet35 : JET35
 l1_single_jet35 <= single_jet_i107;
 algo(2) <= l1_single_jet35;
@@ -246,7 +218,6 @@ algo(3) <= l1_single_jet60;
 l1_single_jet180 <= single_jet_i121;
 algo(1) <= l1_single_jet180;
 
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_3/src/gtl_module_instances.vhd
 -- ========================================================
 -- Instantiations conversions, calculations, etc.
 -- eta and phi conversion to muon scale for calo-muon and muon-esums correlation conditions (used for DETA, DPHI, DR and mass)

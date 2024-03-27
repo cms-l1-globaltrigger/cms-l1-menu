@@ -1,7 +1,7 @@
 -- ========================================================
 -- from VHDL producer:
 
--- Module ID: 0
+-- Module ID: 1
 
 -- Name of L1 Trigger Menu:
 -- L1Menu_CollisionsPPRef2023_v0_0_7_noZDC
@@ -51,6 +51,7 @@
 -- Signal definition for muon charge correlations.
 
 -- Signal definition for conditions names
+    signal single_ext_i1 : std_logic;
     signal single_ext_i12 : std_logic;
     signal single_ext_i14 : std_logic;
     signal calo_calo_correlation_i65 : std_logic;

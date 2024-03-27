@@ -4,15 +4,6 @@
 -- Module ID: 0
 
 -- Name of L1 Trigger Menu:
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_0/src/gtl_module_instances.vhd
--- L1Menu_CollisionsPPRef2023_v0_0_7_noZDC
-
--- Unique ID of L1 Trigger Menu:
--- 088c04b4-ebf4-4f6c-a41f-acbea31c5655
-
--- Unique ID of firmware implementation:
--- a97b8a76-4a81-4207-a9af-b1a70a5d990a
-========
 -- L1Menu_CollisionsPPRef2023_v1_0_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -20,7 +11,6 @@
 
 -- Unique ID of firmware implementation:
 -- 31d15031-4c11-4aa2-87ce-120d3926268c
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_instances.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -34,8 +24,6 @@
 -- ========================================================
 -- Instantiations of conditions
 --
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_0/src/gtl_module_instances.vhd
-========
 cond_single_jet_i103_i: entity work.comb_conditions
     generic map(
 -- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
@@ -143,7 +131,6 @@ cond_single_htt_i142_i: entity work.esums_conditions
         condition_o => single_htt_i142
     );
 
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_instances.vhd
 cond_calo_calo_correlation_i65_i: entity work.correlation_conditions
     generic map(
 -- obj cuts
@@ -181,32 +168,13 @@ cond_calo_calo_correlation_i65_i: entity work.correlation_conditions
 muon_shower0_i31 <= bx_data.mus0(2);
 
 -- External condition assignment
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_0/src/gtl_module_instances.vhd
-single_ext_i12 <= bx_data.ext_cond(2)(6); -- EXT_BPTX_B2_VME
--- External condition assignment
-single_ext_i14 <= bx_data.ext_cond(2)(5); -- EXT_BPTX_B1_VME
-========
 single_ext_i25 <= bx_data.ext_cond(2)(19); -- EXT_BPTX_FirstCollidingBunch_VME
 -- External condition assignment
 single_ext_i7 <= bx_data.ext_cond(2)(1); -- EXT_BPTX_BeamGas_Ref2_VME
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_instances.vhd
 
 -- ========================================================
 -- Instantiations of algorithms
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_0/src/gtl_module_instances.vhd
--- 14 L1_BptxMinus : EXT_BPTX_B2_VME
-l1_bptx_minus <= single_ext_i12;
-algo(1) <= l1_bptx_minus;
-
--- 16 L1_BptxPlus : EXT_BPTX_B1_VME
-l1_bptx_plus <= single_ext_i14;
-algo(3) <= l1_bptx_plus;
-
--- 17 L1_BptxXOR : (EXT_BPTX_B1_VME AND ( NOT EXT_BPTX_B2_VME)) OR (EXT_BPTX_B2_VME AND ( NOT EXT_BPTX_B1_VME))
-l1_bptx_xor <= ( single_ext_i14 and ( not single_ext_i12 ) ) or ( single_ext_i12 and ( not single_ext_i14 ) );
-algo(2) <= l1_bptx_xor;
-========
 -- 9 L1_BPTX_BeamGas_Ref2_VME : EXT_BPTX_BeamGas_Ref2_VME
 l1_bptx_beam_gas_ref2_vme <= single_ext_i7;
 algo(8) <= l1_bptx_beam_gas_ref2_vme;
@@ -234,14 +202,11 @@ algo(10) <= l1_single_mu_shower_nominal;
 -- 166 L1_SingleMu5 : MU5[MU-QLTY_SNGL]
 l1_single_mu5 <= single_mu_i52;
 algo(5) <= l1_single_mu5;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_instances.vhd
 
 -- 190 L1_LooseIsoEG15er2p1_Jet12er2p7_dR_Min0p3 : dist{EG15[EG-ETA_2p13,EG-ISO_0xC],JET12[JET-ETA_2p7]}[DR_MIN_0p3]
 l1_loose_iso_eg15er2p1_jet12er2p7_d_r_min0p3 <= calo_calo_correlation_i65;
 algo(0) <= l1_loose_iso_eg15er2p1_jet12er2p7_d_r_min0p3;
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_0/src/gtl_module_instances.vhd
-========
 -- 266 L1_SingleJet20 : JET20
 l1_single_jet20 <= single_jet_i103;
 algo(1) <= l1_single_jet20;
@@ -254,7 +219,6 @@ algo(2) <= l1_single_jet40;
 l1_single_jet80 <= single_jet_i114;
 algo(3) <= l1_single_jet80;
 
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_instances.vhd
 -- ========================================================
 -- Instantiations conversions, calculations, etc.
 -- eta and phi conversion to muon scale for calo-muon and muon-esums correlation conditions (used for DETA, DPHI, DR and mass)

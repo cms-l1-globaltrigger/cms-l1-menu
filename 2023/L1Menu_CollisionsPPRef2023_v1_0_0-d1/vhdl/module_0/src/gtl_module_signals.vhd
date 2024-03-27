@@ -4,15 +4,6 @@
 -- Module ID: 0
 
 -- Name of L1 Trigger Menu:
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_1/src/gtl_module_signals.vhd
--- L1Menu_CollisionsPPRef2023_v0_0_7_noZDC
-
--- Unique ID of L1 Trigger Menu:
--- 088c04b4-ebf4-4f6c-a41f-acbea31c5655
-
--- Unique ID of firmware implementation:
--- a97b8a76-4a81-4207-a9af-b1a70a5d990a
-========
 -- L1Menu_CollisionsPPRef2023_v1_0_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -20,7 +11,6 @@
 
 -- Unique ID of firmware implementation:
 -- 31d15031-4c11-4aa2-87ce-120d3926268c
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_signals.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -62,15 +52,6 @@
 
 -- Signal definition for conditions names
     signal single_ext_i25 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_1/src/gtl_module_signals.vhd
-    signal muon_shower0_i31 : std_logic;
-    signal calo_calo_correlation_i66 : std_logic;
-
--- Signal definition for algorithms names
-    signal l1_first_collision_in_orbit : std_logic;
-    signal l1_single_mu_shower_nominal : std_logic;
-    signal l1_loose_iso_eg18er2p1_jet16er2p7_d_r_min0p3 : std_logic;
-========
     signal single_ext_i7 : std_logic;
     signal muon_shower0_i31 : std_logic;
     signal single_htt_i136 : std_logic;
@@ -94,6 +75,5 @@
     signal l1_single_jet20 : std_logic;
     signal l1_single_jet40 : std_logic;
     signal l1_single_jet80 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_0/src/gtl_module_signals.vhd
 
 -- ========================================================

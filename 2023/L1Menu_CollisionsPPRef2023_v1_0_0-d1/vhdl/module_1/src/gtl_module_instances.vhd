@@ -4,15 +4,6 @@
 -- Module ID: 1
 
 -- Name of L1 Trigger Menu:
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_1/src/gtl_module_instances.vhd
--- L1Menu_CollisionsPPRef2023_v0_0_7_noZDC
-
--- Unique ID of L1 Trigger Menu:
--- 088c04b4-ebf4-4f6c-a41f-acbea31c5655
-
--- Unique ID of firmware implementation:
--- a97b8a76-4a81-4207-a9af-b1a70a5d990a
-========
 -- L1Menu_CollisionsPPRef2023_v1_0_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -20,7 +11,6 @@
 
 -- Unique ID of firmware implementation:
 -- 31d15031-4c11-4aa2-87ce-120d3926268c
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_1/src/gtl_module_instances.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -34,8 +24,6 @@
 -- ========================================================
 -- Instantiations of conditions
 --
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_1/src/gtl_module_instances.vhd
-========
 cond_single_jet_i109_i: entity work.comb_conditions
     generic map(
 -- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
@@ -132,7 +120,6 @@ cond_single_htt_i137_i: entity work.esums_conditions
         condition_o => single_htt_i137
     );
 
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_1/src/gtl_module_instances.vhd
 cond_calo_calo_correlation_i66_i: entity work.correlation_conditions
     generic map(
 -- obj cuts
@@ -167,12 +154,7 @@ cond_calo_calo_correlation_i66_i: entity work.correlation_conditions
         condition_o => calo_calo_correlation_i66
     );
 
-muon_shower0_i31 <= bx_data.mus0(2);
-
 -- External condition assignment
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_1/src/gtl_module_instances.vhd
-single_ext_i25 <= bx_data.ext_cond(2)(19); -- EXT_BPTX_FirstCollidingBunch_VME
-========
 single_ext_i1 <= bx_data.ext_cond(2)(8); -- EXT_BPTX_AND_Ref1_VME
 -- External condition assignment
 single_ext_i12 <= bx_data.ext_cond(2)(6); -- EXT_BPTX_B2_VME
@@ -180,20 +162,10 @@ single_ext_i12 <= bx_data.ext_cond(2)(6); -- EXT_BPTX_B2_VME
 single_ext_i14 <= bx_data.ext_cond(2)(5); -- EXT_BPTX_B1_VME
 -- External condition assignment
 single_ext_i6 <= bx_data.ext_cond(2)(0); -- EXT_BPTX_BeamGas_Ref1_VME
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_1/src/gtl_module_instances.vhd
 
 -- ========================================================
 -- Instantiations of algorithms
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_1/src/gtl_module_instances.vhd
--- 26 L1_FirstCollisionInOrbit : EXT_BPTX_FirstCollidingBunch_VME
-l1_first_collision_in_orbit <= single_ext_i25;
-algo(1) <= l1_first_collision_in_orbit;
-
--- 129 L1_SingleMuShower_Nominal : MUS0
-l1_single_mu_shower_nominal <= muon_shower0_i31;
-algo(2) <= l1_single_mu_shower_nominal;
-========
 -- 3 L1_BPTX_AND_Ref1_VME : EXT_BPTX_AND_Ref1_VME
 l1_bptx_and_ref1_vme <= single_ext_i1;
 algo(7) <= l1_bptx_and_ref1_vme;
@@ -225,7 +197,6 @@ algo(4) <= l1_single_mu20;
 -- 167 L1_SingleMu7 : MU7[MU-QLTY_SNGL]
 l1_single_mu7 <= single_mu_i53;
 algo(5) <= l1_single_mu7;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_1/src/gtl_module_instances.vhd
 
 -- 191 L1_LooseIsoEG18er2p1_Jet16er2p7_dR_Min0p3 : dist{EG18[EG-ETA_2p13,EG-ISO_0xC],JET16[JET-ETA_2p7]}[DR_MIN_0p3]
 l1_loose_iso_eg18er2p1_jet16er2p7_d_r_min0p3 <= calo_calo_correlation_i66;

@@ -4,15 +4,6 @@
 -- Module ID: 2
 
 -- Name of L1 Trigger Menu:
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_2/src/gtl_module_signals.vhd
--- L1Menu_CollisionsPPRef2023_v0_0_7_noZDC
-
--- Unique ID of L1 Trigger Menu:
--- 088c04b4-ebf4-4f6c-a41f-acbea31c5655
-
--- Unique ID of firmware implementation:
--- a97b8a76-4a81-4207-a9af-b1a70a5d990a
-========
 -- L1Menu_CollisionsPPRef2023_v1_0_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -20,7 +11,6 @@
 
 -- Unique ID of firmware implementation:
 -- 31d15031-4c11-4aa2-87ce-120d3926268c
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_2/src/gtl_module_signals.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -64,15 +54,6 @@
     signal single_ext_i10 : std_logic;
     signal single_ext_i133 : std_logic;
     signal single_ext_i26 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v0_0_7_noZDC-d1/vhdl/module_2/src/gtl_module_signals.vhd
-    signal calo_calo_correlation_i67 : std_logic;
-
--- Signal definition for algorithms names
-    signal l1_bptx_or_ref4_vme : std_logic;
-    signal l1_unpaired_bunch_bptx_plus : std_logic;
-    signal l1_hcal_laser_mon_veto : std_logic;
-    signal l1_single_eg15er2p1_jet12er2p7_d_r_min0p3 : std_logic;
-========
     signal single_ext_i4 : std_logic;
     signal single_htt_i134 : std_logic;
     signal single_htt_i140 : std_logic;
@@ -96,6 +77,5 @@
     signal l1_single_jet32 : std_logic;
     signal l1_single_jet56 : std_logic;
     signal l1_single_jet170 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_2/src/gtl_module_signals.vhd
 
 -- ========================================================
