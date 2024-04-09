@@ -96,6 +96,10 @@ See [scales](scales) for reference scales.
 
 See [cabling](cabling) for reference cablings.
 
+### cabling_2024_03_28
+
+- Removed ADT signals.
+
 ### cabling_2023_03_21
 
 - Added ADT signals.
