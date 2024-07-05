@@ -7,17 +7,18 @@
 -- L1Menu_Collisions2024_v1_3_0
 
 -- Unique ID of L1 Trigger Menu:
--- b767c77f-2f60-4ce7-94e4-e16f097941b0
+-- ce56d95f-4498-4df4-a003-7fe4da14f5c9
 
 -- Unique ID of firmware implementation:
--- f1b80f18-40a0-479c-a6ce-73e133f31d96
+-- 40c4d1b6-a39a-4cf5-bc4f-05f0e7ce33a9
 
 -- Scale set:
 -- scales_2024_05_15
 
--- VHDL producer
--- version: 2.19.0
--- hash value: 6f791986a92b815892865cad12f9bcdd304b62eff7f93c42655b22060148c6a2
+-- VHDL producer version: 
+-- 2.20.0
+-- hash value:
+-- 8716cfd3e7e248f8dcbf4b4b59f1a74e43729330c4fb3a329f549004734547fd
 
 -- tmEventSetup
 -- version: 0.13.0
@@ -125,9 +126,11 @@
     signal single_ext_i323 : std_logic;
     signal single_ext_i324 : std_logic;
     signal single_ext_i325 : std_logic;
+    signal single_ext_i346 : std_logic;
     signal single_mbt0_hfm_i315 : std_logic;
     signal single_mbt0_hfp_i314 : std_logic;
     signal single_etmhf_i386 : std_logic;
+    signal muon_shower0_i84 : std_logic;
     signal calo_calo_correlation_i194 : std_logic;
     signal calo_muon_correlation_i114 : std_logic;
     signal invariant_mass_i101 : std_logic;
@@ -221,6 +224,7 @@
     signal l1_triple_mu_4_sq_2p5_sq_0_os_mass_max12 : std_logic;
     signal l1_triple_mu_5_sq_3_sq_0_oq_double_mu_5_3_sq_os_mass_max9 : std_logic;
     signal l1_triple_mu_5_sq_3_sq_0_double_mu_5_3_sq_os_mass_max9 : std_logic;
+    signal l1_single_mu_shower_nominal : std_logic;
     signal l1_double_mu5_os_er2p3_mass_8to14_double_eg3er2p1_mass_max20 : std_logic;
     signal l1_double_jet120er2p5_mu3_d_r_max0p8 : std_logic;
     signal l1_single_eg8er2p5 : std_logic;
@@ -264,5 +268,6 @@
     signal l1_last_bunch_in_train : std_logic;
     signal l1_first_bunch_after_train : std_logic;
     signal l1_cdc_single_mu_3_er1p2_top120_dphi2p618_3p142 : std_logic;
+    signal l1_totem_4 : std_logic;
 
 -- ========================================================

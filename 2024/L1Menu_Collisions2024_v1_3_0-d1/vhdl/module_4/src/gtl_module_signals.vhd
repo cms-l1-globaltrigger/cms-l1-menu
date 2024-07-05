@@ -7,17 +7,18 @@
 -- L1Menu_Collisions2024_v1_3_0
 
 -- Unique ID of L1 Trigger Menu:
--- b767c77f-2f60-4ce7-94e4-e16f097941b0
+-- ce56d95f-4498-4df4-a003-7fe4da14f5c9
 
 -- Unique ID of firmware implementation:
--- f1b80f18-40a0-479c-a6ce-73e133f31d96
+-- 40c4d1b6-a39a-4cf5-bc4f-05f0e7ce33a9
 
 -- Scale set:
 -- scales_2024_05_15
 
--- VHDL producer
--- version: 2.19.0
--- hash value: 6f791986a92b815892865cad12f9bcdd304b62eff7f93c42655b22060148c6a2
+-- VHDL producer version: 
+-- 2.20.0
+-- hash value:
+-- 8716cfd3e7e248f8dcbf4b4b59f1a74e43729330c4fb3a329f549004734547fd
 
 -- tmEventSetup
 -- version: 0.13.0
@@ -92,17 +93,18 @@
     signal ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0 : std_logic_4dim_array(0 to NR_MU_OBJECTS-1, 0 to NR_MU_OBJECTS-1, 0 to NR_MU_OBJECTS-1, 0 to NR_MU_OBJECTS-1);
 
 -- Signal definition for conditions names
-    signal axol1tl_trigger_i428 : std_logic;
-    signal single_ext_i332 : std_logic;
-    signal single_ext_i333 : std_logic;
-    signal single_ext_i336 : std_logic;
-    signal single_ext_i342 : std_logic;
-    signal single_ext_i343 : std_logic;
-    signal single_htmhf_i427 : std_logic;
+    signal axol1tl_trigger_i437 : std_logic;
+    signal cicada_trigger_i435 : std_logic;
+    signal single_ext_i327 : std_logic;
+    signal single_ext_i330 : std_logic;
+    signal single_ext_i338 : std_logic;
+    signal single_etmhf_i303 : std_logic;
+    signal single_htmhf_i429 : std_logic;
+    signal muon_shower1_i85 : std_logic;
     signal muon_shower2_i347 : std_logic;
-    signal single_ett_i295 : std_logic;
     signal single_htt_i121 : std_logic;
     signal single_htt_i122 : std_logic;
+    signal single_htt_i293 : std_logic;
     signal calo_calo_correlation_i126 : std_logic;
     signal calo_calo_correlation_i174 : std_logic;
     signal calo_calo_correlation_i193 : std_logic;
@@ -136,27 +138,28 @@
     signal double_tau_i207 : std_logic;
     signal single_eg_i136 : std_logic;
     signal single_eg_i144 : std_logic;
-    signal single_eg_i150 : std_logic;
+    signal single_eg_i149 : std_logic;
     signal single_eg_i157 : std_logic;
     signal single_eg_i162 : std_logic;
     signal single_eg_i165 : std_logic;
     signal single_eg_i170 : std_logic;
-    signal single_jet_i229 : std_logic;
+    signal single_jet_i234 : std_logic;
     signal single_jet_i240 : std_logic;
     signal single_jet_i241 : std_logic;
     signal single_jet_i286 : std_logic;
     signal single_jet_i354 : std_logic;
     signal single_jet_i355 : std_logic;
-    signal single_mu_i1 : std_logic;
-    signal single_mu_i14 : std_logic;
     signal single_mu_i18 : std_logic;
-    signal single_mu_i20 : std_logic;
+    signal single_mu_i19 : std_logic;
     signal single_mu_i221 : std_logic;
     signal single_mu_i25 : std_logic;
+    signal single_mu_i28 : std_logic;
+    signal single_mu_i348 : std_logic;
     signal single_mu_i351 : std_logic;
     signal single_mu_i408 : std_logic;
     signal single_mu_i420 : std_logic;
-    signal single_mu_i426 : std_logic;
+    signal single_mu_i425 : std_logic;
+    signal single_mu_i443 : std_logic;
     signal single_mu_i91 : std_logic;
     signal single_tau_i206 : std_logic;
     signal single_tau_i222 : std_logic;
@@ -169,13 +172,14 @@
     signal triple_mu_i74 : std_logic;
 
 -- Signal definition for algorithms names
-    signal l1_single_mu_cosmics_bmtf : std_logic;
     signal l1_single_mu0_sq14_bmtf : std_logic;
+    signal l1_single_mu0_upt10 : std_logic;
     signal l1_single_mu0_upt10_omtf : std_logic;
-    signal l1_single_mu7_dq : std_logic;
     signal l1_single_mu12_dq_emtf : std_logic;
-    signal l1_single_mu18 : std_logic;
+    signal l1_single_mu15_dq : std_logic;
     signal l1_single_mu22_bmtf : std_logic;
+    signal l1_single_mu22_omtf_neg : std_logic;
+    signal l1_single_mu25 : std_logic;
     signal l1_double_mu0_oq : std_logic;
     signal l1_double_mu_15_5_sq : std_logic;
     signal l1_double_mu0_upt5_upt5 : std_logic;
@@ -187,6 +191,7 @@
     signal l1_double_mu5_sq_os_d_r_max1p6 : std_logic;
     signal l1_triple_mu0_sq : std_logic;
     signal l1_triple_mu_5_3_3_sq : std_logic;
+    signal l1_single_mu_shower_tight : std_logic;
     signal l1_two_mu_shower_loose : std_logic;
     signal l1_mu6_double_eg10er2p5 : std_logic;
     signal l1_mu6_double_eg12er2p5 : std_logic;
@@ -199,13 +204,13 @@
     signal l1_mu12er2p3_jet40er2p3_d_r_max0p4_double_jet40er2p3_d_eta_max1p6 : std_logic;
     signal l1_single_eg15er2p5 : std_logic;
     signal l1_single_eg36er2p5 : std_logic;
-    signal l1_single_eg60 : std_logic;
+    signal l1_single_eg50 : std_logic;
     signal l1_single_loose_iso_eg28er1p5 : std_logic;
     signal l1_single_iso_eg26er2p1 : std_logic;
     signal l1_single_iso_eg28er2p5 : std_logic;
     signal l1_single_iso_eg32er2p5 : std_logic;
     signal l1_single_mu0_upt20_sq14_bmtf : std_logic;
-    signal l1_single_mu9_sq14_bmtf : std_logic;
+    signal l1_single_mu8_sq14_bmtf : std_logic;
     signal l1_double_eg11_er1p2_d_r_max0p6 : std_logic;
     signal l1_double_eg_22_10_er2p5 : std_logic;
     signal l1_double_eg_27_14_er2p5 : std_logic;
@@ -217,7 +222,7 @@
     signal l1_mu22er2p1_iso_tau34er2p1 : std_logic;
     signal l1_mu22er2p1_iso_tau40er2p1 : std_logic;
     signal l1_mu22er2p1_tau70er2p1 : std_logic;
-    signal l1_single_jet35 : std_logic;
+    signal l1_single_jet200 : std_logic;
     signal l1_single_jet35er1p3 : std_logic;
     signal l1_single_jet120er1p3 : std_logic;
     signal l1_single_jet35_fwd2p5 : std_logic;
@@ -226,13 +231,13 @@
     signal l1_double_jet45_mass_min600_loose_iso_eg20er2p1_rm_ovlp_d_r0p2 : std_logic;
     signal l1_triple_jet_100_80_70_double_jet_80_70_er2p5 : std_logic;
     signal l1_htt240_single_llp_jet70 : std_logic;
-    signal l1_ett2000 : std_logic;
-    signal l1_mhthf100 : std_logic;
+    signal l1_htt400er : std_logic;
+    signal l1_etmhf140 : std_logic;
+    signal l1_htmhf125 : std_logic;
     signal l1_axo_v_loose : std_logic;
-    signal l1_bptx_ref_and_vme : std_logic;
-    signal l1_bptx_and_ref1_vme : std_logic;
-    signal l1_bptx_beam_gas_ref1_vme : std_logic;
-    signal l1_hcal_laser_mon_veto : std_logic;
-    signal l1_totem_1 : std_logic;
+    signal l1_cicada_tight : std_logic;
+    signal l1_first_collision_in_train : std_logic;
+    signal l1_bptx_or_ref3_vme : std_logic;
+    signal l1_bptx_beam_gas_b1_vme : std_logic;
 
 -- ========================================================

@@ -7,20 +7,21 @@
 -- L1Menu_Collisions2024_v1_3_0
 
 -- Unique ID of L1 Trigger Menu:
--- b767c77f-2f60-4ce7-94e4-e16f097941b0
+-- ce56d95f-4498-4df4-a003-7fe4da14f5c9
 
 -- Unique ID of firmware implementation:
--- f1b80f18-40a0-479c-a6ce-73e133f31d96
+-- 40c4d1b6-a39a-4cf5-bc4f-05f0e7ce33a9
 
 -- Scale set:
 -- scales_2024_05_15
 
--- VHDL producer
--- version: 2.19.0
--- hash value: 6f791986a92b815892865cad12f9bcdd304b62eff7f93c42655b22060148c6a2
+-- VHDL producer version: 
+-- 2.20.0
+-- hash value:
+-- 8716cfd3e7e248f8dcbf4b4b59f1a74e43729330c4fb3a329f549004734547fd
 
--- tmEventSetup
--- version: 0.13.0
+-- tmEventSetup version: 
+-- 0.13.0
 
 -- ========================================================
 -- Instantiations of conditions
@@ -507,12 +508,12 @@ cond_single_eg_i97_i: entity work.comb_conditions
         condition_o => single_eg_i97
     );
 
-cond_single_jet_i233_i: entity work.comb_conditions
+cond_single_jet_i231_i: entity work.comb_conditions
     generic map(
 -- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
         slice_1_high_obj1 => 11,
 -- object cuts
-        pt_thresholds_obj1 => (X"0168", X"0000", X"0000", X"0000"),
+        pt_thresholds_obj1 => (X"00B4", X"0000", X"0000", X"0000"),
 -- number of objects and type
         nr_obj1 => NR_JET_OBJECTS,
         type_obj1 => JET_TYPE,
@@ -521,7 +522,24 @@ cond_single_jet_i233_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_calo => bx_data.jet(2),
-        condition_o => single_jet_i233
+        condition_o => single_jet_i231
+    );
+
+cond_single_jet_i232_i: entity work.comb_conditions
+    generic map(
+-- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
+        slice_1_high_obj1 => 11,
+-- object cuts
+        pt_thresholds_obj1 => (X"00F0", X"0000", X"0000", X"0000"),
+-- number of objects and type
+        nr_obj1 => NR_JET_OBJECTS,
+        type_obj1 => JET_TYPE,
+        nr_templates => 1
+    )
+    port map(
+        lhc_clk,
+        obj1_calo => bx_data.jet(2),
+        condition_o => single_jet_i232
     );
 
 cond_single_jet_i238_i: entity work.comb_conditions
@@ -606,12 +624,12 @@ cond_single_jet_i254_i: entity work.comb_conditions
         condition_o => single_jet_i254
     );
 
-cond_single_jet_i282_i: entity work.comb_conditions
+cond_single_jet_i280_i: entity work.comb_conditions
     generic map(
 -- setting slice high value(s) instead of default value(s) ("NR_MU_OBJECTS-1" => 7)
         slice_1_high_obj1 => 11,
 -- object cuts
-        pt_thresholds_obj1 => (X"0064", X"0000", X"0000", X"0000"),
+        pt_thresholds_obj1 => (X"0050", X"0000", X"0000", X"0000"),
         disp_cuts_obj1 => (true, false, false, false),
         disp_requs_obj1 => (true, false, false, false),
   
@@ -623,7 +641,7 @@ cond_single_jet_i282_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_calo => bx_data.jet(2),
-        condition_o => single_jet_i282
+        condition_o => single_jet_i280
     );
 
 cond_single_tau_i228_i: entity work.comb_conditions
@@ -837,12 +855,12 @@ cond_single_mu_i2_i: entity work.comb_conditions
         condition_o => single_mu_i2
     );
 
-cond_single_mu_i22_i: entity work.comb_conditions
+cond_single_mu_i23_i: entity work.comb_conditions
     generic map(
 -- no slice requirements
 -- object cuts
         pt_thresholds_obj1 => (X"002D", X"0000", X"0000", X"0000"),
-        qual_luts_obj1 => (X"FFF0", X"FFFF", X"FFFF", X"FFFF"),
+        qual_luts_obj1 => (X"FF00", X"FFFF", X"FFFF", X"FFFF"),
 -- number of objects and type
         nr_obj1 => NR_MU_OBJECTS,
         type_obj1 => MU_TYPE,
@@ -851,7 +869,7 @@ cond_single_mu_i22_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_muon => bx_data. mu(2),
-        condition_o => single_mu_i22
+        condition_o => single_mu_i23
     );
 
 cond_single_mu_i26_i: entity work.comb_conditions
@@ -919,11 +937,11 @@ cond_single_mu_i418_i: entity work.comb_conditions
         condition_o => single_mu_i418
     );
 
-cond_single_mu_i424_i: entity work.comb_conditions
+cond_single_mu_i423_i: entity work.comb_conditions
     generic map(
 -- no slice requirements
 -- object cuts
-        pt_thresholds_obj1 => (X"000F", X"0000", X"0000", X"0000"),
+        pt_thresholds_obj1 => (X"000D", X"0000", X"0000", X"0000"),
         nr_idx_windows_obj1 => (1, 0, 0, 0),
         idx_w1_upper_limits_obj1 => (X"0047", X"0000", X"0000", X"0000"),
         idx_w1_lower_limits_obj1 => (X"0024", X"0000", X"0000", X"0000"),
@@ -936,15 +954,18 @@ cond_single_mu_i424_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_muon => bx_data. mu(2),
-        condition_o => single_mu_i424
+        condition_o => single_mu_i423
     );
 
-cond_single_mu_i8_i: entity work.comb_conditions
+cond_single_mu_i445_i: entity work.comb_conditions
     generic map(
 -- no slice requirements
 -- object cuts
-        pt_thresholds_obj1 => (X"0001", X"0000", X"0000", X"0000"),
-        qual_luts_obj1 => (X"FF00", X"FFFF", X"FFFF", X"FFFF"),
+        pt_thresholds_obj1 => (X"002D", X"0000", X"0000", X"0000"),
+        nr_idx_windows_obj1 => (1, 0, 0, 0),
+        idx_w1_upper_limits_obj1 => (X"006B", X"0000", X"0000", X"0000"),
+        idx_w1_lower_limits_obj1 => (X"005A", X"0000", X"0000", X"0000"),
+        qual_luts_obj1 => (X"F000", X"FFFF", X"FFFF", X"FFFF"),
 -- number of objects and type
         nr_obj1 => NR_MU_OBJECTS,
         type_obj1 => MU_TYPE,
@@ -953,7 +974,7 @@ cond_single_mu_i8_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_muon => bx_data. mu(2),
-        condition_o => single_mu_i8
+        condition_o => single_mu_i445
     );
 
 cond_single_mu_i9_i: entity work.comb_conditions
@@ -1010,26 +1031,26 @@ cond_triple_mu_i69_i: entity work.comb_conditions
         condition_o => triple_mu_i69
     );
 
-cond_single_etm_i297_i: entity work.esums_conditions
+cond_single_htmhf_i431_i: entity work.esums_conditions
     generic map(
         et_threshold => X"012C",
-        obj_type => ETM_TYPE
-    )
-    port map(
-        lhc_clk,
-        bx_data.etm(2),
-        condition_o => single_etm_i297
-    );
-
-cond_single_htmhf_i434_i: entity work.esums_conditions
-    generic map(
-        et_threshold => X"00FA",
         obj_type => HTMHF_TYPE
     )
     port map(
         lhc_clk,
         bx_data.htmhf(2),
-        condition_o => single_htmhf_i434
+        condition_o => single_htmhf_i431
+    );
+
+cond_single_ett_i295_i: entity work.esums_conditions
+    generic map(
+        et_threshold => X"0FA0",
+        obj_type => ETT_TYPE
+    )
+    port map(
+        lhc_clk,
+        bx_data.ett(2),
+        condition_o => single_ett_i295
     );
 
 cond_single_htt_i196_i: entity work.esums_conditions
@@ -1043,26 +1064,15 @@ cond_single_htt_i196_i: entity work.esums_conditions
         condition_o => single_htt_i196
     );
 
-cond_single_htt_i283_i: entity work.esums_conditions
+cond_single_htt_i281_i: entity work.esums_conditions
     generic map(
-        et_threshold => X"0140",
+        et_threshold => X"00F0",
         obj_type => HTT_TYPE
     )
     port map(
         lhc_clk,
         bx_data.htt(2),
-        condition_o => single_htt_i283
-    );
-
-cond_single_htt_i292_i: entity work.esums_conditions
-    generic map(
-        et_threshold => X"02D0",
-        obj_type => HTT_TYPE
-    )
-    port map(
-        lhc_clk,
-        bx_data.htt(2),
-        condition_o => single_htt_i292
+        condition_o => single_htt_i281
     );
 
 cond_calo_calo_correlation_i202_i: entity work.correlation_conditions
@@ -1380,8 +1390,8 @@ cond_muon_muon_correlation_i54_i: entity work.correlation_conditions
         condition_o => muon_muon_correlation_i54
     );
 
-cond_axol1tl_trigger_i432: entity work.axol1tl_v3_wrapper
-    generic map(false, 30161)
+cond_axol1tl_trigger_i441: entity work.axol1tl_v4_wrapper
+    generic map(false, 557)
     port map(
         lhc_clk,
         bx_data.mu(2),
@@ -1393,19 +1403,40 @@ cond_axol1tl_trigger_i432: entity work.axol1tl_v3_wrapper
         bx_data.etm(2),
         bx_data.htm(2),
         bx_data.etmhf(2),
-        axol1tl_trigger_i432
+        bx_data.htmhf(2),
+        axol1tl_trigger_i441
+    );
+
+cond_cicada_trigger_i433: entity work.cicada_condition
+    generic map(
+        cscore => X"7400"
+    )
+    port map(
+        lhc_clk => lhc_clk,
+        cicada_i => bx_data.cicada(2),
+        c_comp_o => cicada_trigger_i433
+    );
+
+cond_cicada_trigger_i436: entity work.cicada_condition
+    generic map(
+        cscore => X"8300"
+    )
+    port map(
+        lhc_clk => lhc_clk,
+        cicada_i => bx_data.cicada(2),
+        c_comp_o => cicada_trigger_i436
     );
 
 -- External condition assignment
 single_ext_i318 <= bx_data.ext_cond(2)(9); -- EXT_BPTX_B1NotB2_VME
 -- External condition assignment
-single_ext_i326 <= bx_data.ext_cond(2)(22); -- EXT_BPTX_LastCollisionInTrain_VME
+single_ext_i332 <= bx_data.ext_cond(2)(18); -- EXT_BPTX_RefAND_VME
 -- External condition assignment
-single_ext_i328 <= bx_data.ext_cond(2)(19); -- EXT_BPTX_FirstCollidingBunch_VME
+single_ext_i333 <= bx_data.ext_cond(2)(8); -- EXT_BPTX_AND_Ref1_VME
 -- External condition assignment
-single_ext_i329 <= bx_data.ext_cond(2)(11); -- EXT_BPTX_NotOR_VME
+single_ext_i336 <= bx_data.ext_cond(2)(0); -- EXT_BPTX_BeamGas_Ref1_VME
 -- External condition assignment
-single_ext_i335 <= bx_data.ext_cond(2)(20); -- EXT_BPTX_AND_Ref4_VME
+single_ext_i342 <= bx_data.ext_cond(2)(35); -- EXT_HCAL_LaserMon_4
 -- External condition assignment
 single_ext_i344 <= bx_data.ext_cond(2)(41); -- EXT_TOTEM_2
 
@@ -1416,10 +1447,6 @@ single_ext_i344 <= bx_data.ext_cond(2)(41); -- EXT_TOTEM_2
 l1_single_mu_cosmics_omtf <= single_mu_i2;
 algo(41) <= l1_single_mu_cosmics_omtf;
 
--- 8 L1_SingleMu0_DQ : MU0[MU-QLTY_DBLE]
-l1_single_mu0_dq <= single_mu_i8;
-algo(50) <= l1_single_mu0_dq;
-
 -- 9 L1_SingleMu0_BMTF : MU0[MU-INDEX_BMTF,MU-QLTY_SNGL]
 l1_single_mu0_bmtf <= single_mu_i9;
 algo(44) <= l1_single_mu0_bmtf;
@@ -1428,59 +1455,63 @@ algo(44) <= l1_single_mu0_bmtf;
 l1_single_mu11_sq14_bmtf <= single_mu_i356;
 algo(45) <= l1_single_mu11_sq14_bmtf;
 
--- 31 L1_SingleMu22_OQ : MU22[MU-QLTY_OPEN]
-l1_single_mu22_oq <= single_mu_i22;
-algo(51) <= l1_single_mu22_oq;
+-- 32 L1_SingleMu22_DQ : MU22[MU-QLTY_DBLE]
+l1_single_mu22_dq <= single_mu_i23;
+algo(52) <= l1_single_mu22_dq;
 
 -- 35 L1_SingleMu22_OMTF : MU22[MU-INDEX_OMTF_NEG,MU-INDEX_OMTF_POS,MU-QLTY_SNGL]
 l1_single_mu22_omtf <= single_mu_i26;
 algo(36) <= l1_single_mu22_omtf;
 
--- 44 L1_DoubleMu9_SQ : comb{MU9[MU-QLTY_SNGL],MU9[MU-QLTY_SNGL]}
+-- 42 L1_SingleMu22_EMTF_NEG : MU22[MU-INDEX_EMTF_NEG,MU-QLTY_SNGL]
+l1_single_mu22_emtf_neg <= single_mu_i445;
+algo(46) <= l1_single_mu22_emtf_neg;
+
+-- 51 L1_DoubleMu9_SQ : comb{MU9[MU-QLTY_SNGL],MU9[MU-QLTY_SNGL]}
 l1_double_mu9_sq <= double_mu_i35;
 algo(43) <= l1_double_mu9_sq;
 
--- 52 L1_DoubleMu0_Upt6_SQ_er2p0 : comb{MU0[MU-ETA_2p0,MU-QLTY_SNGL,MU-UPT_6],MU0[MU-ETA_2p0,MU-QLTY_SNGL,MU-UPT_6]}
+-- 59 L1_DoubleMu0_Upt6_SQ_er2p0 : comb{MU0[MU-ETA_2p0,MU-QLTY_SNGL,MU-UPT_6],MU0[MU-ETA_2p0,MU-QLTY_SNGL,MU-UPT_6]}
 l1_double_mu0_upt6_sq_er2p0 <= double_mu_i410;
 algo(21) <= l1_double_mu0_upt6_sq_er2p0;
 
--- 61 L1_DoubleMu0er2p0_SQ_dEta_Max1p5 : dist{MU0[MU-ETA_2p0,MU-QLTY_SNGL],MU0[MU-ETA_2p0,MU-QLTY_SNGL]}[DETA_MAX_1p5]
+-- 68 L1_DoubleMu0er2p0_SQ_dEta_Max1p5 : dist{MU0[MU-ETA_2p0,MU-QLTY_SNGL],MU0[MU-ETA_2p0,MU-QLTY_SNGL]}[DETA_MAX_1p5]
 l1_double_mu0er2p0_sq_d_eta_max1p5 <= muon_muon_correlation_i46;
 algo(10) <= l1_double_mu0er2p0_sq_d_eta_max1p5;
 
--- 64 L1_DoubleMu0er1p5_SQ : comb{MU0[MU-QLTY_SNGL,MU-ETA_1p5],MU0[MU-QLTY_SNGL,MU-ETA_1p5]}
+-- 71 L1_DoubleMu0er1p5_SQ : comb{MU0[MU-QLTY_SNGL,MU-ETA_1p5],MU0[MU-QLTY_SNGL,MU-ETA_1p5]}
 l1_double_mu0er1p5_sq <= double_mu_i49;
 algo(26) <= l1_double_mu0er1p5_sq;
 
--- 70 L1_DoubleMu0er1p4_SQ_OS_dEta_Max1p2 : dist{MU0[MU-ETA_1p4,MU-QLTY_SNGL],MU0[MU-ETA_1p4,MU-QLTY_SNGL]}[CHGCOR_OS,DETA_MAX_1p2]
+-- 77 L1_DoubleMu0er1p4_SQ_OS_dEta_Max1p2 : dist{MU0[MU-ETA_1p4,MU-QLTY_SNGL],MU0[MU-ETA_1p4,MU-QLTY_SNGL]}[CHGCOR_OS,DETA_MAX_1p2]
 l1_double_mu0er1p4_sq_os_d_eta_max1p2 <= muon_muon_correlation_i54;
 algo(9) <= l1_double_mu0er1p4_sq_os_d_eta_max1p2;
 
--- 77 L1_DoubleMu4p5_SQ_OS : comb{MU4p5[MU-QLTY_SNGL],MU4p5[MU-QLTY_SNGL]}[CHGCOR_OS]
+-- 84 L1_DoubleMu4p5_SQ_OS : comb{MU4p5[MU-QLTY_SNGL],MU4p5[MU-QLTY_SNGL]}[CHGCOR_OS]
 l1_double_mu4p5_sq_os <= double_mu_i58;
 algo(42) <= l1_double_mu4p5_sq_os;
 
--- 84 L1_TripleMu0 : comb{MU0[MU-QLTY_DBLE],MU0[MU-QLTY_DBLE],MU0[MU-QLTY_DBLE]}
+-- 91 L1_TripleMu0 : comb{MU0[MU-QLTY_DBLE],MU0[MU-QLTY_DBLE],MU0[MU-QLTY_DBLE]}
 l1_triple_mu0 <= triple_mu_i65;
 algo(29) <= l1_triple_mu0;
 
--- 88 L1_TripleMu_3SQ_2p5SQ_0 : comb{MU3[MU-QLTY_SNGL],MU2p5[MU-QLTY_SNGL],MU0[MU-QLTY_DBLE]}
+-- 95 L1_TripleMu_3SQ_2p5SQ_0 : comb{MU3[MU-QLTY_SNGL],MU2p5[MU-QLTY_SNGL],MU0[MU-QLTY_DBLE]}
 l1_triple_mu_3_sq_2p5_sq_0 <= triple_mu_i69;
 algo(30) <= l1_triple_mu_3_sq_2p5_sq_0;
 
--- 119 L1_DoubleMu4_SQ_EG9er2p5 : comb{MU4[MU-QLTY_SNGL],MU4[MU-QLTY_SNGL]} AND EG9[EG-ETA_2p52]
+-- 125 L1_DoubleMu4_SQ_EG9er2p5 : comb{MU4[MU-QLTY_SNGL],MU4[MU-QLTY_SNGL]} AND EG9[EG-ETA_2p52]
 l1_double_mu4_sq_eg9er2p5 <= double_mu_i96 and single_eg_i97;
 algo(24) <= l1_double_mu4_sq_eg9er2p5;
 
--- 120 L1_DoubleMu5_SQ_EG9er2p5 : comb{MU5[MU-QLTY_SNGL],MU5[MU-QLTY_SNGL]} AND EG9[EG-ETA_2p52]
+-- 126 L1_DoubleMu5_SQ_EG9er2p5 : comb{MU5[MU-QLTY_SNGL],MU5[MU-QLTY_SNGL]} AND EG9[EG-ETA_2p52]
 l1_double_mu5_sq_eg9er2p5 <= double_mu_i98 and single_eg_i97;
 algo(25) <= l1_double_mu5_sq_eg9er2p5;
 
--- 122 L1_DoubleMu3_OS_er2p3_Mass_Max14_DoubleEG7p5_er2p1_Mass_Max20 : mass_inv{MU3[MU-QLTY_DBLE,MU-ETA_2p3],MU3[MU-QLTY_DBLE,MU-ETA_2p3]}[MASS_MASS_0to14,CHGCOR_OS] AND mass_inv{EG7p5[EG-ETA_2p13],EG7p5[EG-ETA_2p13]}[MASS_MASS_0to20]
+-- 127 L1_DoubleMu3_OS_er2p3_Mass_Max14_DoubleEG7p5_er2p1_Mass_Max20 : mass_inv{MU3[MU-QLTY_DBLE,MU-ETA_2p3],MU3[MU-QLTY_DBLE,MU-ETA_2p3]}[MASS_MASS_0to14,CHGCOR_OS] AND mass_inv{EG7p5[EG-ETA_2p13],EG7p5[EG-ETA_2p13]}[MASS_MASS_0to20]
 l1_double_mu3_os_er2p3_mass_max14_double_eg7p5_er2p1_mass_max20 <= invariant_mass_i99 and invariant_mass_i100;
 algo(1) <= l1_double_mu3_os_er2p3_mass_max14_double_eg7p5_er2p1_mass_max20;
 
--- 126 L1_DoubleJet16er2p5_Mu3_dR_Max0p4 : comb{JET16[JET-ETA_2p52],JET16[JET-ETA_2p52]} AND dist{JET16[JET-ETA_2p52],MU3[MU-QLTY_SNGL]}[DR_MAX_0p4]
+-- 131 L1_DoubleJet16er2p5_Mu3_dR_Max0p4 : comb{JET16[JET-ETA_2p52],JET16[JET-ETA_2p52]} AND dist{JET16[JET-ETA_2p52],MU3[MU-QLTY_SNGL]}[DR_MAX_0p4]
 l1_double_jet16er2p5_mu3_d_r_max0p4 <= double_jet_i105 and calo_muon_correlation_i106;
 algo(6) <= l1_double_jet16er2p5_mu3_d_r_max0p4;
 
@@ -1512,9 +1543,9 @@ algo(16) <= l1_single_iso_eg28_fwd2p5;
 l1_single_mu0_upt10_sq14_bmtf <= single_mu_i418;
 algo(40) <= l1_single_mu0_upt10_sq14_bmtf;
 
--- 204 L1_SingleMu7_SQ14_BMTF : MU7[MU-INDEX_BMTF,MU-QLTY_14]
-l1_single_mu7_sq14_bmtf <= single_mu_i424;
-algo(46) <= l1_single_mu7_sq14_bmtf;
+-- 203 L1_SingleMu6_SQ14_BMTF : MU6[MU-INDEX_BMTF,MU-QLTY_14]
+l1_single_mu6_sq14_bmtf <= single_mu_i423;
+algo(47) <= l1_single_mu6_sq14_bmtf;
 
 -- 215 L1_DoubleEG_15_10_er2p5 : comb{EG15[EG-ETA_2p52],EG10[EG-ETA_2p52]}
 l1_double_eg_15_10_er2p5 <= double_eg_i175;
@@ -1572,9 +1603,13 @@ algo(8) <= l1_double_iso_tau26er2p1_jet55_rm_ovlp_d_r0p5;
 l1_iso_tau52er2p1_quad_jet36er2p5 <= quad_jet_i227 and single_tau_i228;
 algo(7) <= l1_iso_tau52er2p1_quad_jet36er2p5;
 
--- 309 L1_SingleJet180 : JET180
-l1_single_jet180 <= single_jet_i233;
-algo(49) <= l1_single_jet180;
+-- 307 L1_SingleJet90 : JET90
+l1_single_jet90 <= single_jet_i231;
+algo(51) <= l1_single_jet90;
+
+-- 308 L1_SingleJet120 : JET120
+l1_single_jet120 <= single_jet_i232;
+algo(50) <= l1_single_jet120;
 
 -- 317 L1_SingleJet160er2p5 : JET160[JET-ETA_2p52]
 l1_single_jet160er2p5 <= single_jet_i238;
@@ -1608,53 +1643,57 @@ algo(5) <= l1_double_jet_110_35_double_jet35_mass_min850;
 l1_double_llp_jet40 <= double_jet_i279;
 algo(28) <= l1_double_llp_jet40;
 
--- 392 L1_HTT160_SingleLLPJet50 : JET50[JET-DISP_LLP] AND HTT160
-l1_htt160_single_llp_jet50 <= single_jet_i282 and single_htt_i283;
-algo(47) <= l1_htt160_single_llp_jet50;
+-- 391 L1_HTT120_SingleLLPJet40 : JET40[JET-DISP_LLP] AND HTT120
+l1_htt120_single_llp_jet40 <= single_jet_i280 and single_htt_i281;
+algo(48) <= l1_htt120_single_llp_jet40;
 
--- 403 L1_HTT160er : HTT160
-l1_htt160er <= single_htt_i283;
-algo(48) <= l1_htt160er;
+-- 402 L1_HTT120er : HTT120
+l1_htt120er <= single_htt_i281;
+algo(49) <= l1_htt120er;
 
--- 408 L1_HTT360er : HTT360
-l1_htt360er <= single_htt_i292;
-algo(53) <= l1_htt360er;
+-- 412 L1_ETT2000 : ETT2000
+l1_ett2000 <= single_ett_i295;
+algo(55) <= l1_ett2000;
 
--- 417 L1_ETM150 : ETM150
-l1_etm150 <= single_etm_i297;
-algo(52) <= l1_etm150;
+-- 438 L1_HTMHF150 : HTMHF150
+l1_htmhf150 <= single_htmhf_i431;
+algo(56) <= l1_htmhf150;
 
--- 436 L1_MHTHF125 : HTMHF125
-l1_mhthf125 <= single_htmhf_i434;
-algo(54) <= l1_mhthf125;
-
--- 443 L1_AXO_VTight : AXO[AXO-MODEL_v3,AXO-SCORE_VTight]
-l1_axo_v_tight <= axol1tl_trigger_i432;
+-- 443 L1_AXO_VTight : AXO[AXO-MODEL_v4,AXO-SCORE_VTight]
+l1_axo_v_tight <= axol1tl_trigger_i441;
 algo(0) <= l1_axo_v_tight;
+
+-- 446 L1_CICADA_Loose : CICADA[CICADA-CSCORE_116]
+l1_cicada_loose <= cicada_trigger_i433;
+algo(53) <= l1_cicada_loose;
+
+-- 449 L1_CICADA_VTight : CICADA[CICADA-CSCORE_131]
+l1_cicada_v_tight <= cicada_trigger_i436;
+algo(54) <= l1_cicada_v_tight;
 
 -- 468 L1_UnpairedBunchBptxPlus : EXT_BPTX_B1NotB2_VME
 l1_unpaired_bunch_bptx_plus <= single_ext_i318;
-algo(60) <= l1_unpaired_bunch_bptx_plus;
+algo(62) <= l1_unpaired_bunch_bptx_plus;
 
--- 478 L1_LastCollisionInTrain : EXT_BPTX_LastCollisionInTrain_VME
-l1_last_collision_in_train <= single_ext_i326;
-algo(58) <= l1_last_collision_in_train;
+-- 485 L1_BPTX_RefAND_VME : EXT_BPTX_RefAND_VME
+l1_bptx_ref_and_vme <= single_ext_i332;
+algo(59) <= l1_bptx_ref_and_vme;
 
--- 480 L1_FirstCollisionInOrbit : EXT_BPTX_FirstCollidingBunch_VME
-l1_first_collision_in_orbit <= single_ext_i328;
-algo(57) <= l1_first_collision_in_orbit;
+-- 486 L1_BPTX_AND_Ref1_VME : EXT_BPTX_AND_Ref1_VME
+l1_bptx_and_ref1_vme <= single_ext_i333;
+algo(57) <= l1_bptx_and_ref1_vme;
 
--- 482 L1_BPTX_NotOR_VME : EXT_BPTX_NotOR_VME
-l1_bptx_not_or_vme <= single_ext_i329;
-algo(56) <= l1_bptx_not_or_vme;
+-- 489 L1_BPTX_BeamGas_Ref1_VME : EXT_BPTX_BeamGas_Ref1_VME
+l1_bptx_beam_gas_ref1_vme <= single_ext_i336;
+algo(58) <= l1_bptx_beam_gas_ref1_vme;
 
--- 488 L1_BPTX_AND_Ref4_VME : EXT_BPTX_AND_Ref4_VME
-l1_bptx_and_ref4_vme <= single_ext_i335;
-algo(55) <= l1_bptx_and_ref4_vme;
+-- 501 L1_HCAL_LaserMon_Veto : EXT_HCAL_LaserMon_4
+l1_hcal_laser_mon_veto <= single_ext_i342;
+algo(60) <= l1_hcal_laser_mon_veto;
 
 -- 504 L1_TOTEM_2 : EXT_TOTEM_2
 l1_totem_2 <= single_ext_i344;
-algo(59) <= l1_totem_2;
+algo(61) <= l1_totem_2;
 
 -- ========================================================
 -- Instantiations conversions, calculations, etc.

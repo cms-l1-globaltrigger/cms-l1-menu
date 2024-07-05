@@ -7,17 +7,18 @@
 -- L1Menu_Collisions2024_v1_3_0
 
 -- Unique ID of L1 Trigger Menu:
--- b767c77f-2f60-4ce7-94e4-e16f097941b0
+-- ce56d95f-4498-4df4-a003-7fe4da14f5c9
 
 -- Unique ID of firmware implementation:
--- f1b80f18-40a0-479c-a6ce-73e133f31d96
+-- 40c4d1b6-a39a-4cf5-bc4f-05f0e7ce33a9
 
 -- Scale set:
 -- scales_2024_05_15
 
--- VHDL producer
--- version: 2.19.0
--- hash value: 6f791986a92b815892865cad12f9bcdd304b62eff7f93c42655b22060148c6a2
+-- VHDL producer version: 
+-- 2.20.0
+-- hash value:
+-- 8716cfd3e7e248f8dcbf4b4b59f1a74e43729330c4fb3a329f549004734547fd
 
 -- tmEventSetup
 -- version: 0.13.0
@@ -29,34 +30,34 @@ constant global_index: global_index_array := (
         365, -- module_index: 1, name: L1_DoubleJet_65_35_DoubleJet35_Mass_Min650_DoubleJetCentral50
         368, -- module_index: 2, name: L1_DoubleJet_85_35_DoubleJet35_Mass_Min600_Mu3OQ
         369, -- module_index: 3, name: L1_DoubleJet_85_35_DoubleJet35_Mass_Min650_Mu3OQ
-        123, -- module_index: 4, name: L1_DoubleMu5_OS_er2p3_Mass_8to14_DoubleEG3er2p1_Mass_Max20
+        128, -- module_index: 4, name: L1_DoubleMu5_OS_er2p3_Mass_8to14_DoubleEG3er2p1_Mass_Max20
         240, -- module_index: 5, name: L1_LooseIsoEG30er2p1_Jet34er2p5_dR_Min0p3
         370, -- module_index: 6, name: L1_DoubleJet_70_35_DoubleJet35_Mass_Min500_ETMHF65
         371, -- module_index: 7, name: L1_DoubleJet_70_35_DoubleJet35_Mass_Min550_ETMHF65
-        131, -- module_index: 8, name: L1_DoubleJet120er2p5_Mu3_dR_Max0p8
+        136, -- module_index: 8, name: L1_DoubleJet120er2p5_Mu3_dR_Max0p8
         342, -- module_index: 9, name: L1_DoubleJet120er2p5
         386, -- module_index: 10, name: L1_QuadJet_95_75_65_20_DoubleJet_75_65_er2p5_Jet20_FWD3p0
         383, -- module_index: 11, name: L1_TripleJet_95_75_65_DoubleJet_75_65_er2p5
         389, -- module_index: 12, name: L1_QuadJet60er2p5
-         99, -- module_index: 13, name: L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9
-         90, -- module_index: 14, name: L1_TripleMu_5SQ_3SQ_0OQ
-        100, -- module_index: 15, name: L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9
-         81, -- module_index: 16, name: L1_DoubleMu4p5er2p0_SQ_OS_Mass_7to18
-         80, -- module_index: 17, name: L1_DoubleMu4p5er2p0_SQ_OS_Mass_Min7
-         42, -- module_index: 18, name: L1_DoubleMu0_Mass_Min1
-         49, -- module_index: 19, name: L1_DoubleMu_15_7_Mass_Min1
-         67, -- module_index: 20, name: L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4
-         76, -- module_index: 21, name: L1_DoubleMu4er2p0_SQ_OS_dR_Max1p6
-         89, -- module_index: 22, name: L1_TripleMu_3SQ_2p5SQ_0_Mass_Max12
-         96, -- module_index: 23, name: L1_TripleMu_4SQ_2p5SQ_0_OS_Mass_Max12
-         75, -- module_index: 24, name: L1_DoubleMu4_SQ_OS_dR_Max1p2
-         78, -- module_index: 25, name: L1_DoubleMu4p5_SQ_OS_dR_Max1p2
+        106, -- module_index: 13, name: L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9
+         97, -- module_index: 14, name: L1_TripleMu_5SQ_3SQ_0OQ
+        107, -- module_index: 15, name: L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9
+         88, -- module_index: 16, name: L1_DoubleMu4p5er2p0_SQ_OS_Mass_7to18
+         87, -- module_index: 17, name: L1_DoubleMu4p5er2p0_SQ_OS_Mass_Min7
+         49, -- module_index: 18, name: L1_DoubleMu0_Mass_Min1
+         56, -- module_index: 19, name: L1_DoubleMu_15_7_Mass_Min1
+         74, -- module_index: 20, name: L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4
+         83, -- module_index: 21, name: L1_DoubleMu4er2p0_SQ_OS_dR_Max1p6
+         96, -- module_index: 22, name: L1_TripleMu_3SQ_2p5SQ_0_Mass_Max12
+        103, -- module_index: 23, name: L1_TripleMu_4SQ_2p5SQ_0_OS_Mass_Max12
+         82, -- module_index: 24, name: L1_DoubleMu4_SQ_OS_dR_Max1p2
+         85, -- module_index: 25, name: L1_DoubleMu4p5_SQ_OS_dR_Max1p2
         197, -- module_index: 26, name: L1_IsoEG32er2p5_Mt40
         494, -- module_index: 27, name: L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142
         328, -- module_index: 28, name: L1_SingleJet8erHE
          18, -- module_index: 29, name: L1_SingleMu0_Upt10_EMTF
-         83, -- module_index: 30, name: L1_TripleMu0_OQ
-         92, -- module_index: 31, name: L1_TripleMu_5_3_3
+         90, -- module_index: 30, name: L1_TripleMu0_OQ
+         99, -- module_index: 31, name: L1_TripleMu_5_3_3
         183, -- module_index: 32, name: L1_SingleIsoEG24er2p1
         190, -- module_index: 33, name: L1_SingleIsoEG28er2p1
         195, -- module_index: 34, name: L1_SingleIsoEG32er2p1
@@ -65,28 +66,30 @@ constant global_index: global_index_array := (
           6, -- module_index: 37, name: L1_SingleMuOpen_OMTF
         167, -- module_index: 38, name: L1_SingleEG34er2p5
         159, -- module_index: 39, name: L1_SingleEG8er2p5
-        451, -- module_index: 40, name: L1_SingleJet20er2p5_NotBptxOR
-        459, -- module_index: 41, name: L1_ZeroBias
-        453, -- module_index: 42, name: L1_SingleJet43er2p5_NotBptxOR_3BX
-        460, -- module_index: 43, name: L1_ZeroBias_copy
-        454, -- module_index: 44, name: L1_SingleJet46er2p5_NotBptxOR_3BX
-          4, -- module_index: 45, name: L1_SingleMuOpen
-        463, -- module_index: 46, name: L1_NotBptxOR
-        471, -- module_index: 47, name: L1_IsolatedBunch
-        446, -- module_index: 48, name: L1_SingleMuOpen_NotBptxOR
-        476, -- module_index: 49, name: L1_LastBunchInTrain
-        464, -- module_index: 50, name: L1_BptxOR
-        448, -- module_index: 51, name: L1_SingleMuOpen_er1p1_NotBptxOR_3BX
+        454, -- module_index: 40, name: L1_SingleJet20er2p5_NotBptxOR
+        461, -- module_index: 41, name: L1_MinimumBiasHF0_AND_BptxAND
+        476, -- module_index: 42, name: L1_LastBunchInTrain
+        451, -- module_index: 43, name: L1_SingleMuOpen_NotBptxOR
+        453, -- module_index: 44, name: L1_SingleMuOpen_er1p1_NotBptxOR_3BX
+        452, -- module_index: 45, name: L1_SingleMuOpen_er1p4_NotBptxOR_3BX
+        456, -- module_index: 46, name: L1_SingleJet43er2p5_NotBptxOR_3BX
+        464, -- module_index: 47, name: L1_BptxOR
+        457, -- module_index: 48, name: L1_SingleJet46er2p5_NotBptxOR_3BX
+        458, -- module_index: 49, name: L1_AlwaysTrue
+        463, -- module_index: 50, name: L1_NotBptxOR
+        459, -- module_index: 51, name: L1_ZeroBias
         477, -- module_index: 52, name: L1_FirstBunchAfterTrain
-        458, -- module_index: 53, name: L1_AlwaysTrue
-        447, -- module_index: 54, name: L1_SingleMuOpen_er1p4_NotBptxOR_3BX
+        460, -- module_index: 53, name: L1_ZeroBias_copy
+          4, -- module_index: 54, name: L1_SingleMuOpen
         472, -- module_index: 55, name: L1_FirstBunchBeforeTrain
         474, -- module_index: 56, name: L1_SecondBunchInTrain
-        452, -- module_index: 57, name: L1_SingleJet20er2p5_NotBptxOR_3BX
+        455, -- module_index: 57, name: L1_SingleJet20er2p5_NotBptxOR_3BX
         473, -- module_index: 58, name: L1_FirstBunchInTrain
         475, -- module_index: 59, name: L1_SecondLastBunchInTrain
         462, -- module_index: 60, name: L1_MinimumBiasHF0
-        461, -- module_index: 61, name: L1_MinimumBiasHF0_AND_BptxAND
+        471, -- module_index: 61, name: L1_IsolatedBunch
+        111, -- module_index: 62, name: L1_SingleMuShower_Nominal
+        506, -- module_index: 63, name: L1_TOTEM_4
     others => 0
 );
 
