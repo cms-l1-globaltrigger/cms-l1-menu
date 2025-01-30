@@ -4,7 +4,6 @@
 -- Module ID: 5
 
 -- Name of L1 Trigger Menu:
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
 -- L1Menu_CollisionsPPRef2023_v1_1_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -12,15 +11,6 @@
 
 -- Unique ID of firmware implementation:
 -- 2195644d-2dba-4f58-8a7b-ac585bf1963f
-========
--- L1Menu_CollisionsPPRef2023_v1_0_0
-
--- Unique ID of L1 Trigger Menu:
--- 0a0bd95c-682d-439a-8b31-7558af7c300a
-
--- Unique ID of firmware implementation:
--- 31d15031-4c11-4aa2-87ce-120d3926268c
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -70,16 +60,10 @@
     signal single_ext_i27 : std_logic;
     signal single_ext_i3 : std_logic;
     signal single_ext_i9 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal muon_shower0_i31 : std_logic;
     signal single_htt_i144 : std_logic;
     signal single_htt_i149 : std_logic;
     signal muon_muon_correlation_i222 : std_logic;
-========
-    signal single_ett_i131 : std_logic;
-    signal single_htt_i139 : std_logic;
-    signal muon_muon_correlation_i196 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal double_eg_i32 : std_logic;
     signal double_eg_i35 : std_logic;
     signal double_eg_i36 : std_logic;
@@ -87,11 +71,7 @@
     signal double_eg_i40 : std_logic;
     signal double_eg_i42 : std_logic;
     signal double_eg_i44 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal double_mu_i138 : std_logic;
-========
-    signal double_mu_i130 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal double_mu_i60 : std_logic;
     signal double_mu_i62 : std_logic;
     signal double_mu_i63 : std_logic;
@@ -102,15 +82,11 @@
     signal single_eg_i148 : std_logic;
     signal single_eg_i150 : std_logic;
     signal single_eg_i152 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal single_eg_i154 : std_logic;
     signal single_eg_i156 : std_logic;
     signal single_eg_i158 : std_logic;
     signal single_eg_i160 : std_logic;
     signal single_eg_i170 : std_logic;
-========
-    signal single_eg_i162 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal single_eg_i71 : std_logic;
     signal single_eg_i72 : std_logic;
     signal single_eg_i73 : std_logic;
@@ -134,7 +110,6 @@
     signal single_eg_i97 : std_logic;
     signal single_eg_i98 : std_logic;
     signal single_eg_i99 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal single_jet_i104 : std_logic;
     signal single_jet_i109 : std_logic;
     signal single_jet_i114 : std_logic;
@@ -146,27 +121,11 @@
     signal single_mu_i47 : std_logic;
     signal single_mu_i49 : std_logic;
     signal single_mu_i52 : std_logic;
-========
-    signal single_jet_i105 : std_logic;
-    signal single_jet_i111 : std_logic;
-    signal single_jet_i116 : std_logic;
-    signal single_jet_i118 : std_logic;
-    signal single_jet_i119 : std_logic;
-    signal single_jet_i167 : std_logic;
-    signal single_mu_i171 : std_logic;
-    signal single_mu_i47 : std_logic;
-    signal single_mu_i49 : std_logic;
-    signal single_mu_i56 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
 
 -- Signal definition for algorithms names
     signal l1_bptx_and_ref4_vme : std_logic;
     signal l1_bptx_or_ref3_vme : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_first_collision_in_train : std_logic;
-========
-    signal l1_unpaired_bunch_bptx_minus : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_double_mu_15_7 : std_logic;
     signal l1_ett2000 : std_logic;
     signal l1_hcal_laser_mon_trig : std_logic;
@@ -178,11 +137,7 @@
     signal l1_single_eg45er2p5 : std_logic;
     signal l1_single_iso_eg32er2p5 : std_logic;
     signal l1_single_jet140er2p5 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_single_mu18 : std_logic;
-========
-    signal l1_single_mu25 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_double_eg_10_10 : std_logic;
     signal l1_double_eg_15_10 : std_logic;
     signal l1_double_eg_18_17 : std_logic;
@@ -190,16 +145,10 @@
     signal l1_double_eg_22_15 : std_logic;
     signal l1_double_eg_24_17 : std_logic;
     signal l1_double_eg_25_13 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_single_mu_shower_nominal : std_logic;
     signal l1_single_mu_cosmics_bmtf : std_logic;
     signal l1_single_mu_cosmics_emtf : std_logic;
     signal l1_single_mu5 : std_logic;
-========
-    signal l1_single_mu_cosmics_bmtf : std_logic;
-    signal l1_single_mu_cosmics_emtf : std_logic;
-    signal l1_single_mu10_low_q : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_double_mu_open : std_logic;
     signal l1_double_mu_open_ss : std_logic;
     signal l1_double_mu0_sq : std_logic;
@@ -228,14 +177,9 @@
     signal l1_single_iso_eg37 : std_logic;
     signal l1_single_iso_eg38 : std_logic;
     signal l1_single_iso_eg40 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_single_jet24 : std_logic;
     signal l1_single_jet44 : std_logic;
     signal l1_single_jet80 : std_logic;
-========
-    signal l1_single_jet28 : std_logic;
-    signal l1_single_jet50 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_0_0-d1/vhdl/module_5/src/gtl_module_signals.vhd
     signal l1_single_jet120 : std_logic;
     signal l1_single_jet150 : std_logic;
     signal l1_single_jet160 : std_logic;

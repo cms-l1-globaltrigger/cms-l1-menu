@@ -1,23 +1,13 @@
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_0-d1.twiki
 %SET{ "REPORTER_URL" value="%ATTACHURL%/L1Menu_CollisionsPPRef2023_v1_1_0.html" }%
 
 ---+!! !L1Menu_CollisionsPPRef2023_v1_1_0
-========
-%SET{ "REPORTER_URL" value="%ATTACHURL%/L1Menu_CollisionsPPRef2023_v1_1_2.html" }%
-
----+!! !L1Menu_CollisionsPPRef2023_v1_1_2
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_2-d1.twiki
 
 %TOC%
 
 ---++ Introduction
 
 | *Trigger Menu Name* | *Grammar Version* | *Compatible releases* | *First run with collision key* |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_0-d1.twiki
 | !L1Menu_CollisionsPPRef2023_v1_1_0 | 0.11 | >= X_Y_Z |  |
-========
-| !L1Menu_CollisionsPPRef2023_v1_1_2 | 0.11 | >= X_Y_Z |  |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_2-d1.twiki
 
 ---++ Changes with respect to !L1Menu_xxxx
    * Added the following algorithms
@@ -39,25 +29,15 @@ A complete description of the algorithm and technical trigger implementation is 
 
 ---+++ L1 menu identification
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_0-d1.twiki
 |Menu Name: | !L1Menu_CollisionsPPRef2023_v1_1_0 |
 |Menu UUID: | 10c448fc-98aa-4f86-aaa9-14e31d453c1e |
 |Firmware UUID: | 2195644d-2dba-4f58-8a7b-ac585bf1963f  |
-========
-|Menu Name: | !L1Menu_CollisionsPPRef2023_v1_1_2 |
-|Menu UUID: | 9115412f-4b54-4767-816f-aa3acffc192f |
-|Firmware UUID: | 9f4c9f62-f373-413c-a4f3-84ece2d69630  |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_2-d1.twiki
 |Associated L1 scale DB key: | scales_2023_02_16 |
 
 
 ---+++ Summary
 
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_0-d1.twiki
    * Number of algorithm triggers: 245 defined.
-========
-   * Number of algorithm triggers: 257 defined.
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_2-d1.twiki
 
 Number of algorithm triggers per trigger group:
 
@@ -66,12 +46,7 @@ Number of algorithm triggers per trigger group:
       | !E/gamma algorithm triggers: | 70 |
       | !Jet algorithm triggers: | 38 |
       | !Energy Sums algorithm triggers: | 10 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_0-d1.twiki
       | !Cross algorithm triggers: | 67 |
-========
-      | !Tower Count algorithm triggers: | 6 |
-      | !Cross algorithm triggers: | 73 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_2-d1.twiki
       | !Correlation algorithm triggers: | 5 |
       | !External algorithm triggers: | 25 |
       | !Signal algorithm triggers: | 2 |
@@ -618,21 +593,6 @@ Number of algorithm triggers per trigger group:
 |[[%GET{"REPORTER_URL"}%#L1_SingleEG2_ZDC1n_Bkp2_OR_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG2_ZDC1n_Bkp2_OR_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleEG2_ZDC1n_Bkp2_OR_NotMinimumBiasHF2_AND_BptxAND |474 |0 |
 |[[%GET{"REPORTER_URL"}%#L1_SingleEG2_ZDC1n_Bkp3_OR_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG2_ZDC1n_Bkp3_OR_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleEG2_ZDC1n_Bkp3_OR_NotMinimumBiasHF2_AND_BptxAND |475 |0 |
 |[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142]]   |L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 |494 |5 |
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_0-d1.twiki
-========
-|[[%GET{"REPORTER_URL"}%#L1_ZDCP1 ][L1_ZDCP1]]   |L1_ZDCP1 |500 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDCP256 ][L1_ZDCP256]]   |L1_ZDCP256 |501 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDCP512 ][L1_ZDCP512]]   |L1_ZDCP512 |502 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDCM1 ][L1_ZDCM1]]   |L1_ZDCM1 |503 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDCM256 ][L1_ZDCM256]]   |L1_ZDCM256 |504 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDCM512 ][L1_ZDCM512]]   |L1_ZDCM512 |505 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDC1_AND ][L1_ZDC1_AND]]   |L1_ZDC1_AND |506 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDC256_AND ][L1_ZDC256_AND]]   |L1_ZDC256_AND |507 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDC512_AND ][L1_ZDC512_AND]]   |L1_ZDC512_AND |508 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDC1_OR ][L1_ZDC1_OR]]   |L1_ZDC1_OR |509 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDC256_OR ][L1_ZDC256_OR]]   |L1_ZDC256_OR |510 |0 |
-|[[%GET{"REPORTER_URL"}%#L1_ZDC512_OR ][L1_ZDC512_OR]]   |L1_ZDC512_OR |511 |0 |
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/doc/L1Menu_CollisionsPPRef2023_v1_1_2-d1.twiki
 
 
 <p style="page-break-before: always">&nbsp;</p>
