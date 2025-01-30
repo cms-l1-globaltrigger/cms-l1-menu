@@ -4,7 +4,6 @@
 -- Module ID: 3
 
 -- Name of L1 Trigger Menu:
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_signals.vhd
 -- L1Menu_CollisionsPPRef2023_v1_1_0
 
 -- Unique ID of L1 Trigger Menu:
@@ -12,15 +11,6 @@
 
 -- Unique ID of firmware implementation:
 -- 2195644d-2dba-4f58-8a7b-ac585bf1963f
-========
--- L1Menu_CollisionsPPRef2023_v1_1_2
-
--- Unique ID of L1 Trigger Menu:
--- 9115412f-4b54-4767-816f-aa3acffc192f
-
--- Unique ID of firmware implementation:
--- 9f4c9f62-f373-413c-a4f3-84ece2d69630
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_signals.vhd
 
 -- Scale set:
 -- scales_2023_02_16
@@ -66,22 +56,12 @@
     signal single_ext_i138 : std_logic;
     signal single_ext_i27 : std_logic;
     signal single_ext_i6 : std_logic;
-<<<<<<<< HEAD:2023/L1Menu_CollisionsPPRef2023_v1_1_0-d1/vhdl/module_3/src/gtl_module_signals.vhd
     signal single_htt_i146 : std_logic;
     signal calo_calo_correlation_i68 : std_logic;
     signal single_jet_i106 : std_logic;
     signal single_jet_i111 : std_logic;
     signal single_jet_i121 : std_logic;
     signal single_mu_i178 : std_logic;
-========
-    signal single_htt_i143 : std_logic;
-    signal calo_calo_correlation_i65 : std_logic;
-    signal single_jet_i103 : std_logic;
-    signal single_jet_i108 : std_logic;
-    signal single_jet_i118 : std_logic;
-    signal single_mu_i175 : std_logic;
-    signal single_mu_i47 : std_logic;
->>>>>>>> master:2023/L1Menu_CollisionsPPRef2023_v1_1_2-d1/vhdl/module_3/src/gtl_module_signals.vhd
     signal single_mu_i50 : std_logic;
     signal single_mu_i53 : std_logic;
 
