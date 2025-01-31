@@ -56,9 +56,8 @@
     signal ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0 : std_logic_4dim_array(0 to NR_MU_OBJECTS-1, 0 to NR_MU_OBJECTS-1, 0 to NR_MU_OBJECTS-1, 0 to NR_MU_OBJECTS-1);
 
 -- Signal definition for conditions names
-    signal single_ext_i132 : std_logic;
-    signal single_ext_i27 : std_logic;
-    signal single_ext_i3 : std_logic;
+    signal single_ext_i23 : std_logic;
+    signal single_ext_i4 : std_logic;
     signal single_ext_i9 : std_logic;
     signal muon_shower0_i31 : std_logic;
     signal single_htt_i144 : std_logic;
@@ -77,10 +76,6 @@
     signal double_mu_i63 : std_logic;
     signal double_mu_i64 : std_logic;
     signal single_eg_i100 : std_logic;
-    signal single_eg_i144 : std_logic;
-    signal single_eg_i146 : std_logic;
-    signal single_eg_i148 : std_logic;
-    signal single_eg_i150 : std_logic;
     signal single_eg_i152 : std_logic;
     signal single_eg_i154 : std_logic;
     signal single_eg_i156 : std_logic;
@@ -123,13 +118,12 @@
     signal single_mu_i52 : std_logic;
 
 -- Signal definition for algorithms names
-    signal l1_bptx_and_ref4_vme : std_logic;
+    signal l1_bptx_beam_gas_b1_vme : std_logic;
     signal l1_bptx_or_ref3_vme : std_logic;
     signal l1_first_collision_in_train : std_logic;
     signal l1_double_mu_15_7 : std_logic;
-    signal l1_ett2000 : std_logic;
-    signal l1_hcal_laser_mon_trig : std_logic;
-    signal l1_htt320er : std_logic;
+    signal l1_htt200er : std_logic;
+    signal l1_htt400er : std_logic;
     signal l1_single_eg10er2p5 : std_logic;
     signal l1_single_eg26er2p5 : std_logic;
     signal l1_single_eg36er2p5 : std_logic;
