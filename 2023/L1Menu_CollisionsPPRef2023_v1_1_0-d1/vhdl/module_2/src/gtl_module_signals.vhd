@@ -51,8 +51,8 @@
 -- Signal definition for muon charge correlations.
 
 -- Signal definition for conditions names
-    signal single_ext_i11 : std_logic;
-    signal single_ext_i24 : std_logic;
+    signal single_ext_i10 : std_logic;
+    signal single_ext_i140 : std_logic;
     signal single_ext_i5 : std_logic;
     signal muon_shower1_i30 : std_logic;
     signal single_htt_i145 : std_logic;

@@ -106,7 +106,7 @@ cond_single_mu_i50_i: entity work.comb_conditions
     port map(
         lhc_clk,
         obj1_muon => bx_data. mu(2),
-        condition_o => single_mu_i47
+        condition_o => single_mu_i50
     );
 
 cond_single_mu_i53_i: entity work.comb_conditions
@@ -126,7 +126,7 @@ cond_single_mu_i53_i: entity work.comb_conditions
         condition_o => single_mu_i53
     );
 
-cond_single_htt_i143_i: entity work.esums_conditions
+cond_single_htt_i146_i: entity work.esums_conditions
     generic map(
         et_threshold => X"0230",
         obj_type => HTT_TYPE
@@ -134,7 +134,7 @@ cond_single_htt_i143_i: entity work.esums_conditions
     port map(
         lhc_clk,
         bx_data.htt(2),
-        condition_o => single_htt_i143
+        condition_o => single_htt_i146
     );
 
 cond_calo_calo_correlation_i68_i: entity work.correlation_conditions
@@ -175,7 +175,7 @@ single_ext_i1 <= bx_data.ext_cond(2)(8); -- EXT_BPTX_AND_Ref1_VME
 -- External condition assignment
 single_ext_i11 <= bx_data.ext_cond(2)(18); -- EXT_BPTX_RefAND_VME
 -- External condition assignment
-single_ext_i138 <= bx_data.ext_cond(2)(35); -- EXT_HCAL_LaserMon_4
+single_ext_i141 <= bx_data.ext_cond(2)(35); -- EXT_HCAL_LaserMon_4
 -- External condition assignment
 single_ext_i27 <= bx_data.ext_cond(2)(10); -- EXT_BPTX_B2NotB1_VME
 -- External condition assignment
