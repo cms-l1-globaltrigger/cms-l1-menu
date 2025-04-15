@@ -5,6 +5,7 @@ Firmware implementations and test vectors of Run2/LS2/Run3 menus for the L1 Glob
 
 ## Run3
 
+* [2025](2025)
 * [2024](2024)
 * [2023](2023)
 * [2022](2022)
