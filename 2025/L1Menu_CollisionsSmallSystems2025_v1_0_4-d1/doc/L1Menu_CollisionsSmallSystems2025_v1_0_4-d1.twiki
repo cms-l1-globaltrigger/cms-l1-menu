@@ -1,0 +1,1061 @@
+%SET{ "REPORTER_URL" value="%ATTACHURL%/L1Menu_CollisionsSmallSystems2025_v1_0_4.html" }%
+
+---+!! !L1Menu_CollisionsSmallSystems2025_v1_0_4
+
+%TOC%
+
+---++ Introduction
+
+| *Trigger Menu Name* | *Grammar Version* | *Compatible releases* | *First run with collision key* |
+| !L1Menu_CollisionsSmallSystems2025_v1_0_4 | 0.13 | >= X_Y_Z |  |
+
+---++ Changes with respect to !L1Menu_xxxx
+   * Added the following algorithms
+      * bxxx L1_xxxx
+   * Changed the following algorithms
+      * bxxx L1_xxxx
+   * Removed the following algorithms
+      * bxxx L1_xxxx
+   * references:
+      * https://its.cern.ch/jira/browse/CMSHLT-xxxx
+
+---+++ Menu availability in a CMSSW job
+
+---++ List and description of algorithm and technical triggers
+
+
+A complete description of the algorithm and technical trigger implementation is available in the attached
+[[%GET{"REPORTER_URL"}%][HTML Description of L1 Menu]]. %ICON{updated}%
+
+---+++ L1 menu identification
+
+|Menu Name: | !L1Menu_CollisionsSmallSystems2025_v1_0_4 |
+|Menu UUID: | 53665aea-1261-4297-87d2-4a3a35b9e102 |
+|Firmware UUID: | 3aba5868-4886-414c-81e4-4e6fbcd9a600  |
+|Associated L1 scale DB key: | scales_2023_02_16 |
+
+
+---+++ Summary
+
+   * Number of algorithm triggers: 484 defined.
+
+Number of algorithm triggers per trigger group:
+
+    | *Trigger group* | *Number of bits used* |
+      | !Muon algorithm triggers: | 25 |
+      | !E/gamma algorithm triggers: | 68 |
+      | !Jet algorithm triggers: | 37 |
+      | !Energy Sums algorithm triggers: | 10 |
+      | !Tower Count algorithm triggers: | 16 |
+      | !Cross algorithm triggers: | 298 |
+      | !Correlation algorithm triggers: | 5 |
+      | !External algorithm triggers: | 25 |
+
+<p style="page-break-before: always">&nbsp;</p>
+
+---+++ List of algorithm triggers sorted by trigger groups
+
+<p style="page-break-before: always">&nbsp;</p>
+---++++ !Muon algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics ][L1_SingleMuCosmics]]   | L1_SingleMuCosmics  | 167 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_BMTF ][L1_SingleMuCosmics_BMTF]]   | L1_SingleMuCosmics_BMTF  | 168 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_OMTF ][L1_SingleMuCosmics_OMTF]]   | L1_SingleMuCosmics_OMTF  | 169 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_EMTF ][L1_SingleMuCosmics_EMTF]]   | L1_SingleMuCosmics_EMTF  | 170 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen ][L1_SingleMuOpen]]   | L1_SingleMuOpen  | 171 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0 ][L1_SingleMu0]]   | L1_SingleMu0  | 175 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu10_LowQ ][L1_SingleMu10_LowQ]]   | L1_SingleMu10_LowQ  | 179 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   | L1_SingleMu16  | 181 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu18 ][L1_SingleMu18]]   | L1_SingleMu18  | 182 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu20 ][L1_SingleMu20]]   | L1_SingleMu20  | 183 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22 ][L1_SingleMu22]]   | L1_SingleMu22  | 184 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu25 ][L1_SingleMu25]]   | L1_SingleMu25  | 185 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu30 ][L1_SingleMu30]]   | L1_SingleMu30  | 186 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS ][L1_DoubleMuOpen_OS]]   | L1_DoubleMuOpen_OS  | 188 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS ][L1_DoubleMuOpen_SS]]   | L1_DoubleMuOpen_SS  | 189 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ_OS ][L1_DoubleMu0_SQ_OS]]   | L1_DoubleMu0_SQ_OS  | 192 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu10 ][L1_DoubleMu10]]   | L1_DoubleMu10  | 193 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_12_5 ][L1_DoubleMu_12_5]]   | L1_DoubleMu_12_5  | 194 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7 ][L1_DoubleMu_15_7]]   | L1_DoubleMu_15_7  | 195 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3_3 ][L1_TripleMu_5_3_3]]   | L1_TripleMu_5_3_3  | 196 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_5_3 ][L1_TripleMu_5_5_3]]   | L1_TripleMu_5_5_3  | 197 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12 ][L1_SingleMu12]]   | L1_SingleMu12  | 418 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   | L1_SingleMu5  | 419 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   | L1_SingleMu3  | 495 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   | L1_SingleMu7  | 496 |  |
+!Muon algorithm triggers: 25 bits defined
+---++++ !E/gamma algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG18 ][L1_SingleIsoEG18]]   | L1_SingleIsoEG18  | 92 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG20 ][L1_SingleIsoEG20]]   | L1_SingleIsoEG20  | 93 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG22 ][L1_SingleIsoEG22]]   | L1_SingleIsoEG22  | 94 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24 ][L1_SingleIsoEG24]]   | L1_SingleIsoEG24  | 95 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26 ][L1_SingleIsoEG26]]   | L1_SingleIsoEG26  | 96 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28 ][L1_SingleIsoEG28]]   | L1_SingleIsoEG28  | 97 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30 ][L1_SingleIsoEG30]]   | L1_SingleIsoEG30  | 98 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32 ][L1_SingleIsoEG32]]   | L1_SingleIsoEG32  | 99 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34 ][L1_SingleIsoEG34]]   | L1_SingleIsoEG34  | 100 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG35 ][L1_SingleIsoEG35]]   | L1_SingleIsoEG35  | 101 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG36 ][L1_SingleIsoEG36]]   | L1_SingleIsoEG36  | 102 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG37 ][L1_SingleIsoEG37]]   | L1_SingleIsoEG37  | 103 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG38 ][L1_SingleIsoEG38]]   | L1_SingleIsoEG38  | 104 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG40 ][L1_SingleIsoEG40]]   | L1_SingleIsoEG40  | 105 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24er2p1 ][L1_SingleIsoEG24er2p1]]   | L1_SingleIsoEG24er2p1  | 106 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26er2p1 ][L1_SingleIsoEG26er2p1]]   | L1_SingleIsoEG26er2p1  | 107 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26er2p5 ][L1_SingleIsoEG26er2p5]]   | L1_SingleIsoEG26er2p5  | 108 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28er2p1 ][L1_SingleIsoEG28er2p1]]   | L1_SingleIsoEG28er2p1  | 109 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28er2p5 ][L1_SingleIsoEG28er2p5]]   | L1_SingleIsoEG28er2p5  | 110 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30er2p1 ][L1_SingleIsoEG30er2p1]]   | L1_SingleIsoEG30er2p1  | 111 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30er2p5 ][L1_SingleIsoEG30er2p5]]   | L1_SingleIsoEG30er2p5  | 112 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32er2p1 ][L1_SingleIsoEG32er2p1]]   | L1_SingleIsoEG32er2p1  | 113 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32er2p5 ][L1_SingleIsoEG32er2p5]]   | L1_SingleIsoEG32er2p5  | 114 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34er2p5 ][L1_SingleIsoEG34er2p5]]   | L1_SingleIsoEG34er2p5  | 115 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5 ][L1_SingleEG5]]   | L1_SingleEG5  | 117 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG24 ][L1_SingleEG24]]   | L1_SingleEG24  | 122 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG26 ][L1_SingleEG26]]   | L1_SingleEG26  | 123 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG28 ][L1_SingleEG28]]   | L1_SingleEG28  | 124 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG32 ][L1_SingleEG32]]   | L1_SingleEG32  | 126 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34 ][L1_SingleEG34]]   | L1_SingleEG34  | 127 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36 ][L1_SingleEG36]]   | L1_SingleEG36  | 128 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38 ][L1_SingleEG38]]   | L1_SingleEG38  | 129 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG40 ][L1_SingleEG40]]   | L1_SingleEG40  | 130 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG42 ][L1_SingleEG42]]   | L1_SingleEG42  | 131 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG45 ][L1_SingleEG45]]   | L1_SingleEG45  | 132 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG50 ][L1_SingleEG50]]   | L1_SingleEG50  | 133 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG60 ][L1_SingleEG60]]   | L1_SingleEG60  | 134 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG8er2p5 ][L1_SingleEG8er2p5]]   | L1_SingleEG8er2p5  | 135 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10er2p5 ][L1_SingleEG10er2p5]]   | L1_SingleEG10er2p5  | 136 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p5 ][L1_SingleEG15er2p5]]   | L1_SingleEG15er2p5  | 137 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG26er2p5 ][L1_SingleEG26er2p5]]   | L1_SingleEG26er2p5  | 138 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34er2p5 ][L1_SingleEG34er2p5]]   | L1_SingleEG34er2p5  | 139 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36er2p5 ][L1_SingleEG36er2p5]]   | L1_SingleEG36er2p5  | 140 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38er2p5 ][L1_SingleEG38er2p5]]   | L1_SingleEG38er2p5  | 141 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG40er2p5 ][L1_SingleEG40er2p5]]   | L1_SingleEG40er2p5  | 142 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG42er2p5 ][L1_SingleEG42er2p5]]   | L1_SingleEG42er2p5  | 143 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG45er2p5 ][L1_SingleEG45er2p5]]   | L1_SingleEG45er2p5  | 144 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_10_10 ][L1_DoubleEG_10_10]]   | L1_DoubleEG_10_10  | 146 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_5 ][L1_DoubleEG_15_5]]   | L1_DoubleEG_15_5  | 147 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_18_17 ][L1_DoubleEG_18_17]]   | L1_DoubleEG_18_17  | 149 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_20_18 ][L1_DoubleEG_20_18]]   | L1_DoubleEG_20_18  | 150 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_10 ][L1_DoubleEG_22_10]]   | L1_DoubleEG_22_10  | 151 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_12 ][L1_DoubleEG_22_12]]   | L1_DoubleEG_22_12  | 152 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_15 ][L1_DoubleEG_22_15]]   | L1_DoubleEG_22_15  | 153 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_23_10 ][L1_DoubleEG_23_10]]   | L1_DoubleEG_23_10  | 154 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_24_17 ][L1_DoubleEG_24_17]]   | L1_DoubleEG_24_17  | 155 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12 ][L1_DoubleEG_25_12]]   | L1_DoubleEG_25_12  | 156 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_13 ][L1_DoubleEG_25_13]]   | L1_DoubleEG_25_13  | 157 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14 ][L1_DoubleEG_25_14]]   | L1_DoubleEG_25_14  | 158 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_10_er2p5 ][L1_DoubleEG_22_10_er2p5]]   | L1_DoubleEG_22_10_er2p5  | 159 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12_er2p5 ][L1_DoubleEG_25_12_er2p5]]   | L1_DoubleEG_25_12_er2p5  | 160 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14_er2p5 ][L1_DoubleEG_25_14_er2p5]]   | L1_DoubleEG_25_14_er2p5  | 161 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_18_17_8_er2p5 ][L1_TripleEG_18_17_8_er2p5]]   | L1_TripleEG_18_17_8_er2p5  | 162 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10 ][L1_SingleEG10]]   | L1_SingleEG10  | 411 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15 ][L1_SingleEG15]]   | L1_SingleEG15  | 412 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18 ][L1_SingleEG18]]   | L1_SingleEG18  | 413 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30 ][L1_SingleEG30]]   | L1_SingleEG30  | 414 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_10 ][L1_DoubleEG_15_10]]   | L1_DoubleEG_15_10  | 497 |  |
+!E/gamma algorithm triggers: 68 bits defined
+---++++ !Jet algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16 ][L1_SingleJet16]]   | L1_SingleJet16  | 48 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20 ][L1_SingleJet20]]   | L1_SingleJet20  | 49 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24 ][L1_SingleJet24]]   | L1_SingleJet24  | 50 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28 ][L1_SingleJet28]]   | L1_SingleJet28  | 51 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32 ][L1_SingleJet32]]   | L1_SingleJet32  | 52 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet40 ][L1_SingleJet40]]   | L1_SingleJet40  | 54 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet48 ][L1_SingleJet48]]   | L1_SingleJet48  | 56 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet50 ][L1_SingleJet50]]   | L1_SingleJet50  | 57 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56 ][L1_SingleJet56]]   | L1_SingleJet56  | 58 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120 ][L1_SingleJet120]]   | L1_SingleJet120  | 63 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet140 ][L1_SingleJet140]]   | L1_SingleJet140  | 64 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet150 ][L1_SingleJet150]]   | L1_SingleJet150  | 65 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet160 ][L1_SingleJet160]]   | L1_SingleJet160  | 66 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet170 ][L1_SingleJet170]]   | L1_SingleJet170  | 67 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet180 ][L1_SingleJet180]]   | L1_SingleJet180  | 68 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet140er2p5 ][L1_SingleJet140er2p5]]   | L1_SingleJet140er2p5  | 69 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet160er2p5 ][L1_SingleJet160er2p5]]   | L1_SingleJet160er2p5  | 70 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8erHE ][L1_SingleJet8erHE]]   | L1_SingleJet8erHE  | 71 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet10erHE ][L1_SingleJet10erHE]]   | L1_SingleJet10erHE  | 72 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12erHE ][L1_SingleJet12erHE]]   | L1_SingleJet12erHE  | 73 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er2p5 ][L1_DoubleJet40er2p5]]   | L1_DoubleJet40er2p5  | 78 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er2p7 ][L1_DoubleJet40er2p7]]   | L1_DoubleJet40er2p7  | 79 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet50er2p7 ][L1_DoubleJet50er2p7]]   | L1_DoubleJet50er2p7  | 80 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er2p7 ][L1_DoubleJet60er2p7]]   | L1_DoubleJet60er2p7  | 81 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet80er2p7 ][L1_DoubleJet80er2p7]]   | L1_DoubleJet80er2p7  | 82 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p5 ][L1_DoubleJet100er2p5]]   | L1_DoubleJet100er2p5  | 83 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p7 ][L1_DoubleJet100er2p7]]   | L1_DoubleJet100er2p7  | 84 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet112er2p7 ][L1_DoubleJet112er2p7]]   | L1_DoubleJet112er2p7  | 85 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet120er2p5 ][L1_DoubleJet120er2p5]]   | L1_DoubleJet120er2p5  | 86 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet120er2p7 ][L1_DoubleJet120er2p7]]   | L1_DoubleJet120er2p7  | 87 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet150er2p7 ][L1_DoubleJet150er2p7]]   | L1_DoubleJet150er2p7  | 88 |  |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet60er2p5 ][L1_QuadJet60er2p5]]   | L1_QuadJet60er2p5  | 89 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet200 ][L1_SingleJet200]]   | L1_SingleJet200  | 415 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35 ][L1_SingleJet35]]   | L1_SingleJet35  | 416 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60 ][L1_SingleJet60]]   | L1_SingleJet60  | 417 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet80 ][L1_SingleJet80]]   | L1_SingleJet80  | 493 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90 ][L1_SingleJet90]]   | L1_SingleJet90  | 494 |  |
+!Jet algorithm triggers: 37 bits defined
+---++++ !Energy Sums algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT120er ][L1_HTT120er]]   | L1_HTT120er  | 33 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT160er ][L1_HTT160er]]   | L1_HTT160er  | 34 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT200er ][L1_HTT200er]]   | L1_HTT200er  | 35 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT255er ][L1_HTT255er]]   | L1_HTT255er  | 36 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT280er ][L1_HTT280er]]   | L1_HTT280er  | 37 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er ][L1_HTT320er]]   | L1_HTT320er  | 38 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT360er ][L1_HTT360er]]   | L1_HTT360er  | 39 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT400er ][L1_HTT400er]]   | L1_HTT400er  | 40 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT450er ][L1_HTT450er]]   | L1_HTT450er  | 41 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT2000 ][L1_ETT2000]]   | L1_ETT2000  | 42 |  |
+!Energy Sums algorithm triggers: 10 bits defined
+---++++ !Tower Count algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP8 ][L1_ZDCP8]]   | L1_ZDCP8  | 90 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM8 ][L1_ZDCM8]]   | L1_ZDCM8  | 91 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP10 ][L1_ZDCP10]]   | L1_ZDCP10  | 163 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM10 ][L1_ZDCM10]]   | L1_ZDCM10  | 164 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM12 ][L1_ZDCM12]]   | L1_ZDCM12  | 227 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP12 ][L1_ZDCP12]]   | L1_ZDCP12  | 228 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP30 ][L1_ZDCP30]]   | L1_ZDCP30  | 271 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM30 ][L1_ZDCM30]]   | L1_ZDCM30  | 272 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP40 ][L1_ZDCP40]]   | L1_ZDCP40  | 275 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM40 ][L1_ZDCM40]]   | L1_ZDCM40  | 276 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP50 ][L1_ZDCP50]]   | L1_ZDCP50  | 279 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM50 ][L1_ZDCM50]]   | L1_ZDCM50  | 280 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP60 ][L1_ZDCP60]]   | L1_ZDCP60  | 283 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM60 ][L1_ZDCM60]]   | L1_ZDCM60  | 284 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP70 ][L1_ZDCP70]]   | L1_ZDCP70  | 287 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM70 ][L1_ZDCM70]]   | L1_ZDCM70  | 288 |  |
+!Tower Count algorithm triggers: 16 bits defined
+---++++ !Cross algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxXOR ][L1_BptxXOR]]   | L1_BptxXOR  | 17 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchBeforeTrain ][L1_FirstBunchBeforeTrain]]   | L1_FirstBunchBeforeTrain  | 19 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchInTrain ][L1_FirstBunchInTrain]]   | L1_FirstBunchInTrain  | 20 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SecondBunchInTrain ][L1_SecondBunchInTrain]]   | L1_SecondBunchInTrain  | 21 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SecondLastBunchInTrain ][L1_SecondLastBunchInTrain]]   | L1_SecondLastBunchInTrain  | 22 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LastBunchInTrain ][L1_LastBunchInTrain]]   | L1_LastBunchInTrain  | 23 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchAfterTrain ][L1_FirstBunchAfterTrain]]   | L1_FirstBunchAfterTrain  | 24 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsolatedBunch ][L1_IsolatedBunch]]   | L1_IsolatedBunch  | 25 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_AND_BptxAND ][L1_MinimumBiasHF0_AND_BptxAND]]   | L1_MinimumBiasHF0_AND_BptxAND  | 43 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_OR_BptxAND ][L1_MinimumBiasHF0_OR_BptxAND]]   | L1_MinimumBiasHF0_OR_BptxAND  | 44 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchInTrain_50ns ][L1_FirstBunchInTrain_50ns]]   | L1_FirstBunchInTrain_50ns  | 45 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LastBunchInTrain_50ns ][L1_LastBunchInTrain_50ns]]   | L1_LastBunchInTrain_50ns  | 46 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_BptxAND ][L1_SingleJet8_BptxAND]]   | L1_SingleJet8_BptxAND  | 47 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_BptxAND ][L1_SingleJet35_BptxAND]]   | L1_SingleJet35_BptxAND  | 53 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_BptxAND ][L1_SingleJet44_BptxAND]]   | L1_SingleJet44_BptxAND  | 55 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_BptxAND ][L1_SingleJet60_BptxAND]]   | L1_SingleJet60_BptxAND  | 59 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet70_BptxAND ][L1_SingleJet70_BptxAND]]   | L1_SingleJet70_BptxAND  | 60 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet80_BptxAND ][L1_SingleJet80_BptxAND]]   | L1_SingleJet80_BptxAND  | 61 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90_BptxAND ][L1_SingleJet90_BptxAND]]   | L1_SingleJet90_BptxAND  | 62 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_FWD2p5_BptxAND ][L1_SingleJet35_FWD2p5_BptxAND]]   | L1_SingleJet35_FWD2p5_BptxAND  | 74 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_FWD2p5_BptxAND ][L1_SingleJet60_FWD2p5_BptxAND]]   | L1_SingleJet60_FWD2p5_BptxAND  | 75 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90_FWD2p5_BptxAND ][L1_SingleJet90_FWD2p5_BptxAND]]   | L1_SingleJet90_FWD2p5_BptxAND  | 76 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120_FWD2p5_BptxAND ][L1_SingleJet120_FWD2p5_BptxAND]]   | L1_SingleJet120_FWD2p5_BptxAND  | 77 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG2_BptxAND ][L1_SingleEG2_BptxAND]]   | L1_SingleEG2_BptxAND  | 116 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10_BptxAND ][L1_SingleEG10_BptxAND]]   | L1_SingleEG10_BptxAND  | 118 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_BptxAND ][L1_SingleEG15_BptxAND]]   | L1_SingleEG15_BptxAND  | 119 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18_BptxAND ][L1_SingleEG18_BptxAND]]   | L1_SingleEG18_BptxAND  | 120 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_BptxAND ][L1_SingleEG21_BptxAND]]   | L1_SingleEG21_BptxAND  | 121 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30_BptxAND ][L1_SingleEG30_BptxAND]]   | L1_SingleEG30_BptxAND  | 125 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_10_5_BptxAND ][L1_DoubleEG_10_5_BptxAND]]   | L1_DoubleEG_10_5_BptxAND  | 145 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_10_BptxAND ][L1_DoubleEG_15_10_BptxAND]]   | L1_DoubleEG_15_10_BptxAND  | 148 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Tight_BptxAND ][L1_SingleMuShower_Tight_BptxAND]]   | L1_SingleMuShower_Tight_BptxAND  | 165 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Nominal_BptxAND ][L1_SingleMuShower_Nominal_BptxAND]]   | L1_SingleMuShower_Nominal_BptxAND  | 166 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotBptxOR ][L1_SingleMuOpen_NotBptxOR]]   | L1_SingleMuOpen_NotBptxOR  | 172 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_er1p1_NotBptxOR_3BX ][L1_SingleMuOpen_er1p1_NotBptxOR_3BX]]   | L1_SingleMuOpen_er1p1_NotBptxOR_3BX  | 173 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_er1p4_NotBptxOR_3BX ][L1_SingleMuOpen_er1p4_NotBptxOR_3BX]]   | L1_SingleMuOpen_er1p4_NotBptxOR_3BX  | 174 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_BptxAND ][L1_SingleMu3_BptxAND]]   | L1_SingleMu3_BptxAND  | 176 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_BptxAND ][L1_SingleMu5_BptxAND]]   | L1_SingleMu5_BptxAND  | 177 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_BptxAND ][L1_SingleMu7_BptxAND]]   | L1_SingleMu7_BptxAND  | 178 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_BptxAND ][L1_SingleMu12_BptxAND]]   | L1_SingleMu12_BptxAND  | 180 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_BptxAND ][L1_DoubleMuOpen_BptxAND]]   | L1_DoubleMuOpen_BptxAND  | 187 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_BptxAND ][L1_DoubleMu0_BptxAND]]   | L1_DoubleMu0_BptxAND  | 190 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ_BptxAND ][L1_DoubleMu0_SQ_BptxAND]]   | L1_DoubleMu0_SQ_BptxAND  | 191 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu2_SQ_BptxAND ][L1_DoubleMu2_SQ_BptxAND]]   | L1_DoubleMu2_SQ_BptxAND  | 199 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu2_BptxAND ][L1_DoubleMu2_BptxAND]]   | L1_DoubleMu2_BptxAND  | 200 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet40er2p7 ][L1_SingleMuOpen_SingleJet40er2p7]]   | L1_SingleMuOpen_SingleJet40er2p7  | 205 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet32er2p7 ][L1_SingleMuOpen_SingleJet32er2p7]]   | L1_SingleMuOpen_SingleJet32er2p7  | 206 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet28er2p7_BptxAND ][L1_SingleMuOpen_SingleJet28er2p7_BptxAND]]   | L1_SingleMuOpen_SingleJet28er2p7_BptxAND  | 207 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet44er2p7_BptxAND ][L1_SingleMuOpen_SingleJet44er2p7_BptxAND]]   | L1_SingleMuOpen_SingleJet44er2p7_BptxAND  | 208 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet56er2p7 ][L1_SingleMuOpen_SingleJet56er2p7]]   | L1_SingleMuOpen_SingleJet56er2p7  | 209 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet64er2p7_BptxAND ][L1_SingleMuOpen_SingleJet64er2p7_BptxAND]]   | L1_SingleMuOpen_SingleJet64er2p7_BptxAND  | 210 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet28er2p7 ][L1_SingleMu3_SingleJet28er2p7]]   | L1_SingleMu3_SingleJet28er2p7  | 211 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet32er2p7_BptxAND ][L1_SingleMu3_SingleJet32er2p7_BptxAND]]   | L1_SingleMu3_SingleJet32er2p7_BptxAND  | 212 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet40er2p7_BptxAND ][L1_SingleMu3_SingleJet40er2p7_BptxAND]]   | L1_SingleMu3_SingleJet40er2p7_BptxAND  | 213 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleEG15 ][L1_SingleMuOpen_SingleEG15]]   | L1_SingleMuOpen_SingleEG15  | 214 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG12_BptxAND ][L1_SingleMu3_SingleEG12_BptxAND]]   | L1_SingleMu3_SingleEG12_BptxAND  | 215 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG20 ][L1_SingleMu3_SingleEG20]]   | L1_SingleMu3_SingleEG20  | 216 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG30 ][L1_SingleMu3_SingleEG30]]   | L1_SingleMu3_SingleEG30  | 217 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG10 ][L1_SingleMu5_SingleEG10]]   | L1_SingleMu5_SingleEG10  | 218 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG12 ][L1_SingleMu5_SingleEG12]]   | L1_SingleMu5_SingleEG12  | 219 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG15_BptxAND ][L1_SingleMu5_SingleEG15_BptxAND]]   | L1_SingleMu5_SingleEG15_BptxAND  | 220 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG20 ][L1_SingleMu5_SingleEG20]]   | L1_SingleMu5_SingleEG20  | 221 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG7 ][L1_SingleMu7_SingleEG7]]   | L1_SingleMu7_SingleEG7  | 222 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG10 ][L1_SingleMu7_SingleEG10]]   | L1_SingleMu7_SingleEG10  | 223 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG12 ][L1_SingleMu7_SingleEG12]]   | L1_SingleMu7_SingleEG12  | 224 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG15 ][L1_SingleMu7_SingleEG15]]   | L1_SingleMu7_SingleEG15  | 225 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_SingleEG7 ][L1_SingleMu12_SingleEG7]]   | L1_SingleMu12_SingleEG7  | 226 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_OR ][L1_ZDC1n_OR]]   | L1_ZDC1n_OR  | 229 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp1_OR ][L1_ZDC1n_Bkp1_OR]]   | L1_ZDC1n_Bkp1_OR  | 230 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp2_OR ][L1_ZDC1n_Bkp2_OR]]   | L1_ZDC1n_Bkp2_OR  | 231 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_AsymXOR ][L1_ZDC1n_AsymXOR]]   | L1_ZDC1n_AsymXOR  | 232 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp1_AsymXOR ][L1_ZDC1n_Bkp1_AsymXOR]]   | L1_ZDC1n_Bkp1_AsymXOR  | 233 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp2_AsymXOR ][L1_ZDC1n_Bkp2_AsymXOR]]   | L1_ZDC1n_Bkp2_AsymXOR  | 234 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_AsymXOR ][L1_SingleJet8_ZDC1n_AsymXOR]]   | L1_SingleJet8_ZDC1n_AsymXOR  | 235 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet8_ZDC1n_Bkp1_AsymXOR]]   | L1_SingleJet8_ZDC1n_Bkp1_AsymXOR  | 236 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet8_ZDC1n_Bkp2_AsymXOR]]   | L1_SingleJet8_ZDC1n_Bkp2_AsymXOR  | 237 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_AsymXOR ][L1_SingleJet12_ZDC1n_AsymXOR]]   | L1_SingleJet12_ZDC1n_AsymXOR  | 238 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet12_ZDC1n_Bkp1_AsymXOR]]   | L1_SingleJet12_ZDC1n_Bkp1_AsymXOR  | 239 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet12_ZDC1n_Bkp2_AsymXOR]]   | L1_SingleJet12_ZDC1n_Bkp2_AsymXOR  | 240 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_AsymXOR ][L1_SingleJet16_ZDC1n_AsymXOR]]   | L1_SingleJet16_ZDC1n_AsymXOR  | 241 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet16_ZDC1n_Bkp1_AsymXOR]]   | L1_SingleJet16_ZDC1n_Bkp1_AsymXOR  | 242 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet16_ZDC1n_Bkp2_AsymXOR]]   | L1_SingleJet16_ZDC1n_Bkp2_AsymXOR  | 243 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_AsymXOR ][L1_SingleJet20_ZDC1n_AsymXOR]]   | L1_SingleJet20_ZDC1n_AsymXOR  | 244 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet20_ZDC1n_Bkp1_AsymXOR]]   | L1_SingleJet20_ZDC1n_Bkp1_AsymXOR  | 245 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet20_ZDC1n_Bkp2_AsymXOR]]   | L1_SingleJet20_ZDC1n_Bkp2_AsymXOR  | 246 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_AsymXOR ][L1_SingleJet24_ZDC1n_AsymXOR]]   | L1_SingleJet24_ZDC1n_AsymXOR  | 247 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet24_ZDC1n_Bkp1_AsymXOR]]   | L1_SingleJet24_ZDC1n_Bkp1_AsymXOR  | 248 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet24_ZDC1n_Bkp2_AsymXOR]]   | L1_SingleJet24_ZDC1n_Bkp2_AsymXOR  | 249 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_AsymXOR ][L1_SingleJet28_ZDC1n_AsymXOR]]   | L1_SingleJet28_ZDC1n_AsymXOR  | 250 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet28_ZDC1n_Bkp1_AsymXOR]]   | L1_SingleJet28_ZDC1n_Bkp1_AsymXOR  | 251 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet28_ZDC1n_Bkp2_AsymXOR]]   | L1_SingleJet28_ZDC1n_Bkp2_AsymXOR  | 252 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_OR ][L1_SingleJet8_ZDC1n_OR]]   | L1_SingleJet8_ZDC1n_OR  | 253 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp1_OR ][L1_SingleJet8_ZDC1n_Bkp1_OR]]   | L1_SingleJet8_ZDC1n_Bkp1_OR  | 254 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp2_OR ][L1_SingleJet8_ZDC1n_Bkp2_OR]]   | L1_SingleJet8_ZDC1n_Bkp2_OR  | 255 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_OR ][L1_SingleJet12_ZDC1n_OR]]   | L1_SingleJet12_ZDC1n_OR  | 256 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp1_OR ][L1_SingleJet12_ZDC1n_Bkp1_OR]]   | L1_SingleJet12_ZDC1n_Bkp1_OR  | 257 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp2_OR ][L1_SingleJet12_ZDC1n_Bkp2_OR]]   | L1_SingleJet12_ZDC1n_Bkp2_OR  | 258 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_OR ][L1_SingleJet16_ZDC1n_OR]]   | L1_SingleJet16_ZDC1n_OR  | 259 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp1_OR ][L1_SingleJet16_ZDC1n_Bkp1_OR]]   | L1_SingleJet16_ZDC1n_Bkp1_OR  | 260 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp2_OR ][L1_SingleJet16_ZDC1n_Bkp2_OR]]   | L1_SingleJet16_ZDC1n_Bkp2_OR  | 261 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_OR ][L1_SingleJet20_ZDC1n_OR]]   | L1_SingleJet20_ZDC1n_OR  | 262 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp1_OR ][L1_SingleJet20_ZDC1n_Bkp1_OR]]   | L1_SingleJet20_ZDC1n_Bkp1_OR  | 263 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp2_OR ][L1_SingleJet20_ZDC1n_Bkp2_OR]]   | L1_SingleJet20_ZDC1n_Bkp2_OR  | 264 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_OR ][L1_SingleJet24_ZDC1n_OR]]   | L1_SingleJet24_ZDC1n_OR  | 265 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp1_OR ][L1_SingleJet24_ZDC1n_Bkp1_OR]]   | L1_SingleJet24_ZDC1n_Bkp1_OR  | 266 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp2_OR ][L1_SingleJet24_ZDC1n_Bkp2_OR]]   | L1_SingleJet24_ZDC1n_Bkp2_OR  | 267 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_OR ][L1_SingleJet28_ZDC1n_OR]]   | L1_SingleJet28_ZDC1n_OR  | 268 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp1_OR ][L1_SingleJet28_ZDC1n_Bkp1_OR]]   | L1_SingleJet28_ZDC1n_Bkp1_OR  | 269 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp2_OR ][L1_SingleJet28_ZDC1n_Bkp2_OR]]   | L1_SingleJet28_ZDC1n_Bkp2_OR  | 270 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC30_AND ][L1_ZDC30_AND]]   | L1_ZDC30_AND  | 273 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC30_OR ][L1_ZDC30_OR]]   | L1_ZDC30_OR  | 274 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC40_AND ][L1_ZDC40_AND]]   | L1_ZDC40_AND  | 277 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC40_OR ][L1_ZDC40_OR]]   | L1_ZDC40_OR  | 278 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC50_AND ][L1_ZDC50_AND]]   | L1_ZDC50_AND  | 281 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC50_OR ][L1_ZDC50_OR]]   | L1_ZDC50_OR  | 282 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC60_AND ][L1_ZDC60_AND]]   | L1_ZDC60_AND  | 285 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC60_OR ][L1_ZDC60_OR]]   | L1_ZDC60_OR  | 286 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC70_AND ][L1_ZDC70_AND]]   | L1_ZDC70_AND  | 289 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC70_OR ][L1_ZDC70_OR]]   | L1_ZDC70_OR  | 290 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp3_OR ][L1_SingleJet28_ZDC1n_Bkp3_OR]]   | L1_SingleJet28_ZDC1n_Bkp3_OR  | 291 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp3_OR ][L1_SingleJet24_ZDC1n_Bkp3_OR]]   | L1_SingleJet24_ZDC1n_Bkp3_OR  | 292 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp3_OR ][L1_SingleJet20_ZDC1n_Bkp3_OR]]   | L1_SingleJet20_ZDC1n_Bkp3_OR  | 293 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp3_OR ][L1_SingleJet12_ZDC1n_Bkp3_OR]]   | L1_SingleJet12_ZDC1n_Bkp3_OR  | 294 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp3_OR ][L1_SingleJet16_ZDC1n_Bkp3_OR]]   | L1_SingleJet16_ZDC1n_Bkp3_OR  | 295 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp3_OR ][L1_SingleJet8_ZDC1n_Bkp3_OR]]   | L1_SingleJet8_ZDC1n_Bkp3_OR  | 297 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp3_OR ][L1_ZDC1n_Bkp3_OR]]   | L1_ZDC1n_Bkp3_OR  | 298 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet28_ZDC1n_Bkp3_AsymXOR]]   | L1_SingleJet28_ZDC1n_Bkp3_AsymXOR  | 300 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet24_ZDC1n_Bkp3_AsymXOR]]   | L1_SingleJet24_ZDC1n_Bkp3_AsymXOR  | 301 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet20_ZDC1n_Bkp3_AsymXOR]]   | L1_SingleJet20_ZDC1n_Bkp3_AsymXOR  | 302 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet16_ZDC1n_Bkp3_AsymXOR]]   | L1_SingleJet16_ZDC1n_Bkp3_AsymXOR  | 303 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet12_ZDC1n_Bkp3_AsymXOR]]   | L1_SingleJet12_ZDC1n_Bkp3_AsymXOR  | 304 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet8_ZDC1n_Bkp3_AsymXOR]]   | L1_SingleJet8_ZDC1n_Bkp3_AsymXOR  | 305 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp3_AsymXOR ][L1_ZDC1n_Bkp3_AsymXOR]]   | L1_ZDC1n_Bkp3_AsymXOR  | 306 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasHF1_OR_BptxAND  | 307 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasHF2_OR_BptxAND  | 308 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF1_OR_BptxAND  | 309 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF1_OR_BptxAND  | 310 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF1_OR_BptxAND  | 311 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF2_OR_BptxAND  | 312 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF2_OR_BptxAND  | 313 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF2_OR_BptxAND  | 314 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_OR_BptxAND  | 315 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_OR_BptxAND  | 316 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_OR_BptxAND  | 317 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_OR_BptxAND  | 318 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_OR_BptxAND  | 319 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_OR_BptxAND  | 320 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF1_OR_BptxAND  | 321 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF1_OR_BptxAND  | 322 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF1_OR_BptxAND  | 323 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF2_OR_BptxAND  | 324 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF2_OR_BptxAND  | 325 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF2_OR_BptxAND  | 326 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF1_OR_BptxAND  | 327 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF1_OR_BptxAND  | 328 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF1_OR_BptxAND  | 329 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF2_OR_BptxAND  | 330 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF2_OR_BptxAND  | 331 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF2_OR_BptxAND  | 332 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCP1n_Th1_BptxAND ][L1_UPCZDCP1n_Th1_BptxAND]]   | L1_UPCZDCP1n_Th1_BptxAND  | 333 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCP1n_Th2_BptxAND ][L1_UPCZDCP1n_Th2_BptxAND]]   | L1_UPCZDCP1n_Th2_BptxAND  | 334 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCP1n_Th3_BptxAND ][L1_UPCZDCP1n_Th3_BptxAND]]   | L1_UPCZDCP1n_Th3_BptxAND  | 335 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCM1n_Th1_BptxAND ][L1_UPCZDCM1n_Th1_BptxAND]]   | L1_UPCZDCM1n_Th1_BptxAND  | 336 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCM1n_Th2_BptxAND ][L1_UPCZDCM1n_Th2_BptxAND]]   | L1_UPCZDCM1n_Th2_BptxAND  | 337 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCM1n_Th3_BptxAND ][L1_UPCZDCM1n_Th3_BptxAND]]   | L1_UPCZDCM1n_Th3_BptxAND  | 338 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF1_OR_BptxAND  | 339 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF1_OR_BptxAND  | 340 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF1_OR_BptxAND  | 341 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF2_OR_BptxAND  | 342 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF2_OR_BptxAND  | 343 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF2_OR_BptxAND  | 344 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF1_OR_BptxAND  | 345 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF1_OR_BptxAND  | 346 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF1_OR_BptxAND  | 347 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF2_OR_BptxAND  | 348 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF2_OR_BptxAND  | 349 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF2_OR_BptxAND  | 350 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF1_OR_BptxAND  | 351 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF1_OR_BptxAND  | 352 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF1_OR_BptxAND  | 353 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF2_OR_BptxAND  | 354 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF2_OR_BptxAND  | 355 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF2_OR_BptxAND  | 356 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_OR_BptxAND  | 357 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_OR_BptxAND  | 358 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_OR_BptxAND  | 359 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasHF1_AND_BptxAND]]   | L1_MinimumBiasHF1_AND_BptxAND  | 360 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasHF2_AND_BptxAND]]   | L1_MinimumBiasHF2_AND_BptxAND  | 361 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_AND_BptxAND  | 362 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_AND_BptxAND  | 363 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_AND_BptxAND  | 364 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_AND_BptxAND  | 365 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_AND_BptxAND  | 366 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_AND_BptxAND  | 367 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_BptxAND ][L1_SingleMuOpen_BptxAND]]   | L1_SingleMuOpen_BptxAND  | 368 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_BptxAND ][L1_SingleMu0_BptxAND]]   | L1_SingleMu0_BptxAND  | 369 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_BptxAND ][L1_SingleEG5_BptxAND]]   | L1_SingleEG5_BptxAND  | 370 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_BptxAND ][L1_SingleJet28_BptxAND]]   | L1_SingleJet28_BptxAND  | 371 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleMuOpen_NotMinimumBiasHF2_OR_BptxAND]]   | L1_SingleMuOpen_NotMinimumBiasHF2_OR_BptxAND  | 372 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleMuOpen_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleMuOpen_NotMinimumBiasHF2_AND_BptxAND  | 373 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th1_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th1_AND_BptxAND  | 374 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th2_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th2_AND_BptxAND  | 375 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_AND_BptxAND ][L1_MinimumBiasZDC1n_Th3_AND_BptxAND]]   | L1_MinimumBiasZDC1n_Th3_AND_BptxAND  | 376 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_BptxAND ][L1_DoubleEG5_BptxAND]]   | L1_DoubleEG5_BptxAND  | 381 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG3_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleEG3_NotMinimumBiasHF2_AND_BptxAND]]   | L1_DoubleEG3_NotMinimumBiasHF2_AND_BptxAND  | 383 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG5_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleEG5_NotMinimumBiasHF2_AND_BptxAND  | 386 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_BptxAND ][L1_SingleEG7_BptxAND]]   | L1_SingleEG7_BptxAND  | 387 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmic_BptxAND ][L1_SingleMuCosmic_BptxAND]]   | L1_SingleMuCosmic_BptxAND  | 391 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmic_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleMuCosmic_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleMuCosmic_NotMinimumBiasHF2_AND_BptxAND  | 392 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmic_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleMuCosmic_NotMinimumBiasHF2_OR_BptxAND]]   | L1_SingleMuCosmic_NotMinimumBiasHF2_OR_BptxAND  | 393 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_BptxAND ][L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_BptxAND]]   | L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_BptxAND  | 394 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_AND_BptxAND  | 395 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_OR_BptxAND]]   | L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_OR_BptxAND  | 396 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD2p5_BptxAND ][L1_SingleJet28_FWD2p5_BptxAND]]   | L1_SingleJet28_FWD2p5_BptxAND  | 399 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD2p5_BptxAND ][L1_SingleJet44_FWD2p5_BptxAND]]   | L1_SingleJet44_FWD2p5_BptxAND  | 400 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD2p5_BptxAND ][L1_SingleJet64_FWD2p5_BptxAND]]   | L1_SingleJet64_FWD2p5_BptxAND  | 401 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleEG2_NotMinimumBiasHF2_AND_BptxAND]]   | L1_DoubleEG2_NotMinimumBiasHF2_AND_BptxAND  | 402 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleEG5_NotMinimumBiasHF2_AND_BptxAND]]   | L1_DoubleEG5_NotMinimumBiasHF2_AND_BptxAND  | 403 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_BptxAND ][L1_SingleEG3_BptxAND]]   | L1_SingleEG3_BptxAND  | 404 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_BptxAND ][L1_DoubleEG2_BptxAND]]   | L1_DoubleEG2_BptxAND  | 405 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG2_UPCZDC1n_Th1_OR_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG2_UPCZDC1n_Th1_OR_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleEG2_UPCZDC1n_Th1_OR_NotMinimumBiasHF2_AND_BptxAND  | 406 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG3_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleEG3_NotMinimumBiasHF2_AND_BptxAND  | 407 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleEG3_NotMinimumBiasHF2_OR_BptxAND]]   | L1_SingleEG3_NotMinimumBiasHF2_OR_BptxAND  | 408 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_AND_BptxAND ][L1_NotMinimumBiasHF1_AND_BptxAND]]   | L1_NotMinimumBiasHF1_AND_BptxAND  | 409 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_AND_BptxAND ][L1_NotMinimumBiasHF2_AND_BptxAND]]   | L1_NotMinimumBiasHF2_AND_BptxAND  | 410 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th1_XOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th1_XOR_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th1_XOR_BptxAND  | 420 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th2_XOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th2_XOR_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th2_XOR_BptxAND  | 421 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th3_XOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th3_XOR_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th3_XOR_BptxAND  | 422 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th1_XOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th1_XOR_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th1_XOR_BptxAND  | 423 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th2_XOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th2_XOR_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th2_XOR_BptxAND  | 424 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th3_XOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th3_XOR_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th3_XOR_BptxAND  | 425 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th1_XOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th1_XOR_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th1_XOR_BptxAND  | 426 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th2_XOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th2_XOR_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th2_XOR_BptxAND  | 427 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th3_XOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th3_XOR_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th3_XOR_BptxAND  | 428 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_BptxAND  | 429 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_BptxAND  | 430 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_BptxAND  | 431 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_BptxAND  | 432 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_BptxAND  | 433 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_BptxAND  | 434 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_BptxAND  | 435 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_BptxAND  | 436 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_BptxAND  | 437 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleJet8_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleJet8_NotMinimumBiasHF2_AND_BptxAND  | 438 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleJet16_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleJet16_NotMinimumBiasHF2_AND_BptxAND  | 439 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleJet24_NotMinimumBiasHF2_AND_BptxAND]]   | L1_SingleJet24_NotMinimumBiasHF2_AND_BptxAND  | 440 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5er2p5_BptxAND ][L1_SingleEG5er2p5_BptxAND]]   | L1_SingleEG5er2p5_BptxAND  | 441 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7er2p5_BptxAND ][L1_SingleEG7er2p5_BptxAND]]   | L1_SingleEG7er2p5_BptxAND  | 442 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10er2p5_BptxAND ][L1_SingleEG10er2p5_BptxAND]]   | L1_SingleEG10er2p5_BptxAND  | 443 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p5_BptxAND ][L1_SingleEG15er2p5_BptxAND]]   | L1_SingleEG15er2p5_BptxAND  | 444 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18er2p5_BptxAND ][L1_SingleEG18er2p5_BptxAND]]   | L1_SingleEG18er2p5_BptxAND  | 445 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21er2p5_BptxAND ][L1_SingleEG21er2p5_BptxAND]]   | L1_SingleEG21er2p5_BptxAND  | 446 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5er2p1_BptxAND ][L1_SingleEG5er2p1_BptxAND]]   | L1_SingleEG5er2p1_BptxAND  | 447 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7er2p1_BptxAND ][L1_SingleEG7er2p1_BptxAND]]   | L1_SingleEG7er2p1_BptxAND  | 448 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10er2p1_BptxAND ][L1_SingleEG10er2p1_BptxAND]]   | L1_SingleEG10er2p1_BptxAND  | 449 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p1_BptxAND ][L1_SingleEG15er2p1_BptxAND]]   | L1_SingleEG15er2p1_BptxAND  | 450 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18er2p1_BptxAND ][L1_SingleEG18er2p1_BptxAND]]   | L1_SingleEG18er2p1_BptxAND  | 451 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21er2p1_BptxAND ][L1_SingleEG21er2p1_BptxAND]]   | L1_SingleEG21er2p1_BptxAND  | 452 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDC1n_Th1_OR_BptxAND ][L1_UPCZDC1n_Th1_OR_BptxAND]]   | L1_UPCZDC1n_Th1_OR_BptxAND  | 453 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDC1n_Th2_OR_BptxAND ][L1_UPCZDC1n_Th2_OR_BptxAND]]   | L1_UPCZDC1n_Th2_OR_BptxAND  | 454 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDC1n_Th3_OR_BptxAND ][L1_UPCZDC1n_Th3_OR_BptxAND]]   | L1_UPCZDC1n_Th3_OR_BptxAND  | 455 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th1_AND_BptxAND ][L1_MinimumBiasZDC2n_Th1_AND_BptxAND]]   | L1_MinimumBiasZDC2n_Th1_AND_BptxAND  | 456 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th2_AND_BptxAND ][L1_MinimumBiasZDC2n_Th2_AND_BptxAND]]   | L1_MinimumBiasZDC2n_Th2_AND_BptxAND  | 457 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th3_AND_BptxAND ][L1_MinimumBiasZDC2n_Th3_AND_BptxAND]]   | L1_MinimumBiasZDC2n_Th3_AND_BptxAND  | 458 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th1_AND_BptxAND ][L1_MinimumBiasZDC3n_Th1_AND_BptxAND]]   | L1_MinimumBiasZDC3n_Th1_AND_BptxAND  | 459 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th2_AND_BptxAND ][L1_MinimumBiasZDC3n_Th2_AND_BptxAND]]   | L1_MinimumBiasZDC3n_Th2_AND_BptxAND  | 460 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th3_AND_BptxAND ][L1_MinimumBiasZDC3n_Th3_AND_BptxAND]]   | L1_MinimumBiasZDC3n_Th3_AND_BptxAND  | 461 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th1_OR_BptxAND ][L1_MinimumBiasZDC2n_Th1_OR_BptxAND]]   | L1_MinimumBiasZDC2n_Th1_OR_BptxAND  | 462 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th2_OR_BptxAND ][L1_MinimumBiasZDC2n_Th2_OR_BptxAND]]   | L1_MinimumBiasZDC2n_Th2_OR_BptxAND  | 463 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th3_OR_BptxAND ][L1_MinimumBiasZDC2n_Th3_OR_BptxAND]]   | L1_MinimumBiasZDC2n_Th3_OR_BptxAND  | 464 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th1_OR_BptxAND ][L1_MinimumBiasZDC3n_Th1_OR_BptxAND]]   | L1_MinimumBiasZDC3n_Th1_OR_BptxAND  | 465 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th2_OR_BptxAND ][L1_MinimumBiasZDC3n_Th2_OR_BptxAND]]   | L1_MinimumBiasZDC3n_Th2_OR_BptxAND  | 466 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th3_OR_BptxAND ][L1_MinimumBiasZDC3n_Th3_OR_BptxAND]]   | L1_MinimumBiasZDC3n_Th3_OR_BptxAND  | 467 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_BptxAND ][L1_SingleJet12_BptxAND]]   | L1_SingleJet12_BptxAND  | 468 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_BptxAND ][L1_SingleJet16_BptxAND]]   | L1_SingleJet16_BptxAND  | 469 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_BptxAND ][L1_SingleJet20_BptxAND]]   | L1_SingleJet20_BptxAND  | 470 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND  | 471 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND  | 472 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND  | 473 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND  | 474 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND  | 475 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND  | 476 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND  | 477 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND  | 478 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND]]   | L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND  | 479 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuCosmic_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleMuCosmic_NotMinimumBiasHF2_AND_BptxAND]]   | L1_DoubleMuCosmic_NotMinimumBiasHF2_AND_BptxAND  | 480 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_50_100_MinimumBiasHF1_AND_BptxAND ][L1_Centrality_50_100_MinimumBiasHF1_AND_BptxAND]]   | L1_Centrality_50_100_MinimumBiasHF1_AND_BptxAND  | 500 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit_Centrality30_100_BptxAND ][L1_FirstCollisionInOrbit_Centrality30_100_BptxAND]]   | L1_FirstCollisionInOrbit_Centrality30_100_BptxAND  | 501 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Th1_BptxAND ][L1_Centrality_Th1_BptxAND]]   | L1_Centrality_Th1_BptxAND  | 502 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Th2_BptxAND ][L1_Centrality_Th2_BptxAND]]   | L1_Centrality_Th2_BptxAND  | 503 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Th3_BptxAND ][L1_Centrality_Th3_BptxAND]]   | L1_Centrality_Th3_BptxAND  | 504 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuSQ_MaxDr3p5_BptxAND ][L1_DoubleMuSQ_MaxDr3p5_BptxAND]]   | L1_DoubleMuSQ_MaxDr3p5_BptxAND  | 505 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr3p5_BptxAND ][L1_DoubleMuOpen_MaxDr3p5_BptxAND]]   | L1_DoubleMuOpen_MaxDr3p5_BptxAND  | 506 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuSQ_BptxAND ][L1_DoubleMuSQ_BptxAND]]   | L1_DoubleMuSQ_BptxAND  | 507 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuCosmic_BptxAND ][L1_DoubleMuCosmic_BptxAND]]   | L1_DoubleMuCosmic_BptxAND  | 508 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleMuOpen_NotMinimumBiasHF2_AND_BptxAND]]   | L1_DoubleMuOpen_NotMinimumBiasHF2_AND_BptxAND  | 509 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS_BptxAND ][L1_DoubleMuOpen_OS_BptxAND]]   | L1_DoubleMuOpen_OS_BptxAND  | 510 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS_BptxAND ][L1_DoubleMuOpen_SS_BptxAND]]   | L1_DoubleMuOpen_SS_BptxAND  | 511 |  |
+!Cross algorithm triggers: 298 bits defined
+---++++ !Correlation algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142]]   | L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142  | 198 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p1_Jet12er2p7_dR_Min0p3 ][L1_SingleEG15er2p1_Jet12er2p7_dR_Min0p3]]   | L1_SingleEG15er2p1_Jet12er2p7_dR_Min0p3  | 201 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3 ][L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3]]   | L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3  | 202 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG15er2p1_Jet12er2p7_dR_Min0p3 ][L1_LooseIsoEG15er2p1_Jet12er2p7_dR_Min0p3]]   | L1_LooseIsoEG15er2p1_Jet12er2p7_dR_Min0p3  | 203 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG18er2p1_Jet16er2p7_dR_Min0p3 ][L1_LooseIsoEG18er2p1_Jet16er2p7_dR_Min0p3]]   | L1_LooseIsoEG18er2p1_Jet16er2p7_dR_Min0p3  | 204 |  |
+!Correlation algorithm triggers: 5 bits defined
+---++++ !External algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_AlwaysTrue ][L1_AlwaysTrue]]   | L1_AlwaysTrue  | 0 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias ][L1_ZeroBias]]   | L1_ZeroBias  | 1 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias_copy ][L1_ZeroBias_copy]]   | L1_ZeroBias_copy  | 2 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref1_VME ][L1_BPTX_AND_Ref1_VME]]   | L1_BPTX_AND_Ref1_VME  | 3 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref3_VME ][L1_BPTX_AND_Ref3_VME]]   | L1_BPTX_AND_Ref3_VME  | 4 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref4_VME ][L1_BPTX_AND_Ref4_VME]]   | L1_BPTX_AND_Ref4_VME  | 5 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B1_VME ][L1_BPTX_BeamGas_B1_VME]]   | L1_BPTX_BeamGas_B1_VME  | 6 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B2_VME ][L1_BPTX_BeamGas_B2_VME]]   | L1_BPTX_BeamGas_B2_VME  | 7 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref1_VME ][L1_BPTX_BeamGas_Ref1_VME]]   | L1_BPTX_BeamGas_Ref1_VME  | 8 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref2_VME ][L1_BPTX_BeamGas_Ref2_VME]]   | L1_BPTX_BeamGas_Ref2_VME  | 9 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_NotOR_VME ][L1_BPTX_NotOR_VME]]   | L1_BPTX_NotOR_VME  | 10 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref3_VME ][L1_BPTX_OR_Ref3_VME]]   | L1_BPTX_OR_Ref3_VME  | 11 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref4_VME ][L1_BPTX_OR_Ref4_VME]]   | L1_BPTX_OR_Ref4_VME  | 12 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_RefAND_VME ][L1_BPTX_RefAND_VME]]   | L1_BPTX_RefAND_VME  | 13 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxMinus ][L1_BptxMinus]]   | L1_BptxMinus  | 14 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxPlus ][L1_BptxPlus]]   | L1_BptxPlus  | 15 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxOR ][L1_BptxOR]]   | L1_BptxOR  | 16 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotBptxOR ][L1_NotBptxOR]]   | L1_NotBptxOR  | 18 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxPlus ][L1_UnpairedBunchBptxPlus]]   | L1_UnpairedBunchBptxPlus  | 26 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxMinus ][L1_UnpairedBunchBptxMinus]]   | L1_UnpairedBunchBptxMinus  | 27 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInTrain ][L1_FirstCollisionInTrain]]   | L1_FirstCollisionInTrain  | 28 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LastCollisionInTrain ][L1_LastCollisionInTrain]]   | L1_LastCollisionInTrain  | 29 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit ][L1_FirstCollisionInOrbit]]   | L1_FirstCollisionInOrbit  | 30 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Trig ][L1_HCAL_LaserMon_Trig]]   | L1_HCAL_LaserMon_Trig  | 31 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Veto ][L1_HCAL_LaserMon_Veto]]   | L1_HCAL_LaserMon_Veto  | 32 |  |
+!External algorithm triggers: 25 bits defined
+
+
+
+<p style="page-break-before: always">&nbsp;</p>
+
+---+++ List of algorithm triggers sorted by bits
+
+| *Algorithm* | *Alias* | *Bit number* | *Module Id* |
+|[[%GET{"REPORTER_URL"}%#L1_AlwaysTrue ][L1_AlwaysTrue]]   |L1_AlwaysTrue |0 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias ][L1_ZeroBias]]   |L1_ZeroBias |1 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias_copy ][L1_ZeroBias_copy]]   |L1_ZeroBias_copy |2 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref1_VME ][L1_BPTX_AND_Ref1_VME]]   |L1_BPTX_AND_Ref1_VME |3 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref3_VME ][L1_BPTX_AND_Ref3_VME]]   |L1_BPTX_AND_Ref3_VME |4 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref4_VME ][L1_BPTX_AND_Ref4_VME]]   |L1_BPTX_AND_Ref4_VME |5 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B1_VME ][L1_BPTX_BeamGas_B1_VME]]   |L1_BPTX_BeamGas_B1_VME |6 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B2_VME ][L1_BPTX_BeamGas_B2_VME]]   |L1_BPTX_BeamGas_B2_VME |7 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref1_VME ][L1_BPTX_BeamGas_Ref1_VME]]   |L1_BPTX_BeamGas_Ref1_VME |8 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref2_VME ][L1_BPTX_BeamGas_Ref2_VME]]   |L1_BPTX_BeamGas_Ref2_VME |9 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_NotOR_VME ][L1_BPTX_NotOR_VME]]   |L1_BPTX_NotOR_VME |10 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref3_VME ][L1_BPTX_OR_Ref3_VME]]   |L1_BPTX_OR_Ref3_VME |11 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref4_VME ][L1_BPTX_OR_Ref4_VME]]   |L1_BPTX_OR_Ref4_VME |12 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_RefAND_VME ][L1_BPTX_RefAND_VME]]   |L1_BPTX_RefAND_VME |13 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxMinus ][L1_BptxMinus]]   |L1_BptxMinus |14 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxPlus ][L1_BptxPlus]]   |L1_BptxPlus |15 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxOR ][L1_BptxOR]]   |L1_BptxOR |16 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxXOR ][L1_BptxXOR]]   |L1_BptxXOR |17 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_NotBptxOR ][L1_NotBptxOR]]   |L1_NotBptxOR |18 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchBeforeTrain ][L1_FirstBunchBeforeTrain]]   |L1_FirstBunchBeforeTrain |19 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchInTrain ][L1_FirstBunchInTrain]]   |L1_FirstBunchInTrain |20 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SecondBunchInTrain ][L1_SecondBunchInTrain]]   |L1_SecondBunchInTrain |21 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SecondLastBunchInTrain ][L1_SecondLastBunchInTrain]]   |L1_SecondLastBunchInTrain |22 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_LastBunchInTrain ][L1_LastBunchInTrain]]   |L1_LastBunchInTrain |23 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchAfterTrain ][L1_FirstBunchAfterTrain]]   |L1_FirstBunchAfterTrain |24 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_IsolatedBunch ][L1_IsolatedBunch]]   |L1_IsolatedBunch |25 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxPlus ][L1_UnpairedBunchBptxPlus]]   |L1_UnpairedBunchBptxPlus |26 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxMinus ][L1_UnpairedBunchBptxMinus]]   |L1_UnpairedBunchBptxMinus |27 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInTrain ][L1_FirstCollisionInTrain]]   |L1_FirstCollisionInTrain |28 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_LastCollisionInTrain ][L1_LastCollisionInTrain]]   |L1_LastCollisionInTrain |29 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit ][L1_FirstCollisionInOrbit]]   |L1_FirstCollisionInOrbit |30 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Trig ][L1_HCAL_LaserMon_Trig]]   |L1_HCAL_LaserMon_Trig |31 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HCAL_LaserMon_Veto ][L1_HCAL_LaserMon_Veto]]   |L1_HCAL_LaserMon_Veto |32 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT120er ][L1_HTT120er]]   |L1_HTT120er |33 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT160er ][L1_HTT160er]]   |L1_HTT160er |34 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT200er ][L1_HTT200er]]   |L1_HTT200er |35 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT255er ][L1_HTT255er]]   |L1_HTT255er |36 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT280er ][L1_HTT280er]]   |L1_HTT280er |37 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er ][L1_HTT320er]]   |L1_HTT320er |38 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT360er ][L1_HTT360er]]   |L1_HTT360er |39 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT400er ][L1_HTT400er]]   |L1_HTT400er |40 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT450er ][L1_HTT450er]]   |L1_HTT450er |41 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT2000 ][L1_ETT2000]]   |L1_ETT2000 |42 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_AND_BptxAND ][L1_MinimumBiasHF0_AND_BptxAND]]   |L1_MinimumBiasHF0_AND_BptxAND |43 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_OR_BptxAND ][L1_MinimumBiasHF0_OR_BptxAND]]   |L1_MinimumBiasHF0_OR_BptxAND |44 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchInTrain_50ns ][L1_FirstBunchInTrain_50ns]]   |L1_FirstBunchInTrain_50ns |45 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_LastBunchInTrain_50ns ][L1_LastBunchInTrain_50ns]]   |L1_LastBunchInTrain_50ns |46 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_BptxAND ][L1_SingleJet8_BptxAND]]   |L1_SingleJet8_BptxAND |47 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16 ][L1_SingleJet16]]   |L1_SingleJet16 |48 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20 ][L1_SingleJet20]]   |L1_SingleJet20 |49 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24 ][L1_SingleJet24]]   |L1_SingleJet24 |50 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28 ][L1_SingleJet28]]   |L1_SingleJet28 |51 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32 ][L1_SingleJet32]]   |L1_SingleJet32 |52 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_BptxAND ][L1_SingleJet35_BptxAND]]   |L1_SingleJet35_BptxAND |53 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet40 ][L1_SingleJet40]]   |L1_SingleJet40 |54 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_BptxAND ][L1_SingleJet44_BptxAND]]   |L1_SingleJet44_BptxAND |55 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet48 ][L1_SingleJet48]]   |L1_SingleJet48 |56 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet50 ][L1_SingleJet50]]   |L1_SingleJet50 |57 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56 ][L1_SingleJet56]]   |L1_SingleJet56 |58 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_BptxAND ][L1_SingleJet60_BptxAND]]   |L1_SingleJet60_BptxAND |59 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet70_BptxAND ][L1_SingleJet70_BptxAND]]   |L1_SingleJet70_BptxAND |60 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet80_BptxAND ][L1_SingleJet80_BptxAND]]   |L1_SingleJet80_BptxAND |61 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90_BptxAND ][L1_SingleJet90_BptxAND]]   |L1_SingleJet90_BptxAND |62 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120 ][L1_SingleJet120]]   |L1_SingleJet120 |63 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet140 ][L1_SingleJet140]]   |L1_SingleJet140 |64 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet150 ][L1_SingleJet150]]   |L1_SingleJet150 |65 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet160 ][L1_SingleJet160]]   |L1_SingleJet160 |66 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet170 ][L1_SingleJet170]]   |L1_SingleJet170 |67 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet180 ][L1_SingleJet180]]   |L1_SingleJet180 |68 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet140er2p5 ][L1_SingleJet140er2p5]]   |L1_SingleJet140er2p5 |69 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet160er2p5 ][L1_SingleJet160er2p5]]   |L1_SingleJet160er2p5 |70 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8erHE ][L1_SingleJet8erHE]]   |L1_SingleJet8erHE |71 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet10erHE ][L1_SingleJet10erHE]]   |L1_SingleJet10erHE |72 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12erHE ][L1_SingleJet12erHE]]   |L1_SingleJet12erHE |73 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_FWD2p5_BptxAND ][L1_SingleJet35_FWD2p5_BptxAND]]   |L1_SingleJet35_FWD2p5_BptxAND |74 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_FWD2p5_BptxAND ][L1_SingleJet60_FWD2p5_BptxAND]]   |L1_SingleJet60_FWD2p5_BptxAND |75 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90_FWD2p5_BptxAND ][L1_SingleJet90_FWD2p5_BptxAND]]   |L1_SingleJet90_FWD2p5_BptxAND |76 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120_FWD2p5_BptxAND ][L1_SingleJet120_FWD2p5_BptxAND]]   |L1_SingleJet120_FWD2p5_BptxAND |77 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er2p5 ][L1_DoubleJet40er2p5]]   |L1_DoubleJet40er2p5 |78 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er2p7 ][L1_DoubleJet40er2p7]]   |L1_DoubleJet40er2p7 |79 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet50er2p7 ][L1_DoubleJet50er2p7]]   |L1_DoubleJet50er2p7 |80 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er2p7 ][L1_DoubleJet60er2p7]]   |L1_DoubleJet60er2p7 |81 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet80er2p7 ][L1_DoubleJet80er2p7]]   |L1_DoubleJet80er2p7 |82 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p5 ][L1_DoubleJet100er2p5]]   |L1_DoubleJet100er2p5 |83 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p7 ][L1_DoubleJet100er2p7]]   |L1_DoubleJet100er2p7 |84 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet112er2p7 ][L1_DoubleJet112er2p7]]   |L1_DoubleJet112er2p7 |85 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet120er2p5 ][L1_DoubleJet120er2p5]]   |L1_DoubleJet120er2p5 |86 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet120er2p7 ][L1_DoubleJet120er2p7]]   |L1_DoubleJet120er2p7 |87 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet150er2p7 ][L1_DoubleJet150er2p7]]   |L1_DoubleJet150er2p7 |88 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet60er2p5 ][L1_QuadJet60er2p5]]   |L1_QuadJet60er2p5 |89 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP8 ][L1_ZDCP8]]   |L1_ZDCP8 |90 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM8 ][L1_ZDCM8]]   |L1_ZDCM8 |91 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG18 ][L1_SingleIsoEG18]]   |L1_SingleIsoEG18 |92 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG20 ][L1_SingleIsoEG20]]   |L1_SingleIsoEG20 |93 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG22 ][L1_SingleIsoEG22]]   |L1_SingleIsoEG22 |94 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24 ][L1_SingleIsoEG24]]   |L1_SingleIsoEG24 |95 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26 ][L1_SingleIsoEG26]]   |L1_SingleIsoEG26 |96 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28 ][L1_SingleIsoEG28]]   |L1_SingleIsoEG28 |97 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30 ][L1_SingleIsoEG30]]   |L1_SingleIsoEG30 |98 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32 ][L1_SingleIsoEG32]]   |L1_SingleIsoEG32 |99 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34 ][L1_SingleIsoEG34]]   |L1_SingleIsoEG34 |100 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG35 ][L1_SingleIsoEG35]]   |L1_SingleIsoEG35 |101 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG36 ][L1_SingleIsoEG36]]   |L1_SingleIsoEG36 |102 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG37 ][L1_SingleIsoEG37]]   |L1_SingleIsoEG37 |103 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG38 ][L1_SingleIsoEG38]]   |L1_SingleIsoEG38 |104 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG40 ][L1_SingleIsoEG40]]   |L1_SingleIsoEG40 |105 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24er2p1 ][L1_SingleIsoEG24er2p1]]   |L1_SingleIsoEG24er2p1 |106 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26er2p1 ][L1_SingleIsoEG26er2p1]]   |L1_SingleIsoEG26er2p1 |107 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26er2p5 ][L1_SingleIsoEG26er2p5]]   |L1_SingleIsoEG26er2p5 |108 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28er2p1 ][L1_SingleIsoEG28er2p1]]   |L1_SingleIsoEG28er2p1 |109 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28er2p5 ][L1_SingleIsoEG28er2p5]]   |L1_SingleIsoEG28er2p5 |110 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30er2p1 ][L1_SingleIsoEG30er2p1]]   |L1_SingleIsoEG30er2p1 |111 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30er2p5 ][L1_SingleIsoEG30er2p5]]   |L1_SingleIsoEG30er2p5 |112 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32er2p1 ][L1_SingleIsoEG32er2p1]]   |L1_SingleIsoEG32er2p1 |113 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32er2p5 ][L1_SingleIsoEG32er2p5]]   |L1_SingleIsoEG32er2p5 |114 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34er2p5 ][L1_SingleIsoEG34er2p5]]   |L1_SingleIsoEG34er2p5 |115 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG2_BptxAND ][L1_SingleEG2_BptxAND]]   |L1_SingleEG2_BptxAND |116 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5 ][L1_SingleEG5]]   |L1_SingleEG5 |117 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10_BptxAND ][L1_SingleEG10_BptxAND]]   |L1_SingleEG10_BptxAND |118 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_BptxAND ][L1_SingleEG15_BptxAND]]   |L1_SingleEG15_BptxAND |119 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18_BptxAND ][L1_SingleEG18_BptxAND]]   |L1_SingleEG18_BptxAND |120 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_BptxAND ][L1_SingleEG21_BptxAND]]   |L1_SingleEG21_BptxAND |121 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG24 ][L1_SingleEG24]]   |L1_SingleEG24 |122 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG26 ][L1_SingleEG26]]   |L1_SingleEG26 |123 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG28 ][L1_SingleEG28]]   |L1_SingleEG28 |124 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30_BptxAND ][L1_SingleEG30_BptxAND]]   |L1_SingleEG30_BptxAND |125 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG32 ][L1_SingleEG32]]   |L1_SingleEG32 |126 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34 ][L1_SingleEG34]]   |L1_SingleEG34 |127 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36 ][L1_SingleEG36]]   |L1_SingleEG36 |128 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38 ][L1_SingleEG38]]   |L1_SingleEG38 |129 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG40 ][L1_SingleEG40]]   |L1_SingleEG40 |130 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG42 ][L1_SingleEG42]]   |L1_SingleEG42 |131 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG45 ][L1_SingleEG45]]   |L1_SingleEG45 |132 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG50 ][L1_SingleEG50]]   |L1_SingleEG50 |133 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG60 ][L1_SingleEG60]]   |L1_SingleEG60 |134 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG8er2p5 ][L1_SingleEG8er2p5]]   |L1_SingleEG8er2p5 |135 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10er2p5 ][L1_SingleEG10er2p5]]   |L1_SingleEG10er2p5 |136 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p5 ][L1_SingleEG15er2p5]]   |L1_SingleEG15er2p5 |137 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG26er2p5 ][L1_SingleEG26er2p5]]   |L1_SingleEG26er2p5 |138 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34er2p5 ][L1_SingleEG34er2p5]]   |L1_SingleEG34er2p5 |139 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36er2p5 ][L1_SingleEG36er2p5]]   |L1_SingleEG36er2p5 |140 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38er2p5 ][L1_SingleEG38er2p5]]   |L1_SingleEG38er2p5 |141 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG40er2p5 ][L1_SingleEG40er2p5]]   |L1_SingleEG40er2p5 |142 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG42er2p5 ][L1_SingleEG42er2p5]]   |L1_SingleEG42er2p5 |143 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG45er2p5 ][L1_SingleEG45er2p5]]   |L1_SingleEG45er2p5 |144 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_10_5_BptxAND ][L1_DoubleEG_10_5_BptxAND]]   |L1_DoubleEG_10_5_BptxAND |145 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_10_10 ][L1_DoubleEG_10_10]]   |L1_DoubleEG_10_10 |146 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_5 ][L1_DoubleEG_15_5]]   |L1_DoubleEG_15_5 |147 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_10_BptxAND ][L1_DoubleEG_15_10_BptxAND]]   |L1_DoubleEG_15_10_BptxAND |148 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_18_17 ][L1_DoubleEG_18_17]]   |L1_DoubleEG_18_17 |149 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_20_18 ][L1_DoubleEG_20_18]]   |L1_DoubleEG_20_18 |150 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_10 ][L1_DoubleEG_22_10]]   |L1_DoubleEG_22_10 |151 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_12 ][L1_DoubleEG_22_12]]   |L1_DoubleEG_22_12 |152 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_15 ][L1_DoubleEG_22_15]]   |L1_DoubleEG_22_15 |153 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_23_10 ][L1_DoubleEG_23_10]]   |L1_DoubleEG_23_10 |154 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_24_17 ][L1_DoubleEG_24_17]]   |L1_DoubleEG_24_17 |155 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12 ][L1_DoubleEG_25_12]]   |L1_DoubleEG_25_12 |156 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_13 ][L1_DoubleEG_25_13]]   |L1_DoubleEG_25_13 |157 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14 ][L1_DoubleEG_25_14]]   |L1_DoubleEG_25_14 |158 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_10_er2p5 ][L1_DoubleEG_22_10_er2p5]]   |L1_DoubleEG_22_10_er2p5 |159 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12_er2p5 ][L1_DoubleEG_25_12_er2p5]]   |L1_DoubleEG_25_12_er2p5 |160 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14_er2p5 ][L1_DoubleEG_25_14_er2p5]]   |L1_DoubleEG_25_14_er2p5 |161 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_18_17_8_er2p5 ][L1_TripleEG_18_17_8_er2p5]]   |L1_TripleEG_18_17_8_er2p5 |162 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP10 ][L1_ZDCP10]]   |L1_ZDCP10 |163 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM10 ][L1_ZDCM10]]   |L1_ZDCM10 |164 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Tight_BptxAND ][L1_SingleMuShower_Tight_BptxAND]]   |L1_SingleMuShower_Tight_BptxAND |165 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuShower_Nominal_BptxAND ][L1_SingleMuShower_Nominal_BptxAND]]   |L1_SingleMuShower_Nominal_BptxAND |166 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics ][L1_SingleMuCosmics]]   |L1_SingleMuCosmics |167 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_BMTF ][L1_SingleMuCosmics_BMTF]]   |L1_SingleMuCosmics_BMTF |168 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_OMTF ][L1_SingleMuCosmics_OMTF]]   |L1_SingleMuCosmics_OMTF |169 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_EMTF ][L1_SingleMuCosmics_EMTF]]   |L1_SingleMuCosmics_EMTF |170 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen ][L1_SingleMuOpen]]   |L1_SingleMuOpen |171 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotBptxOR ][L1_SingleMuOpen_NotBptxOR]]   |L1_SingleMuOpen_NotBptxOR |172 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_er1p1_NotBptxOR_3BX ][L1_SingleMuOpen_er1p1_NotBptxOR_3BX]]   |L1_SingleMuOpen_er1p1_NotBptxOR_3BX |173 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_er1p4_NotBptxOR_3BX ][L1_SingleMuOpen_er1p4_NotBptxOR_3BX]]   |L1_SingleMuOpen_er1p4_NotBptxOR_3BX |174 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0 ][L1_SingleMu0]]   |L1_SingleMu0 |175 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_BptxAND ][L1_SingleMu3_BptxAND]]   |L1_SingleMu3_BptxAND |176 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_BptxAND ][L1_SingleMu5_BptxAND]]   |L1_SingleMu5_BptxAND |177 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_BptxAND ][L1_SingleMu7_BptxAND]]   |L1_SingleMu7_BptxAND |178 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu10_LowQ ][L1_SingleMu10_LowQ]]   |L1_SingleMu10_LowQ |179 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_BptxAND ][L1_SingleMu12_BptxAND]]   |L1_SingleMu12_BptxAND |180 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   |L1_SingleMu16 |181 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu18 ][L1_SingleMu18]]   |L1_SingleMu18 |182 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu20 ][L1_SingleMu20]]   |L1_SingleMu20 |183 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22 ][L1_SingleMu22]]   |L1_SingleMu22 |184 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu25 ][L1_SingleMu25]]   |L1_SingleMu25 |185 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu30 ][L1_SingleMu30]]   |L1_SingleMu30 |186 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_BptxAND ][L1_DoubleMuOpen_BptxAND]]   |L1_DoubleMuOpen_BptxAND |187 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS ][L1_DoubleMuOpen_OS]]   |L1_DoubleMuOpen_OS |188 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS ][L1_DoubleMuOpen_SS]]   |L1_DoubleMuOpen_SS |189 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_BptxAND ][L1_DoubleMu0_BptxAND]]   |L1_DoubleMu0_BptxAND |190 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ_BptxAND ][L1_DoubleMu0_SQ_BptxAND]]   |L1_DoubleMu0_SQ_BptxAND |191 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ_OS ][L1_DoubleMu0_SQ_OS]]   |L1_DoubleMu0_SQ_OS |192 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu10 ][L1_DoubleMu10]]   |L1_DoubleMu10 |193 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_12_5 ][L1_DoubleMu_12_5]]   |L1_DoubleMu_12_5 |194 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7 ][L1_DoubleMu_15_7]]   |L1_DoubleMu_15_7 |195 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3_3 ][L1_TripleMu_5_3_3]]   |L1_TripleMu_5_3_3 |196 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_5_3 ][L1_TripleMu_5_5_3]]   |L1_TripleMu_5_5_3 |197 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142]]   |L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 |198 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu2_SQ_BptxAND ][L1_DoubleMu2_SQ_BptxAND]]   |L1_DoubleMu2_SQ_BptxAND |199 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu2_BptxAND ][L1_DoubleMu2_BptxAND]]   |L1_DoubleMu2_BptxAND |200 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p1_Jet12er2p7_dR_Min0p3 ][L1_SingleEG15er2p1_Jet12er2p7_dR_Min0p3]]   |L1_SingleEG15er2p1_Jet12er2p7_dR_Min0p3 |201 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3 ][L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3]]   |L1_SingleEG18er2p1_Jet16er2p7_dR_Min0p3 |202 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG15er2p1_Jet12er2p7_dR_Min0p3 ][L1_LooseIsoEG15er2p1_Jet12er2p7_dR_Min0p3]]   |L1_LooseIsoEG15er2p1_Jet12er2p7_dR_Min0p3 |203 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG18er2p1_Jet16er2p7_dR_Min0p3 ][L1_LooseIsoEG18er2p1_Jet16er2p7_dR_Min0p3]]   |L1_LooseIsoEG18er2p1_Jet16er2p7_dR_Min0p3 |204 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet40er2p7 ][L1_SingleMuOpen_SingleJet40er2p7]]   |L1_SingleMuOpen_SingleJet40er2p7 |205 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet32er2p7 ][L1_SingleMuOpen_SingleJet32er2p7]]   |L1_SingleMuOpen_SingleJet32er2p7 |206 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet28er2p7_BptxAND ][L1_SingleMuOpen_SingleJet28er2p7_BptxAND]]   |L1_SingleMuOpen_SingleJet28er2p7_BptxAND |207 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet44er2p7_BptxAND ][L1_SingleMuOpen_SingleJet44er2p7_BptxAND]]   |L1_SingleMuOpen_SingleJet44er2p7_BptxAND |208 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet56er2p7 ][L1_SingleMuOpen_SingleJet56er2p7]]   |L1_SingleMuOpen_SingleJet56er2p7 |209 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleJet64er2p7_BptxAND ][L1_SingleMuOpen_SingleJet64er2p7_BptxAND]]   |L1_SingleMuOpen_SingleJet64er2p7_BptxAND |210 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet28er2p7 ][L1_SingleMu3_SingleJet28er2p7]]   |L1_SingleMu3_SingleJet28er2p7 |211 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet32er2p7_BptxAND ][L1_SingleMu3_SingleJet32er2p7_BptxAND]]   |L1_SingleMu3_SingleJet32er2p7_BptxAND |212 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet40er2p7_BptxAND ][L1_SingleMu3_SingleJet40er2p7_BptxAND]]   |L1_SingleMu3_SingleJet40er2p7_BptxAND |213 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_SingleEG15 ][L1_SingleMuOpen_SingleEG15]]   |L1_SingleMuOpen_SingleEG15 |214 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG12_BptxAND ][L1_SingleMu3_SingleEG12_BptxAND]]   |L1_SingleMu3_SingleEG12_BptxAND |215 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG20 ][L1_SingleMu3_SingleEG20]]   |L1_SingleMu3_SingleEG20 |216 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG30 ][L1_SingleMu3_SingleEG30]]   |L1_SingleMu3_SingleEG30 |217 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG10 ][L1_SingleMu5_SingleEG10]]   |L1_SingleMu5_SingleEG10 |218 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG12 ][L1_SingleMu5_SingleEG12]]   |L1_SingleMu5_SingleEG12 |219 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG15_BptxAND ][L1_SingleMu5_SingleEG15_BptxAND]]   |L1_SingleMu5_SingleEG15_BptxAND |220 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG20 ][L1_SingleMu5_SingleEG20]]   |L1_SingleMu5_SingleEG20 |221 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG7 ][L1_SingleMu7_SingleEG7]]   |L1_SingleMu7_SingleEG7 |222 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG10 ][L1_SingleMu7_SingleEG10]]   |L1_SingleMu7_SingleEG10 |223 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG12 ][L1_SingleMu7_SingleEG12]]   |L1_SingleMu7_SingleEG12 |224 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG15 ][L1_SingleMu7_SingleEG15]]   |L1_SingleMu7_SingleEG15 |225 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_SingleEG7 ][L1_SingleMu12_SingleEG7]]   |L1_SingleMu12_SingleEG7 |226 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM12 ][L1_ZDCM12]]   |L1_ZDCM12 |227 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP12 ][L1_ZDCP12]]   |L1_ZDCP12 |228 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_OR ][L1_ZDC1n_OR]]   |L1_ZDC1n_OR |229 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp1_OR ][L1_ZDC1n_Bkp1_OR]]   |L1_ZDC1n_Bkp1_OR |230 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp2_OR ][L1_ZDC1n_Bkp2_OR]]   |L1_ZDC1n_Bkp2_OR |231 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_AsymXOR ][L1_ZDC1n_AsymXOR]]   |L1_ZDC1n_AsymXOR |232 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp1_AsymXOR ][L1_ZDC1n_Bkp1_AsymXOR]]   |L1_ZDC1n_Bkp1_AsymXOR |233 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp2_AsymXOR ][L1_ZDC1n_Bkp2_AsymXOR]]   |L1_ZDC1n_Bkp2_AsymXOR |234 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_AsymXOR ][L1_SingleJet8_ZDC1n_AsymXOR]]   |L1_SingleJet8_ZDC1n_AsymXOR |235 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet8_ZDC1n_Bkp1_AsymXOR]]   |L1_SingleJet8_ZDC1n_Bkp1_AsymXOR |236 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet8_ZDC1n_Bkp2_AsymXOR]]   |L1_SingleJet8_ZDC1n_Bkp2_AsymXOR |237 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_AsymXOR ][L1_SingleJet12_ZDC1n_AsymXOR]]   |L1_SingleJet12_ZDC1n_AsymXOR |238 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet12_ZDC1n_Bkp1_AsymXOR]]   |L1_SingleJet12_ZDC1n_Bkp1_AsymXOR |239 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet12_ZDC1n_Bkp2_AsymXOR]]   |L1_SingleJet12_ZDC1n_Bkp2_AsymXOR |240 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_AsymXOR ][L1_SingleJet16_ZDC1n_AsymXOR]]   |L1_SingleJet16_ZDC1n_AsymXOR |241 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet16_ZDC1n_Bkp1_AsymXOR]]   |L1_SingleJet16_ZDC1n_Bkp1_AsymXOR |242 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet16_ZDC1n_Bkp2_AsymXOR]]   |L1_SingleJet16_ZDC1n_Bkp2_AsymXOR |243 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_AsymXOR ][L1_SingleJet20_ZDC1n_AsymXOR]]   |L1_SingleJet20_ZDC1n_AsymXOR |244 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet20_ZDC1n_Bkp1_AsymXOR]]   |L1_SingleJet20_ZDC1n_Bkp1_AsymXOR |245 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet20_ZDC1n_Bkp2_AsymXOR]]   |L1_SingleJet20_ZDC1n_Bkp2_AsymXOR |246 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_AsymXOR ][L1_SingleJet24_ZDC1n_AsymXOR]]   |L1_SingleJet24_ZDC1n_AsymXOR |247 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet24_ZDC1n_Bkp1_AsymXOR]]   |L1_SingleJet24_ZDC1n_Bkp1_AsymXOR |248 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet24_ZDC1n_Bkp2_AsymXOR]]   |L1_SingleJet24_ZDC1n_Bkp2_AsymXOR |249 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_AsymXOR ][L1_SingleJet28_ZDC1n_AsymXOR]]   |L1_SingleJet28_ZDC1n_AsymXOR |250 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp1_AsymXOR ][L1_SingleJet28_ZDC1n_Bkp1_AsymXOR]]   |L1_SingleJet28_ZDC1n_Bkp1_AsymXOR |251 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp2_AsymXOR ][L1_SingleJet28_ZDC1n_Bkp2_AsymXOR]]   |L1_SingleJet28_ZDC1n_Bkp2_AsymXOR |252 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_OR ][L1_SingleJet8_ZDC1n_OR]]   |L1_SingleJet8_ZDC1n_OR |253 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp1_OR ][L1_SingleJet8_ZDC1n_Bkp1_OR]]   |L1_SingleJet8_ZDC1n_Bkp1_OR |254 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp2_OR ][L1_SingleJet8_ZDC1n_Bkp2_OR]]   |L1_SingleJet8_ZDC1n_Bkp2_OR |255 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_OR ][L1_SingleJet12_ZDC1n_OR]]   |L1_SingleJet12_ZDC1n_OR |256 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp1_OR ][L1_SingleJet12_ZDC1n_Bkp1_OR]]   |L1_SingleJet12_ZDC1n_Bkp1_OR |257 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp2_OR ][L1_SingleJet12_ZDC1n_Bkp2_OR]]   |L1_SingleJet12_ZDC1n_Bkp2_OR |258 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_OR ][L1_SingleJet16_ZDC1n_OR]]   |L1_SingleJet16_ZDC1n_OR |259 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp1_OR ][L1_SingleJet16_ZDC1n_Bkp1_OR]]   |L1_SingleJet16_ZDC1n_Bkp1_OR |260 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp2_OR ][L1_SingleJet16_ZDC1n_Bkp2_OR]]   |L1_SingleJet16_ZDC1n_Bkp2_OR |261 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_OR ][L1_SingleJet20_ZDC1n_OR]]   |L1_SingleJet20_ZDC1n_OR |262 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp1_OR ][L1_SingleJet20_ZDC1n_Bkp1_OR]]   |L1_SingleJet20_ZDC1n_Bkp1_OR |263 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp2_OR ][L1_SingleJet20_ZDC1n_Bkp2_OR]]   |L1_SingleJet20_ZDC1n_Bkp2_OR |264 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_OR ][L1_SingleJet24_ZDC1n_OR]]   |L1_SingleJet24_ZDC1n_OR |265 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp1_OR ][L1_SingleJet24_ZDC1n_Bkp1_OR]]   |L1_SingleJet24_ZDC1n_Bkp1_OR |266 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp2_OR ][L1_SingleJet24_ZDC1n_Bkp2_OR]]   |L1_SingleJet24_ZDC1n_Bkp2_OR |267 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_OR ][L1_SingleJet28_ZDC1n_OR]]   |L1_SingleJet28_ZDC1n_OR |268 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp1_OR ][L1_SingleJet28_ZDC1n_Bkp1_OR]]   |L1_SingleJet28_ZDC1n_Bkp1_OR |269 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp2_OR ][L1_SingleJet28_ZDC1n_Bkp2_OR]]   |L1_SingleJet28_ZDC1n_Bkp2_OR |270 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP30 ][L1_ZDCP30]]   |L1_ZDCP30 |271 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM30 ][L1_ZDCM30]]   |L1_ZDCM30 |272 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC30_AND ][L1_ZDC30_AND]]   |L1_ZDC30_AND |273 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC30_OR ][L1_ZDC30_OR]]   |L1_ZDC30_OR |274 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP40 ][L1_ZDCP40]]   |L1_ZDCP40 |275 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM40 ][L1_ZDCM40]]   |L1_ZDCM40 |276 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC40_AND ][L1_ZDC40_AND]]   |L1_ZDC40_AND |277 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC40_OR ][L1_ZDC40_OR]]   |L1_ZDC40_OR |278 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP50 ][L1_ZDCP50]]   |L1_ZDCP50 |279 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM50 ][L1_ZDCM50]]   |L1_ZDCM50 |280 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC50_AND ][L1_ZDC50_AND]]   |L1_ZDC50_AND |281 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC50_OR ][L1_ZDC50_OR]]   |L1_ZDC50_OR |282 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP60 ][L1_ZDCP60]]   |L1_ZDCP60 |283 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM60 ][L1_ZDCM60]]   |L1_ZDCM60 |284 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC60_AND ][L1_ZDC60_AND]]   |L1_ZDC60_AND |285 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC60_OR ][L1_ZDC60_OR]]   |L1_ZDC60_OR |286 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCP70 ][L1_ZDCP70]]   |L1_ZDCP70 |287 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDCM70 ][L1_ZDCM70]]   |L1_ZDCM70 |288 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC70_AND ][L1_ZDC70_AND]]   |L1_ZDC70_AND |289 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC70_OR ][L1_ZDC70_OR]]   |L1_ZDC70_OR |290 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp3_OR ][L1_SingleJet28_ZDC1n_Bkp3_OR]]   |L1_SingleJet28_ZDC1n_Bkp3_OR |291 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp3_OR ][L1_SingleJet24_ZDC1n_Bkp3_OR]]   |L1_SingleJet24_ZDC1n_Bkp3_OR |292 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp3_OR ][L1_SingleJet20_ZDC1n_Bkp3_OR]]   |L1_SingleJet20_ZDC1n_Bkp3_OR |293 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp3_OR ][L1_SingleJet12_ZDC1n_Bkp3_OR]]   |L1_SingleJet12_ZDC1n_Bkp3_OR |294 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp3_OR ][L1_SingleJet16_ZDC1n_Bkp3_OR]]   |L1_SingleJet16_ZDC1n_Bkp3_OR |295 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp3_OR ][L1_SingleJet8_ZDC1n_Bkp3_OR]]   |L1_SingleJet8_ZDC1n_Bkp3_OR |297 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp3_OR ][L1_ZDC1n_Bkp3_OR]]   |L1_ZDC1n_Bkp3_OR |298 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet28_ZDC1n_Bkp3_AsymXOR]]   |L1_SingleJet28_ZDC1n_Bkp3_AsymXOR |300 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet24_ZDC1n_Bkp3_AsymXOR]]   |L1_SingleJet24_ZDC1n_Bkp3_AsymXOR |301 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet20_ZDC1n_Bkp3_AsymXOR]]   |L1_SingleJet20_ZDC1n_Bkp3_AsymXOR |302 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet16_ZDC1n_Bkp3_AsymXOR]]   |L1_SingleJet16_ZDC1n_Bkp3_AsymXOR |303 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet12_ZDC1n_Bkp3_AsymXOR]]   |L1_SingleJet12_ZDC1n_Bkp3_AsymXOR |304 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_ZDC1n_Bkp3_AsymXOR ][L1_SingleJet8_ZDC1n_Bkp3_AsymXOR]]   |L1_SingleJet8_ZDC1n_Bkp3_AsymXOR |305 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZDC1n_Bkp3_AsymXOR ][L1_ZDC1n_Bkp3_AsymXOR]]   |L1_ZDC1n_Bkp3_AsymXOR |306 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasHF1_OR_BptxAND |307 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasHF2_OR_BptxAND |308 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF1_OR_BptxAND |309 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF1_OR_BptxAND |310 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF1_OR_BptxAND |311 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC_Asym_Th1_MinimumBiasHF2_OR_BptxAND |312 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC_Asym_Th2_MinimumBiasHF2_OR_BptxAND |313 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC_Asym_Th3_MinimumBiasHF2_OR_BptxAND |314 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_OR_BptxAND |315 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_OR_BptxAND |316 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_OR_BptxAND |317 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_OR_BptxAND |318 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_OR_BptxAND |319 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_OR_BptxAND |320 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF1_OR_BptxAND |321 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF1_OR_BptxAND |322 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF1_OR_BptxAND |323 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th1_MinimumBiasHF2_OR_BptxAND |324 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th2_MinimumBiasHF2_OR_BptxAND |325 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th3_MinimumBiasHF2_OR_BptxAND |326 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF1_OR_BptxAND |327 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF1_OR_BptxAND |328 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF1_OR_BptxAND |329 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th1_MinimumBiasHF2_OR_BptxAND |330 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th2_MinimumBiasHF2_OR_BptxAND |331 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th3_MinimumBiasHF2_OR_BptxAND |332 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCP1n_Th1_BptxAND ][L1_UPCZDCP1n_Th1_BptxAND]]   |L1_UPCZDCP1n_Th1_BptxAND |333 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCP1n_Th2_BptxAND ][L1_UPCZDCP1n_Th2_BptxAND]]   |L1_UPCZDCP1n_Th2_BptxAND |334 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCP1n_Th3_BptxAND ][L1_UPCZDCP1n_Th3_BptxAND]]   |L1_UPCZDCP1n_Th3_BptxAND |335 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCM1n_Th1_BptxAND ][L1_UPCZDCM1n_Th1_BptxAND]]   |L1_UPCZDCM1n_Th1_BptxAND |336 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCM1n_Th2_BptxAND ][L1_UPCZDCM1n_Th2_BptxAND]]   |L1_UPCZDCM1n_Th2_BptxAND |337 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDCM1n_Th3_BptxAND ][L1_UPCZDCM1n_Th3_BptxAND]]   |L1_UPCZDCM1n_Th3_BptxAND |338 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF1_OR_BptxAND |339 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF1_OR_BptxAND |340 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF1_OR_BptxAND |341 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th1_OR_MinimumBiasHF2_OR_BptxAND |342 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th2_OR_MinimumBiasHF2_OR_BptxAND |343 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCM1n_Th3_OR_MinimumBiasHF2_OR_BptxAND |344 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF1_OR_BptxAND |345 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF1_OR_BptxAND |346 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF1_OR_BptxAND |347 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th1_OR_MinimumBiasHF2_OR_BptxAND |348 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th2_OR_MinimumBiasHF2_OR_BptxAND |349 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDCP1n_Th3_OR_MinimumBiasHF2_OR_BptxAND |350 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF1_OR_BptxAND |351 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF1_OR_BptxAND |352 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF1_OR_BptxAND |353 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_OR_OR_MinimumBiasHF2_OR_BptxAND |354 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_OR_OR_MinimumBiasHF2_OR_BptxAND |355 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_OR_OR_MinimumBiasHF2_OR_BptxAND |356 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_OR_BptxAND |357 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_OR_BptxAND |358 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_OR_BptxAND |359 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasHF1_AND_BptxAND]]   |L1_MinimumBiasHF1_AND_BptxAND |360 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasHF2_AND_BptxAND]]   |L1_MinimumBiasHF2_AND_BptxAND |361 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF1_AND_BptxAND |362 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF1_AND_BptxAND |363 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF1_AND_BptxAND |364 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_OR_MinimumBiasHF2_AND_BptxAND |365 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_OR_MinimumBiasHF2_AND_BptxAND |366 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_OR_MinimumBiasHF2_AND_BptxAND |367 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_BptxAND ][L1_SingleMuOpen_BptxAND]]   |L1_SingleMuOpen_BptxAND |368 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_BptxAND ][L1_SingleMu0_BptxAND]]   |L1_SingleMu0_BptxAND |369 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_BptxAND ][L1_SingleEG5_BptxAND]]   |L1_SingleEG5_BptxAND |370 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_BptxAND ][L1_SingleJet28_BptxAND]]   |L1_SingleJet28_BptxAND |371 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleMuOpen_NotMinimumBiasHF2_OR_BptxAND]]   |L1_SingleMuOpen_NotMinimumBiasHF2_OR_BptxAND |372 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleMuOpen_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleMuOpen_NotMinimumBiasHF2_AND_BptxAND |373 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th1_AND_BptxAND ][L1_MinimumBiasZDC1n_Th1_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th1_AND_BptxAND |374 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th2_AND_BptxAND ][L1_MinimumBiasZDC1n_Th2_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th2_AND_BptxAND |375 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC1n_Th3_AND_BptxAND ][L1_MinimumBiasZDC1n_Th3_AND_BptxAND]]   |L1_MinimumBiasZDC1n_Th3_AND_BptxAND |376 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_BptxAND ][L1_DoubleEG5_BptxAND]]   |L1_DoubleEG5_BptxAND |381 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG3_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleEG3_NotMinimumBiasHF2_AND_BptxAND]]   |L1_DoubleEG3_NotMinimumBiasHF2_AND_BptxAND |383 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG5_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleEG5_NotMinimumBiasHF2_AND_BptxAND |386 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_BptxAND ][L1_SingleEG7_BptxAND]]   |L1_SingleEG7_BptxAND |387 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmic_BptxAND ][L1_SingleMuCosmic_BptxAND]]   |L1_SingleMuCosmic_BptxAND |391 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmic_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleMuCosmic_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleMuCosmic_NotMinimumBiasHF2_AND_BptxAND |392 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmic_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleMuCosmic_NotMinimumBiasHF2_OR_BptxAND]]   |L1_SingleMuCosmic_NotMinimumBiasHF2_OR_BptxAND |393 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_BptxAND ][L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_BptxAND]]   |L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_BptxAND |394 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_AND_BptxAND |395 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_OR_BptxAND]]   |L1_SingleMuOpen_OR_SingleMuCosmic_EMTF_NotMinimumBiasHF2_OR_BptxAND |396 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD2p5_BptxAND ][L1_SingleJet28_FWD2p5_BptxAND]]   |L1_SingleJet28_FWD2p5_BptxAND |399 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD2p5_BptxAND ][L1_SingleJet44_FWD2p5_BptxAND]]   |L1_SingleJet44_FWD2p5_BptxAND |400 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD2p5_BptxAND ][L1_SingleJet64_FWD2p5_BptxAND]]   |L1_SingleJet64_FWD2p5_BptxAND |401 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleEG2_NotMinimumBiasHF2_AND_BptxAND]]   |L1_DoubleEG2_NotMinimumBiasHF2_AND_BptxAND |402 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleEG5_NotMinimumBiasHF2_AND_BptxAND]]   |L1_DoubleEG5_NotMinimumBiasHF2_AND_BptxAND |403 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_BptxAND ][L1_SingleEG3_BptxAND]]   |L1_SingleEG3_BptxAND |404 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_BptxAND ][L1_DoubleEG2_BptxAND]]   |L1_DoubleEG2_BptxAND |405 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG2_UPCZDC1n_Th1_OR_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG2_UPCZDC1n_Th1_OR_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleEG2_UPCZDC1n_Th1_OR_NotMinimumBiasHF2_AND_BptxAND |406 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleEG3_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleEG3_NotMinimumBiasHF2_AND_BptxAND |407 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_OR_BptxAND ][L1_SingleEG3_NotMinimumBiasHF2_OR_BptxAND]]   |L1_SingleEG3_NotMinimumBiasHF2_OR_BptxAND |408 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_AND_BptxAND ][L1_NotMinimumBiasHF1_AND_BptxAND]]   |L1_NotMinimumBiasHF1_AND_BptxAND |409 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_AND_BptxAND ][L1_NotMinimumBiasHF2_AND_BptxAND]]   |L1_NotMinimumBiasHF2_AND_BptxAND |410 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10 ][L1_SingleEG10]]   |L1_SingleEG10 |411 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15 ][L1_SingleEG15]]   |L1_SingleEG15 |412 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18 ][L1_SingleEG18]]   |L1_SingleEG18 |413 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30 ][L1_SingleEG30]]   |L1_SingleEG30 |414 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet200 ][L1_SingleJet200]]   |L1_SingleJet200 |415 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35 ][L1_SingleJet35]]   |L1_SingleJet35 |416 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60 ][L1_SingleJet60]]   |L1_SingleJet60 |417 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12 ][L1_SingleMu12]]   |L1_SingleMu12 |418 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   |L1_SingleMu5 |419 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th1_XOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th1_XOR_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th1_XOR_BptxAND |420 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th2_XOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th2_XOR_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th2_XOR_BptxAND |421 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th3_XOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th3_XOR_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th3_XOR_BptxAND |422 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th1_XOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th1_XOR_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th1_XOR_BptxAND |423 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th2_XOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th2_XOR_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th2_XOR_BptxAND |424 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th3_XOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th3_XOR_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th3_XOR_BptxAND |425 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th1_XOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th1_XOR_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th1_XOR_BptxAND |426 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th2_XOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th2_XOR_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th2_XOR_BptxAND |427 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th3_XOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th3_XOR_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th3_XOR_BptxAND |428 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_BptxAND |429 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_BptxAND |430 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_BptxAND ][L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_BptxAND |431 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_BptxAND |432 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_BptxAND |433 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_BptxAND ][L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_BptxAND |434 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_BptxAND |435 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_BptxAND |436 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_BptxAND ][L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_BptxAND |437 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleJet8_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleJet8_NotMinimumBiasHF2_AND_BptxAND |438 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleJet16_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleJet16_NotMinimumBiasHF2_AND_BptxAND |439 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_NotMinimumBiasHF2_AND_BptxAND ][L1_SingleJet24_NotMinimumBiasHF2_AND_BptxAND]]   |L1_SingleJet24_NotMinimumBiasHF2_AND_BptxAND |440 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5er2p5_BptxAND ][L1_SingleEG5er2p5_BptxAND]]   |L1_SingleEG5er2p5_BptxAND |441 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7er2p5_BptxAND ][L1_SingleEG7er2p5_BptxAND]]   |L1_SingleEG7er2p5_BptxAND |442 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10er2p5_BptxAND ][L1_SingleEG10er2p5_BptxAND]]   |L1_SingleEG10er2p5_BptxAND |443 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p5_BptxAND ][L1_SingleEG15er2p5_BptxAND]]   |L1_SingleEG15er2p5_BptxAND |444 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18er2p5_BptxAND ][L1_SingleEG18er2p5_BptxAND]]   |L1_SingleEG18er2p5_BptxAND |445 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21er2p5_BptxAND ][L1_SingleEG21er2p5_BptxAND]]   |L1_SingleEG21er2p5_BptxAND |446 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5er2p1_BptxAND ][L1_SingleEG5er2p1_BptxAND]]   |L1_SingleEG5er2p1_BptxAND |447 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7er2p1_BptxAND ][L1_SingleEG7er2p1_BptxAND]]   |L1_SingleEG7er2p1_BptxAND |448 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10er2p1_BptxAND ][L1_SingleEG10er2p1_BptxAND]]   |L1_SingleEG10er2p1_BptxAND |449 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15er2p1_BptxAND ][L1_SingleEG15er2p1_BptxAND]]   |L1_SingleEG15er2p1_BptxAND |450 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18er2p1_BptxAND ][L1_SingleEG18er2p1_BptxAND]]   |L1_SingleEG18er2p1_BptxAND |451 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21er2p1_BptxAND ][L1_SingleEG21er2p1_BptxAND]]   |L1_SingleEG21er2p1_BptxAND |452 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDC1n_Th1_OR_BptxAND ][L1_UPCZDC1n_Th1_OR_BptxAND]]   |L1_UPCZDC1n_Th1_OR_BptxAND |453 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDC1n_Th2_OR_BptxAND ][L1_UPCZDC1n_Th2_OR_BptxAND]]   |L1_UPCZDC1n_Th2_OR_BptxAND |454 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_UPCZDC1n_Th3_OR_BptxAND ][L1_UPCZDC1n_Th3_OR_BptxAND]]   |L1_UPCZDC1n_Th3_OR_BptxAND |455 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th1_AND_BptxAND ][L1_MinimumBiasZDC2n_Th1_AND_BptxAND]]   |L1_MinimumBiasZDC2n_Th1_AND_BptxAND |456 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th2_AND_BptxAND ][L1_MinimumBiasZDC2n_Th2_AND_BptxAND]]   |L1_MinimumBiasZDC2n_Th2_AND_BptxAND |457 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th3_AND_BptxAND ][L1_MinimumBiasZDC2n_Th3_AND_BptxAND]]   |L1_MinimumBiasZDC2n_Th3_AND_BptxAND |458 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th1_AND_BptxAND ][L1_MinimumBiasZDC3n_Th1_AND_BptxAND]]   |L1_MinimumBiasZDC3n_Th1_AND_BptxAND |459 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th2_AND_BptxAND ][L1_MinimumBiasZDC3n_Th2_AND_BptxAND]]   |L1_MinimumBiasZDC3n_Th2_AND_BptxAND |460 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th3_AND_BptxAND ][L1_MinimumBiasZDC3n_Th3_AND_BptxAND]]   |L1_MinimumBiasZDC3n_Th3_AND_BptxAND |461 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th1_OR_BptxAND ][L1_MinimumBiasZDC2n_Th1_OR_BptxAND]]   |L1_MinimumBiasZDC2n_Th1_OR_BptxAND |462 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th2_OR_BptxAND ][L1_MinimumBiasZDC2n_Th2_OR_BptxAND]]   |L1_MinimumBiasZDC2n_Th2_OR_BptxAND |463 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC2n_Th3_OR_BptxAND ][L1_MinimumBiasZDC2n_Th3_OR_BptxAND]]   |L1_MinimumBiasZDC2n_Th3_OR_BptxAND |464 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th1_OR_BptxAND ][L1_MinimumBiasZDC3n_Th1_OR_BptxAND]]   |L1_MinimumBiasZDC3n_Th1_OR_BptxAND |465 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th2_OR_BptxAND ][L1_MinimumBiasZDC3n_Th2_OR_BptxAND]]   |L1_MinimumBiasZDC3n_Th2_OR_BptxAND |466 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasZDC3n_Th3_OR_BptxAND ][L1_MinimumBiasZDC3n_Th3_OR_BptxAND]]   |L1_MinimumBiasZDC3n_Th3_OR_BptxAND |467 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_BptxAND ][L1_SingleJet12_BptxAND]]   |L1_SingleJet12_BptxAND |468 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_BptxAND ][L1_SingleJet16_BptxAND]]   |L1_SingleJet16_BptxAND |469 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20_BptxAND ][L1_SingleJet20_BptxAND]]   |L1_SingleJet20_BptxAND |470 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND |471 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND |472 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet8_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND |473 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND |474 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND |475 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet16_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND |476 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th1_AsymXOR_NotPreBptx_BptxAND |477 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th2_AsymXOR_NotPreBptx_BptxAND |478 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND ][L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND]]   |L1_SingleJet24_UPCZDC1n_Th3_AsymXOR_NotPreBptx_BptxAND |479 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuCosmic_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleMuCosmic_NotMinimumBiasHF2_AND_BptxAND]]   |L1_DoubleMuCosmic_NotMinimumBiasHF2_AND_BptxAND |480 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet80 ][L1_SingleJet80]]   |L1_SingleJet80 |493 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90 ][L1_SingleJet90]]   |L1_SingleJet90 |494 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   |L1_SingleMu3 |495 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   |L1_SingleMu7 |496 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_10 ][L1_DoubleEG_15_10]]   |L1_DoubleEG_15_10 |497 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_50_100_MinimumBiasHF1_AND_BptxAND ][L1_Centrality_50_100_MinimumBiasHF1_AND_BptxAND]]   |L1_Centrality_50_100_MinimumBiasHF1_AND_BptxAND |500 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit_Centrality30_100_BptxAND ][L1_FirstCollisionInOrbit_Centrality30_100_BptxAND]]   |L1_FirstCollisionInOrbit_Centrality30_100_BptxAND |501 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Th1_BptxAND ][L1_Centrality_Th1_BptxAND]]   |L1_Centrality_Th1_BptxAND |502 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Th2_BptxAND ][L1_Centrality_Th2_BptxAND]]   |L1_Centrality_Th2_BptxAND |503 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Th3_BptxAND ][L1_Centrality_Th3_BptxAND]]   |L1_Centrality_Th3_BptxAND |504 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuSQ_MaxDr3p5_BptxAND ][L1_DoubleMuSQ_MaxDr3p5_BptxAND]]   |L1_DoubleMuSQ_MaxDr3p5_BptxAND |505 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr3p5_BptxAND ][L1_DoubleMuOpen_MaxDr3p5_BptxAND]]   |L1_DoubleMuOpen_MaxDr3p5_BptxAND |506 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuSQ_BptxAND ][L1_DoubleMuSQ_BptxAND]]   |L1_DoubleMuSQ_BptxAND |507 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuCosmic_BptxAND ][L1_DoubleMuCosmic_BptxAND]]   |L1_DoubleMuCosmic_BptxAND |508 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_NotMinimumBiasHF2_AND_BptxAND ][L1_DoubleMuOpen_NotMinimumBiasHF2_AND_BptxAND]]   |L1_DoubleMuOpen_NotMinimumBiasHF2_AND_BptxAND |509 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS_BptxAND ][L1_DoubleMuOpen_OS_BptxAND]]   |L1_DoubleMuOpen_OS_BptxAND |510 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS_BptxAND ][L1_DoubleMuOpen_SS_BptxAND]]   |L1_DoubleMuOpen_SS_BptxAND |511 |5 |
+
+
+<p style="page-break-before: always">&nbsp;</p>
