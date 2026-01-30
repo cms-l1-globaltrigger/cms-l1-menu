@@ -184,7 +184,7 @@
     signal double_tau_ov_rm_i476 : std_logic;
 
 -- Signal definition for  for ML calculations
-    signal topo_HHbbWW_1mu_v5_score : std_logic_vector(AXO_SCORE_WIDTH-1 downto 0);
+    signal topo_HHbbWW_1mu_v5_score : std_logic_vector(TOPO_SCORE_WIDTH-1 downto 0);
 
 -- Signal definition for algorithms names
     signal l1_single_mu_open : std_logic;
