@@ -195151,6 +195151,54 @@
     </scale>
     <scale>
       <object>PRECISION</object>
+      <type>EG-NETETMHF-Delta</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>EG-NETETMHF-Mass</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>EG-NETETMHF-MassPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>EG-NETETMHF-Math</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>EG-NETETMHF-TwoBodyPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>EG-NETETMHF-TwoBodyPtMath</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
       <type>EG-JET-Delta</type>
       <minimum>+0.0000000000000000E+00</minimum>
       <maximum>+0.0000000000000000E+00</maximum>
@@ -195520,6 +195568,54 @@
     <scale>
       <object>PRECISION</object>
       <type>JET-HTM-TwoBodyPtMath</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>JET-NETETMHF-Delta</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>JET-NETETMHF-Mass</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>JET-NETETMHF-MassPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>JET-NETETMHF-Math</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>JET-NETETMHF-TwoBodyPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>JET-NETETMHF-TwoBodyPtMath</type>
       <minimum>+0.0000000000000000E+00</minimum>
       <maximum>+0.0000000000000000E+00</maximum>
       <step>+0.0000000000000000E+00</step>
@@ -195903,6 +195999,54 @@
     </scale>
     <scale>
       <object>PRECISION</object>
+      <type>MU-NETETMHF-Delta</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>MU-NETETMHF-Mass</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>MU-NETETMHF-MassPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>MU-NETETMHF-Math</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>4</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>MU-NETETMHF-TwoBodyPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>MU-NETETMHF-TwoBodyPtMath</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>4</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
       <type>MU-MU-Delta</type>
       <minimum>+0.0000000000000000E+00</minimum>
       <maximum>+0.0000000000000000E+00</maximum>
@@ -196144,6 +196288,54 @@
     <scale>
       <object>PRECISION</object>
       <type>TAU-HTM-TwoBodyPtMath</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>TAU-NETETMHF-Delta</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>TAU-NETETMHF-Mass</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>TAU-NETETMHF-MassPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>TAU-NETETMHF-Math</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>3</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>TAU-NETETMHF-TwoBodyPt</type>
+      <minimum>+0.0000000000000000E+00</minimum>
+      <maximum>+0.0000000000000000E+00</maximum>
+      <step>+0.0000000000000000E+00</step>
+      <n_bits>1</n_bits>
+    </scale>
+    <scale>
+      <object>PRECISION</object>
+      <type>TAU-NETETMHF-TwoBodyPtMath</type>
       <minimum>+0.0000000000000000E+00</minimum>
       <maximum>+0.0000000000000000E+00</maximum>
       <step>+0.0000000000000000E+00</step>
